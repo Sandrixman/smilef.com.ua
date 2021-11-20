@@ -1,0 +1,34 @@
+html {
+  background-origin: padding-box;
+}
+
+*, *::after, *::before {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  padding: 0 20px;
+  margin: 0 auto;
+}

@@ -1,0 +1,50 @@
+@media screen and (max-width: 1200px) {
+    .main-block{
+        .main-block__text{
+            margin-top: 200px;
+        }
+    }
+    .hamburger {
+        .hamburger__btn {
+            width: 4vw;
+            height: 3.5vw;
+            div {
+                width: 2.3vw;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .menu__hamburger {
+        .menu__hamburger-item {
+            width: 500px;
+        }
+        .menu__hamburger-item p{
+            font-size: 35px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu__hamburger {
+        .menu__hamburger-item {
+            width: 400px;
+        }
+        .menu__hamburger-item p{
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 586px) {
+    .header {
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .header {
+        color: #000;
+    }
+}
