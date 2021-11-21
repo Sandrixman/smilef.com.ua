@@ -100,10 +100,9 @@ $(function () {
 
         // .siblings() - звернення до сусідів
         $($(this).siblings()).removeClass('tab-active');
-        // .parent().siblings().find('div') - піднімається до батьківського блоку, далі у сусідів шукає дівки
-        $($(this).parent().siblings().find('div')).removeClass('tab-content-active');
 
         $(this).addClass('tab-active');
-        $($(this).attr('href')).addClass('tab-content-active');
+        $($(this).attr('href')).siblings().fadeOut(200);
+        $($(this).attr('href')).delay(200).fadeIn(200);
     });
 });
