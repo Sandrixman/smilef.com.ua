@@ -84,6 +84,23 @@ $(function () {
         ]
     });
 
+    $('.reviews__slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        prevArrow: '<button class="reviews__slider-btn reviews__slider-btnprev"><img src="./img/left-arrow.svg" alt="arrow"></button> ',
+        nextArrow: `<button class="reviews__slider-btn reviews__slider-btnnext"><img src="./img/right-arrow.svg" alt="arrow" ></button> `,
+        responsive: [
+            {
+                breakpoint: 993,
+                settings: {
+                    arrows: false
+                }
+            }
+        ]
+    });
+
     // анімація слайдера
     $('.apartments__slider-btnnext').click(function () {
         // $(".apartments__slider-descr").fadeOut("fast", function () {
