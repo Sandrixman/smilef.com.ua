@@ -101,6 +101,23 @@ $(function () {
         ]
     });
 
+    $('.rooms__slider').slick({
+        dots: false,
+        arrows: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        prevArrow: '<button class="rooms__slider-btn rooms__slider-btnprev"><img src="./img/left-arrow.svg" alt="arrow"></button> ',
+        nextArrow: `<button class="rooms__slider-btn rooms__slider-btnnext"><img src="./img/right-arrow.svg" alt="arrow" ></button> `,
+        responsive: [
+            {
+                breakpoint: 993,
+                settings: {
+                    arrows: false
+                }
+            }
+        ]
+    });
+
     // анімація слайдера
     $('.apartments__slider-btnnext').click(function () {
         // $(".apartments__slider-descr").fadeOut("fast", function () {
