@@ -1,5 +1,23 @@
 $(function () {
 
+    // імпортування компонентів
+    // hamburger
+    $.get('../components/hamburger.php', data => {
+        $(".hamburger").append(data);
+    });
+    // header
+    $.get('../components/header.php', data => {
+        $("header").append(data);
+    });
+    // footer
+    $.get('../components/footer.php', data => {
+        $("footer").append(data);
+    });
+    // table
+    $.get('../components/priceTable.php', data => {
+        $(".room-page__price-table").append(data);
+    });
+
     // спливаючий хедер
     const header = $('.header');
     let scrollPrev = 0;
@@ -22,12 +40,14 @@ $(function () {
     });
 
     // модалка гамбургер
-    $('.hamburger__btn').on('click', function () {
-        $('.hamburger__wrapper').toggleClass('hamburger-active');
-        $('body').toggleClass('scroll-lock');
-        $('.hamburger__btn-line-top').toggleClass('top-animate');
-        $('.hamburger__btn-line-mid').toggleClass('mid-animate');
-        $('.hamburger__btn-line-bottom').toggleClass('bottom-animate');
+    $.get('../components/hamburger.php', () => {
+        $('.hamburger__btn').on('click', () => {
+            $('.hamburger__wrapper').toggleClass('hamburger-active');
+            $('body').toggleClass('scroll-lock');
+            $('.hamburger__btn-line-top').toggleClass('top-animate');
+            $('.hamburger__btn-line-mid').toggleClass('mid-animate');
+            $('.hamburger__btn-line-bottom').toggleClass('bottom-animate');
+        });
     });
 
     // scrollup
@@ -72,6 +92,9 @@ $(function () {
 
     $('.apartments__slider').slick({
         dots: false,
+        infinite: true,
+        speed: 500,
+        fade: true,
         prevArrow: '<button class="apartments__slider-btn apartments__slider-btnprev"><img src="./img/left-arrow.svg" alt="arrow"></button> ',
         nextArrow: `<button class="apartments__slider-btn apartments__slider-btnnext"><img src="./img/right-arrow.svg" alt="arrow" ></button> `,
         responsive: [
@@ -120,11 +143,25 @@ $(function () {
 
     // анімація слайдера
     $('.apartments__slider-btnnext').click(function () {
-        // $(".apartments__slider-descr").fadeOut("fast", function () {
-        //     $(".apartments__slider-descr").show("slow");
-        // });
-        $(".apartments__slider-img").slideUp("slow", function () {
-            $(".apartments__slider-img").slideDown("slow");
+        $(".apartments__slider-descr").fadeOut("normal", function () {
+            $(".apartments__slider-descr").fadeIn("normal");
+        });
+        $(".apartments__slider-img").fadeOut("normal", function () {
+            $(".apartments__slider-img").fadeIn("normal");
+        });
+        $(".apartments__slider-boxes").fadeOut("normal", function () {
+            $(".apartments__slider-boxes").fadeIn("normal");
+        });
+    });
+    $('.apartments__slider-btnprev').click(function () {
+        $(".apartments__slider-descr").hide("normal", function () {
+            $(".apartments__slider-descr").show("normal");
+        });
+        $(".apartments__slider-img").hide("normal", function () {
+            $(".apartments__slider-img").show("normal");
+        });
+        $(".apartments__slider-boxes").hide("normal", function () {
+            $(".apartments__slider-boxes").show("normal");
         });
     });
 
@@ -139,4 +176,5 @@ $(function () {
         $($(this).attr('href')).siblings().fadeOut(200);
         $($(this).attr('href')).delay(200).fadeIn(200);
     });
+
 });
