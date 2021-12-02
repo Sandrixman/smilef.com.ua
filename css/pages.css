@@ -1,1 +1,194 @@
-/* No CSS */
+.price-page .price-page__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.price-page .price-page__info .price-page__slider {
+  width: 48%;
+  margin: auto;
+}
+
+.price-page .price-page__info .price-page__slider .price-page__slider-item {
+  height: 26vw;
+}
+
+.price-page .price-page__info .price-page__slider .price-page__slider-item img {
+  width: 90%;
+}
+
+.price-page .price-page__info .price-page__slider .price-page__slider-item::after {
+  content: "";
+  position: absolute;
+  width: 65%;
+  height: 24.8vw;
+  bottom: 0.6vw;
+  right: 0.4vw;
+  background-color: #211403;
+  z-index: -1;
+}
+
+.price-page .price-page__info .price-page__slider .price-page__slider-btn,
+.price-page .price-page__info .price-page__slider .price-page__slider-btn {
+  position: absolute;
+  bottom: 0;
+  background-color: #665252;
+  border: none;
+  width: 3.7vw;
+  height: 3.7vw;
+  margin: 0;
+  padding: 0;
+  z-index: 5;
+  cursor: pointer;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.price-page .price-page__info .price-page__slider .price-page__slider-btnnext {
+  right: -2%;
+}
+
+.price-page .price-page__info .price-page__slider .price-page__slider-btnprev {
+  right: 7%;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.price-page .price-page__info .price-page__slider .slick-dots {
+  position: absolute;
+  bottom: 5%;
+  right: 30%;
+}
+
+.price-page .price-page__info .price-page__slider .slick-dots li {
+  display: inline-block;
+  padding: 0 0.5vw;
+}
+
+.price-page .price-page__info .price-page__slider .slick-dots button {
+  padding: 0;
+  margin: 0;
+  width: 1.2vw;
+  height: 1.2vw;
+  font-size: 0;
+  border: none;
+  border-radius: 50%;
+  background-color: #665252;
+  cursor: pointer;
+}
+
+.price-page .price-page__info .price-page__slider li.slick-active button {
+  background-color: #F5E5C1;
+}
+
+.price-page .price-page__info .price-page__desc {
+  width: 51%;
+  margin-right: 6vw;
+}
+
+.price-page .price-page__info .price-page__desc h2 {
+  color: #444444;
+  font-size: 2.4vw;
+  font-weight: 500;
+  letter-spacing: -0.2vw;
+  margin-top: 1.5vw;
+}
+
+.price-page .price-page__info .price-page__desc h2 span {
+  font-weight: 700;
+}
+
+.price-page .price-page__info .price-page__desc h3 {
+  position: relative;
+  font-size: 1.5vw;
+  font-weight: 300;
+  padding-left: 7vw;
+}
+
+.price-page .price-page__info .price-page__desc h3::before {
+  content: '';
+  position: absolute;
+  background: #ffda61;
+  width: 15%;
+  height: 0.2vw;
+  top: 20%;
+  left: 0;
+}
+
+.price-page .price-page__info .price-page__desc p {
+  font-size: 1.5vw;
+  font-weight: 500;
+  line-height: 1.7em;
+  text-align: justify;
+}
+
+.price-page .price-page__rooms {
+  width: 100%;
+  background-color: #211403;
+  color: #fff;
+}
+
+.price-page .price-page__rooms .container {
+  padding: 5vw 0;
+}
+
+.price-page .price-page__rooms .price-page__title h2 {
+  color: #fff;
+}
+
+.price-page .price-page__rooms a {
+  position: relative;
+  border: 0.4vw solid;
+  height: 20vw;
+  width: 100%;
+}
+
+.price-page .price-page__rooms a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.5;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.price-page .price-page__rooms a:hover::after {
+  opacity: 0;
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
+}
+
+.price-page .price-page__rooms p {
+  font-style: italic;
+  color: #edb37a;
+}
+
+.price-page .price-page__rooms .price-page__rooms-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 1vw;
+}
+
+.price-page .price-page__rooms .price-page__rooms-box h2 {
+  position: absolute;
+  text-transform: uppercase;
+  width: 100%;
+  top: 8vw;
+  left: 0;
+  font-size: 2vw;
+  font-weight: 400;
+  text-align: center;
+  z-index: 1;
+}
+
+.price-page .price-page__rooms .price-page__rooms-box img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}

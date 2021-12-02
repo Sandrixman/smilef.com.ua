@@ -11,7 +11,7 @@
           </a>
         </li>
         <li class="menu__list">
-          <a class="menu__link" href="#">
+          <a class="menu__link" href="rooms&price.html">
             <p>Номери та ціни</p>
           </a>
         </li>

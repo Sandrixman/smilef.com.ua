@@ -1,11 +1,14 @@
 @import "./null.scss";
 @import "./media.scss";
 @import "./rooms.scss";
+@import "./pages.scss";
+
+
 
 
 body {
     background-image: url("../img/bg.png");
-    background-color: rgba(255, 228, 196, 0.377);
+    background-color: rgba(255, 228, 196, 0.277);
 }
 
 body.scroll-lock{
@@ -281,7 +284,7 @@ body::-webkit-scrollbar {
 }
 
 .welcome{
-
+    display: flex;
     .container{
         display: flex;
     }
@@ -755,6 +758,7 @@ body::-webkit-scrollbar {
             box-shadow: rgb(12, 12, 12) 0 0 0.85vw 0;
             .rooms__slider-img img{
                 width: 100%;
+                height: 16vw;
             }
             .rooms__slider-descr{
                 padding: 1vw;
@@ -796,18 +800,21 @@ body::-webkit-scrollbar {
                         margin: auto;
                         width: 2.5vw;
                     }
-                    .rooms__slider-box::after{
-                        content: "ВІД ₴1800 ";
+                .rooms__slider-price{
                         position: absolute;
                         text-align: center;
-                        font-weight: 500;
-                        font-size: 1.5vw;
                         padding: 0.8vw;
                         top: -2.5vw;
                         left: -1vw;
                         width: 10vw;
                         height: 3vw;
                         background: rgb(245, 229, 193);
+                        h2 {
+                            color: #211403;
+                            font-weight: 600;
+                            padding: 0;
+                            font-size: 1.4vw;
+                        }
                     }
                 }
                 .rooms__slider-icons {
@@ -925,6 +932,7 @@ body::-webkit-scrollbar {
 }
 
 .important-info {
+    margin-bottom: 9vw;
     .important-info__description{
         text-align: center;
         h4 {
@@ -1091,7 +1099,7 @@ footer {
         text-align: center;
         font-size: 2vw;
         font-weight: 300;
-        margin-bottom: 3vw;
+        margin: 1vw auto 3vw;
     }
     .footer__info {
         display: flex;
@@ -1099,10 +1107,15 @@ footer {
         padding-bottom: 3vw;
         h3 {
             margin: 1vw 0;
+            font-size: 1.3vw;
         }
         h4 {
             font-weight: 400;
+            font-size: 1vw;
+        }
+        a {
             font-size: 1.2vw;
+
         }
 
         .foooter__info-wrapper {
@@ -1114,30 +1127,30 @@ footer {
             .foooter__info-tel::before {
                 content: "";
                 position: absolute;
-                top: 0.2vw;
-                left: -3vw;
-                width: 2vw;
-                height: 2.1vw;
+                top: 0.7vw;
+                left: -2.7vw;
+                width: 1.6vw;
+                height: 1.7vw;
                 background-image: url("../img/icon-3.png");
                 background-size: cover;
             }
             .foooter__info-mail::before {
             content: "";
                 position: absolute;
-                top: 6.7vw;
-                left: -3vw;
-                width: 2vw;
-                height: 1.7vw;
+                top: 6.9vw;
+                left: -2.7vw;
+                width: 1.6vw;
+                height: 1.3vw;
                 background-image: url("../img/icon-4.png");
                 background-size: cover;
             }
             .foooter__info-location::before {
             content: "";
                 position: absolute;
-                top: 2vw;
-                left: -3.7vw;
-                width: 2vw;
-                height: 2.4vw;
+                top: 1.9vw;
+                left: -2.7vw;
+                width: 1.6vw;
+                height: 2vw;
                 background-image: url("../img/icon-geo2.png");
                 background-size: cover;
             }
@@ -1145,16 +1158,16 @@ footer {
         .foooter__info-network {
             button {
                 position: relative;
-                width: 15vw;
+                width: 13vw;
                 background-color: #211403;
                 color: #f5e5c1;
-                line-height: 4vw;
+                line-height: 3vw;
                 font-weight: 500;
-                font-size: 1.5vw;
+                font-size: 1.3vw;
                 border: 0.3vw solid #f5e5c1;
                 border-style: solid;
                 border-radius: 1vw;
-                padding-left: 2vw;
+                padding-left: 1.6vw;
                 cursor: pointer;
                 transition: .3s all;
                 &:hover {
@@ -1168,11 +1181,16 @@ footer {
                 position: absolute;
                 top: 0.6vw;
                 left: 1.8vw;
-                width: 3vw;
-                height: 3vw;
+                width: 2vw;
+                height: 2vw;
                 background-image: url("../img/Logo-Instagram.svg");
                 background-size: cover;
                 }
+            }
+        }
+        .foooter__weather {
+            .gsInformer {
+                margin-top: 1vw;
             }
         }
     }
