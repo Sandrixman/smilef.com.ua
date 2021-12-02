@@ -60,4 +60,22 @@ $(function () {
             }
         ]
     });
+
+    $('.pool__slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        prevArrow: '<button class="price-page__slider-btn price-page__slider-btnprev"><img src="./img/left-arrow.svg" alt="arrow"></button> ',
+        nextArrow: `<button class="price-page__slider-btn price-page__slider-btnnext"><img src="./img/right-arrow.svg" alt="arrow" ></button> `,
+        responsive: [
+            {
+                breakpoint: 993,
+                settings: {
+                    arrows: false
+                }
+            }
+        ]
+    });
 });
