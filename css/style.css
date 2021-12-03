@@ -75,6 +75,12 @@ body {
   }
 }
 
+#room-page__red-text {
+  color: #ff0000;
+  font-style: italic;
+  font-size: 1.3vw;
+}
+
 .room-page {
   display: inline-block;
   width: 100%;
@@ -116,12 +122,6 @@ body {
   color: #444;
   font-size: 1.5vw;
   font-weight: 500;
-}
-
-.room-page .room-page__title .room-page__red-text {
-  color: #ff0000;
-  font-style: italic;
-  font-size: 1.3vw;
 }
 
 .room-page .room-page__title::before,
@@ -330,11 +330,49 @@ body {
   margin: 1vw 0 2vw;
 }
 
-.room-page__price table {
-  border-spacing: 0;
+.room-page__price .hide tr {
+  display: none;
 }
 
-.room-page__price table td {
+.room-page__price .hide tr.main,
+.room-page__price .room1 tr.studio-g1,
+.room-page__price .room2 tr.studio-g1-1,
+.room-page__price .room3 tr.studio-g2,
+.room-page__price .room4 tr.delux-g2,
+.room-page__price .room5 tr.superior-g2,
+.room-page__price .room6 tr.apartment-sea-1,
+.room-page__price .room7 tr.apartment-sea-2,
+.room-page__price .room8 tr.apartment-sea-3,
+.room-page__price .room9 tr.standart,
+.room-page__price .room10 tr.apartment-park,
+.room-page__price .room11 tr.villa-west,
+.room-page__price .room12 tr.villa-south,
+.room-page__price .room13 tr.villa-east,
+.room-page__price .room14 tr.villa-vip,
+.room-page__price .room15 tr.studio-north,
+.room-page__price .room16 tr.cottage-sky,
+.room-page__price .room17 tr.studio-sky {
+  display: table-row-group;
+}
+
+.room-page__price .hide tr.main td,
+.room-page__price .room1 tr.studio-g1 td,
+.room-page__price .room2 tr.studio-g1-1 td,
+.room-page__price .room3 tr.studio-g2 td,
+.room-page__price .room4 tr.delux-g2 td,
+.room-page__price .room5 tr.superior-g2 td,
+.room-page__price .room6 tr.apartment-sea-1 td,
+.room-page__price .room7 tr.apartment-sea-2 td,
+.room-page__price .room8 tr.apartment-sea-3 td,
+.room-page__price .room9 tr.standart td,
+.room-page__price .room10 tr.apartment-park td,
+.room-page__price .room11 tr.villa-west td,
+.room-page__price .room12 tr.villa-south td,
+.room-page__price .room13 tr.villa-east td,
+.room-page__price .room14 tr.villa-vip td,
+.room-page__price .room15 tr.studio-north td,
+.room-page__price .room16 tr.cottage-sky td,
+.room-page__price .room17 tr.studio-sky td {
   text-align: center;
   font-size: 0.9vw;
   font-weight: 600;
@@ -343,11 +381,24 @@ body {
   height: 3vw;
 }
 
-.room-page__price table .main {
+.room-page__price table {
+  border-spacing: 0;
+}
+
+.room-page__price td {
+  text-align: center;
+  font-size: 0.9vw;
+  font-weight: 600;
+  border: 0.1vw solid;
+  padding: 0.9vw;
+  height: 3vw;
+}
+
+.room-page__price .main {
   background: #211403;
 }
 
-.room-page__price table .main td {
+.room-page__price .main td {
   width: 11vw;
   height: 3vw;
   font-size: 0.9vw;
@@ -395,6 +446,10 @@ body {
 
 .page-banner.contacts {
   background-image: url("../img/IMG_2771-min_11zon.jpeg");
+}
+
+.page-banner.apartment {
+  background-image: url("../img/apartment-bg.jpg");
 }
 
 .price-page .price-page__info,
@@ -2152,10 +2207,6 @@ body.scroll-lock {
   overflow: hidden;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
-
 .hamburger .hamburger__btn {
   position: fixed;
   width: 4vw;
@@ -2234,7 +2285,7 @@ body::-webkit-scrollbar {
 }
 
 .hamburger .hamburger__wrapper .menu__hamburger {
-  width: 70vw;
+  width: 60vw;
   margin: 0 auto;
 }
 
@@ -2273,7 +2324,7 @@ body::-webkit-scrollbar {
 }
 
 .hamburger .hamburger__wrapper .menu__link p {
-  font-size: 4vw;
+  font-size: 3.5vw;
   font-weight: 300;
   line-height: 1.6em;
   margin: 0;

@@ -1758,6 +1758,12 @@
   font-size: 1.8vw;
   color: #444444;
   font-weight: 500;
+  margin: 2vw 0;
+}
+
+.contacts h6 {
+  font-size: 1.8vw;
+  font-style: italic;
 }
 
 .contacts iframe {

@@ -1,3 +1,8 @@
+#room-page__red-text {
+    color: #ff0000;
+    font-style: italic;
+    font-size: 1.3vw;
+}
 .room-page {
     display: inline-block;
     width: 100%;
@@ -27,11 +32,6 @@
             color: #444;
             font-size: 1.5vw;
             font-weight: 500;
-        }
-        .room-page__red-text {
-            color: #ff0000;
-            font-style: italic;
-            font-size: 1.3vw;
         }
     }
     .room-page__title::before,
@@ -212,27 +212,58 @@
         font-size: 1.3vw;
         margin: 1vw 0 2vw;
     }
+    .hide tr {
+        display: none;
+    }
+    .hide tr.main,
+    .room1 tr.studio-g1,
+    .room2 tr.studio-g1-1,
+    .room3 tr.studio-g2,
+    .room4 tr.delux-g2,
+    .room5 tr.superior-g2,
+    .room6 tr.apartment-sea-1,
+    .room7 tr.apartment-sea-2,
+    .room8 tr.apartment-sea-3,
+    .room9 tr.standart,
+    .room10 tr.apartment-park,
+    .room11 tr.villa-west,
+    .room12 tr.villa-south,
+    .room13 tr.villa-east,
+    .room14 tr.villa-vip,
+    .room15 tr.studio-north,
+    .room16 tr.cottage-sky,
+    .room17 tr.studio-sky {
+        display: table-row-group;
+        td {
+        text-align: center;
+        font-size: 0.9vw;
+        font-weight: 600;
+        border: 0.1vw solid;
+        padding: 0.9vw;
+        height: 3vw;
+        }
+    }
     table {
         border-spacing: 0;
+    }
+    td {
+        text-align: center;
+        font-size: 0.9vw;
+        font-weight: 600;
+        border: 0.1vw solid;
+        padding: 0.9vw;
+        height: 3vw;
+    }
+    .main {
+        background: #211403;
         td {
-            text-align: center;
-            font-size: 0.9vw;
-            font-weight: 600;
-            border: 0.1vw solid;
-            padding: 0.9vw;
+            width: 11vw;
             height: 3vw;
-        }
-        .main {
-            background: #211403;
-            td {
-                width: 11vw;
-                height: 3vw;
-                font-size: 0.9vw;
-                font-weight: 500;
-                color: #fff;
-                text-align: center;
-                border: 0.1vw solid #000;
-            }
+            font-size: 0.9vw;
+            font-weight: 500;
+            color: #fff;
+            text-align: center;
+            border: 0.1vw solid #000;
         }
     }
     ul {
