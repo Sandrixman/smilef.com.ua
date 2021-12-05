@@ -26,6 +26,14 @@
   background-image: url("../img/IMG_2771-min_11zon.jpeg");
 }
 
+.page-banner.apartment {
+  background-image: url("../img/apartment-bg.jpg");
+}
+
+.page-banner.villa {
+  background-image: url("../img/villa-bg.jpg");
+}
+
 .price-page .price-page__info,
 .price-page .restoraunt__info,
 .price-page .children__info,

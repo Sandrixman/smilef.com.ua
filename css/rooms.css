@@ -1,4 +1,4 @@
-.room-page__red-text {
+#room-page__red-text {
   color: #ff0000;
   font-style: italic;
   font-size: 1.3vw;
@@ -74,8 +74,9 @@
 }
 
 .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__sliderbig img {
-  width: 100%;
   height: 40vw;
+  margin: auto;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__sliderbig .room-page__sliderbig-item::after {
@@ -107,6 +108,7 @@
 }
 
 .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__slider .room-page__slider-item img {
+  image-rendering: -webkit-optimize-contrast;
   width: 100%;
   height: 10vw;
 }

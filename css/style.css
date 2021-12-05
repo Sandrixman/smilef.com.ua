@@ -151,8 +151,9 @@ body {
 }
 
 .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__sliderbig img {
-  width: 100%;
   height: 40vw;
+  margin: auto;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__sliderbig .room-page__sliderbig-item::after {
@@ -184,6 +185,7 @@ body {
 }
 
 .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__slider .room-page__slider-item img {
+  image-rendering: -webkit-optimize-contrast;
   width: 100%;
   height: 10vw;
 }
@@ -450,6 +452,10 @@ body {
 
 .page-banner.apartment {
   background-image: url("../img/apartment-bg.jpg");
+}
+
+.page-banner.villa {
+  background-image: url("../img/villa-bg.jpg");
 }
 
 .price-page .price-page__info,
@@ -1852,9 +1858,13 @@ body {
 .contacts .price-page__rooms .price-page__rooms-box h2 {
   position: absolute;
   text-transform: uppercase;
-  width: 100%;
-  top: 8vw;
+  width: 80%;
+  height: 25%;
+  top: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
   font-size: 2vw;
   font-weight: 400;
   text-align: center;
@@ -2194,7 +2204,7 @@ body {
 
 .contacts iframe {
   width: 100%;
-  height: 50vw;
+  height: 40vw;
   margin-bottom: 5vw;
 }
 
@@ -2270,7 +2280,7 @@ body.scroll-lock {
   z-index: 5;
   width: 100%;
   height: 100vh;
-  padding-top: 9vw;
+  padding-top: 8vw;
   -webkit-transform: translate(-100%);
           transform: translate(-100%);
   -webkit-transition: all 0.5s;
@@ -2324,9 +2334,9 @@ body.scroll-lock {
 }
 
 .hamburger .hamburger__wrapper .menu__link p {
-  font-size: 3.5vw;
+  font-size: 3vw;
   font-weight: 300;
-  line-height: 1.6em;
+  line-height: 1.5em;
   margin: 0;
 }
 
@@ -2341,7 +2351,8 @@ body.scroll-lock {
 .header {
   position: fixed;
   width: 100%;
-  color: #F5E5C1;
+  color: #211403;
+  font-weight: 600;
   z-index: 1;
   -webkit-transition: all .3s ease;
   transition: all .3s ease;
@@ -2354,12 +2365,33 @@ body.scroll-lock {
 
 .header.header-second {
   background-color: #211403;
+  color: #f5e5c1;
   z-index: 10;
+}
+
+.header.header-second .header__instagram .white {
+  display: block;
+}
+
+.header.header-second .header__instagram .black {
+  display: none;
+}
+
+.header.header-second .header__btn-call {
+  border-color: #F5E5C1;
 }
 
 .header.header-second .header__btn-call:hover {
   background-color: #F5E5C1;
   color: #211403;
+}
+
+.header.header-second .header__location-item::before {
+  background-image: url("../img/icon-location.svg");
+}
+
+.header.header-second .header__phones-item::before {
+  background-image: url("../img/icon-telephone.svg");
 }
 
 .header .container {
@@ -2395,11 +2427,15 @@ body.scroll-lock {
   width: 6vw;
 }
 
+.header .header__instagram .white {
+  display: none;
+}
+
 .header .header__btn-call {
   font-size: 1.3vw;
   border-style: solid;
   border-width: 0.3vw;
-  border-color: #F5E5C1;
+  border-color: #211403;
   border-radius: 1vw;
   padding: 1vw 2.5vw;
   -webkit-transition: all .3s;
@@ -2407,7 +2443,11 @@ body.scroll-lock {
 }
 
 .header .header__btn-call:hover {
-  background: #211403;
+  background: #f5e5c1;
+  color: #211403;
+  border-color: #211403;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .header .header__location-item,
@@ -2424,7 +2464,7 @@ body.scroll-lock {
   left: -2.5vw;
   width: 1.8vw;
   height: 1.8vw;
-  background-image: url("../img/icon-location.svg");
+  background-image: url("../img/icon-location-b.svg");
   background-size: cover;
 }
 
@@ -2435,7 +2475,7 @@ body.scroll-lock {
   left: -2.2vw;
   width: 1.7vw;
   height: 1.7vw;
-  background-image: url("../img/icon-telephone.svg");
+  background-image: url("../img/icon-telephone-b.svg");
   background-size: cover;
 }
 

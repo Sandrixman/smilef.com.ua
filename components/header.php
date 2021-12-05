@@ -4,7 +4,8 @@
     </div>
     <div class="header__nav">
         <a class="header__instagram" href="https://www.instagram.com/ylubkafortynu/" target="_blank">
-            <img src="./img/Logo-Instagram.svg" alt="інстаграм сторінка"></a>
+            <img class="white" src="./img/Logo-Instagram.svg" alt="інстаграм сторінка">
+            <img class="black" src="./img/Logo-Instagram-brown.svg" alt="інстаграм сторінка"></a>
         <a class="header__btn-call" href="tel:&gt;+380688813279">Дзвінок</a>
         <div class="header__location">
             <a class="header__location-item"

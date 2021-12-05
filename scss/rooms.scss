@@ -55,8 +55,9 @@
                     position: relative;
                 }
                 img {
-                    width: 100%;
                     height: 40vw;
+                    margin: auto;
+                    image-rendering: -webkit-optimize-contrast;
                 }
                 .room-page__sliderbig-item::after {
                     content: "";
@@ -83,6 +84,7 @@
                     border: 0.5vw solid #28303d;
                     cursor: pointer;
                     img {
+                        image-rendering: -webkit-optimize-contrast;
                         width: 100%;
                         height: 10vw;
                     }
@@ -107,12 +109,6 @@
                         opacity: 0;
                     }
                 }
-                // .slick-slide {
-                //     opacity: 0.5;
-                //     &.slick-current {
-                //         opacity: 1;
-                //     }
-                // }
             }
             .room-page__slider-btn {
                 position: absolute;
