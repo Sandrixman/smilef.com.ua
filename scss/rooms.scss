@@ -49,33 +49,26 @@
     .room-page__slider-box {
         display: flex;
         .room-page__slider-wrapper{
-            width: 65%;
+            width: 62%;
             .room-page__sliderbig {
                 .room-page__sliderbig-item{
                     position: relative;
                 }
-                img {
-                    height: 40vw;
-                    margin: auto;
-                    image-rendering: -webkit-optimize-contrast;
-                }
-                .room-page__sliderbig-item::after {
-                    content: "";
+                .main-img {
                     position: absolute;
                     top: 0;
                     right: 0;
-                    backdrop-filter: blur(15px);
-                    width: 10%;
-                    height: 100%;
-                }
-                .room-page__sliderbig-item::before {
-                    content: "";
-                    position: absolute;
-                    top: 0;
                     left: 0;
-                    backdrop-filter: blur(15px);
-                    width: 10%;
-                    height: 100%;
+                    height: 30vw;
+                    margin: auto;
+                    image-rendering: -webkit-optimize-contrast;
+                }
+                .bg-img {
+                    position: relative;
+                    width: 100%;
+                    height: 30vw;
+                    filter: blur(10px);
+                    z-index: -1;
                 }
             }
             .room-page__slider {

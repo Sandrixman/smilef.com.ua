@@ -66,39 +66,31 @@
 }
 
 .room-page .room-page__slider-box .room-page__slider-wrapper {
-  width: 65%;
+  width: 62%;
 }
 
 .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__sliderbig .room-page__sliderbig-item {
   position: relative;
 }
 
-.room-page .room-page__slider-box .room-page__slider-wrapper .room-page__sliderbig img {
-  height: 40vw;
+.room-page .room-page__slider-box .room-page__slider-wrapper .room-page__sliderbig .main-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 30vw;
   margin: auto;
   image-rendering: -webkit-optimize-contrast;
 }
 
-.room-page .room-page__slider-box .room-page__slider-wrapper .room-page__sliderbig .room-page__sliderbig-item::after {
-  content: "";
+.room-page .room-page__slider-box .room-page__slider-wrapper .room-page__sliderbig .bg-img {
   position: absolute;
   top: 0;
   right: 0;
-  -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
-  width: 10%;
-  height: 100%;
-}
-
-.room-page .room-page__slider-box .room-page__slider-wrapper .room-page__sliderbig .room-page__sliderbig-item::before {
-  content: "";
-  position: absolute;
-  top: 0;
   left: 0;
-  -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
-  width: 10%;
-  height: 100%;
+  height: 30vw;
+  margin: auto;
+  image-rendering: -webkit-optimize-contrast;
 }
 
 .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__slider .room-page__slider-item {
