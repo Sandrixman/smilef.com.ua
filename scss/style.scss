@@ -1,8 +1,6 @@
 @import "./null.scss";
-@import "./media.scss";
 @import "./rooms.scss";
 @import "./pages.scss";
-
 
 
 
@@ -139,29 +137,26 @@ body.scroll-lock{
         transform: translateY(-100%);
     }
     &.header-second {
-        background-color: rgb(33, 20, 3);
+        background-color: #211403;
         color: #f5e5c1;
         z-index: 10;
-        .header__instagram {
-            .white {
-                display: block;
-            }
-            .black {
-                display: none;
-            }
-        }
         .header__btn-call{
+            background: #211403;
             border-color: #F5E5C1;
         }
         .header__btn-call:hover{
             background-color: #F5E5C1;
             color: #211403;
         }
+        .header__location-item,
+        .header__phones-item {
+            text-shadow: none
+        }
         .header__location-item::before{
-        background-image: url("../img/icon-location.svg");
+        background-image: url("../img/location-multi.svg");
         }
         .header__phones-item::before{
-        background-image: url("../img/icon-telephone.svg");
+        background-image: url("../img/phone.svg");
         }
     }
 
@@ -184,11 +179,14 @@ body.scroll-lock{
         justify-content: space-evenly;
     }
     .header__instagram {
-        img {
+        display: flex;
+        justify-content: center;
         width: 6vw;
-        }
-        .white {
-            display: none;
+        img {
+        width: 4vw;
+            &:hover {
+                width: 4.2vw;
+            }
         }
     }
     .header__btn-call{
@@ -196,6 +194,7 @@ body.scroll-lock{
         border-style: solid;
         border-width: 0.3vw;
         border-color: #211403;
+        background: #f5e5c1f2;
         border-radius: 1vw;
         padding: 1vw 2.5vw;
         transition: all .3s;
@@ -204,6 +203,8 @@ body.scroll-lock{
         background: #f5e5c1;
         color: #211403;
         border-color: #211403;
+        box-shadow: #0c0c0c 0 0 0.85vw 0;
+
         transition: all .3s;
     }
     .header__location-item,
@@ -211,6 +212,7 @@ body.scroll-lock{
         position: relative;
         margin-left: 5vw;
         font-size: 1.2vw;
+        text-shadow: 1px 1px #f5e5c1;
     }
     .header__location-item::before{
         content: "";
@@ -219,7 +221,7 @@ body.scroll-lock{
         left: -2.5vw;
         width: 1.8vw;
         height: 1.8vw;
-        background-image: url("../img/icon-location-b.svg");
+        background-image: url("../img/location-multi.svg");
         background-size: cover;
     }
     .header__phones-item::before{
@@ -227,9 +229,9 @@ body.scroll-lock{
         position: absolute;
         top: -0.2vw;
         left: -2.2vw;
-        width: 1.7vw;
-        height: 1.7vw;
-        background-image: url("../img/icon-telephone-b.svg");
+        width: 2vw;
+        height: 2vw;
+        background-image: url("../img/phone.svg");
         background-size: cover;
     }
 }
@@ -252,7 +254,7 @@ body.scroll-lock{
                 color: rgb(245, 229, 193);
             }
             .hotel {
-                font-size: 40px;
+                font-size: 4vw;
                 font-weight: 400;
             }
         }
@@ -337,7 +339,6 @@ body.scroll-lock{
         background-color: rgb(33, 20, 3);
         z-index: -1;
     }
-    .welcome__slider-btn,
     .welcome__slider-btn {
         position: absolute;
         bottom: 0;
@@ -579,7 +580,6 @@ body.scroll-lock{
             }
         }
     }
-    .apartments__slider-btn,
     .apartments__slider-btn {
         position: absolute;
         bottom: 0px;
@@ -648,21 +648,21 @@ body.scroll-lock{
                     position: relative;
                     width: 50%;
                     height: 27vw;
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        width: 65%;
+                        height: 26vw;
+                        bottom: 0;
+                        right: 0;
+                        background-color: #211403;
+                        z-index: -1;
+                    }
                     img {
                         width: 90%;
                         height: 90%;
                     }
                 }
-                .exellence__content-img::after{
-                    content: "";
-                    position: absolute;
-                    width: 65%;
-                    height: 26vw;
-                    bottom: 0;
-                    right: 0;
-                    background-color: #211403;
-                    z-index: -1;
-                    }
                 .exellence__content-text {
                     width: 50%;
                     margin: auto;
@@ -742,7 +742,6 @@ body.scroll-lock{
             width: 100%;
         }
     }
-    .reviews__slider-btn,
     .reviews__slider-btn {
         position: absolute;
         bottom: 0;
@@ -1113,11 +1112,16 @@ footer {
     }
     .footer__logo {
         position: absolute;
-        top: 5%;
+        width: 15%;
+        top: 1.5vw;
         left: 50%;
         transform: translatex(-50%);
         padding: 0 10vw;
         background: #211403;
+        img {
+            width: 100%;
+
+        }
     }
     hr {
         margin: 5vw 0;
@@ -1224,3 +1228,5 @@ footer {
         }
     }
 }
+
+@import "./media.scss";

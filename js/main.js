@@ -99,7 +99,7 @@ $(function () {
         nextArrow: `<button class="apartments__slider-btn apartments__slider-btnnext"><img src="./img/right-arrow.svg" alt="arrow" ></button> `,
         responsive: [
             {
-                breakpoint: 993,
+                breakpoint: 420,
                 settings: {
                     arrows: false
                 }
@@ -114,14 +114,6 @@ $(function () {
         fade: true,
         prevArrow: '<button class="reviews__slider-btn reviews__slider-btnprev"><img src="./img/left-arrow.svg" alt="arrow"></button> ',
         nextArrow: `<button class="reviews__slider-btn reviews__slider-btnnext"><img src="./img/right-arrow.svg" alt="arrow" ></button> `,
-        responsive: [
-            {
-                breakpoint: 993,
-                settings: {
-                    arrows: false
-                }
-            }
-        ]
     });
 
     $('.rooms__slider').slick({
@@ -133,9 +125,11 @@ $(function () {
         nextArrow: `<button class="rooms__slider-btn rooms__slider-btnnext"><img src="./img/right-arrow.svg" alt="arrow" ></button> `,
         responsive: [
             {
-                breakpoint: 993,
+                breakpoint: 420,
                 settings: {
-                    arrows: false
+                    slidesToShow: 2,
+                    arrows: false,
+                    dots: true
                 }
             }
         ]

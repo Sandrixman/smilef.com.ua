@@ -84,13 +84,12 @@
 }
 
 .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__sliderbig .bg-img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
+  position: relative;
+  width: 100%;
   height: 30vw;
-  margin: auto;
-  image-rendering: -webkit-optimize-contrast;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+  z-index: -1;
 }
 
 .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__slider .room-page__slider-item {
