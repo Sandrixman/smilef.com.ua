@@ -190,6 +190,13 @@
     margin: 3vw auto;
     text-align: center;
   }
+  footer .footer__info .foooter__info-network button {
+    width: 25vw;
+    line-height: 5vw;
+    font-size: 2.5vw;
+    border-radius: 1.5vw;
+    padding-left: 3vw;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -227,18 +234,18 @@
     border-radius: 2vw;
   }
   .main-block {
-    height: 70vh;
+    height: 100vh;
     background-position: center;
   }
   .main-block .main-block__text h1 {
-    font-size: 10vw;
-    line-height: 13vw;
-    width: 70%;
+    font-size: 9vw;
+    line-height: 10vw;
+    width: 60%;
     margin: 15vw auto;
     text-shadow: #0c0c07 3px 3px 3px;
   }
   .main-block .main-block__text h1 .hotel {
-    font-size: 9vw;
+    font-size: 8vw;
   }
   .main-block .main-block__text h2 {
     font-size: 4.5vw;
@@ -339,16 +346,17 @@
     line-height: 3.5vw;
   }
   .reviews .reviews__slider .reviews__slider-item .reviews__slider-descr {
-    top: 5vw;
-    width: 60vw;
-    height: 38vw;
+    top: 4vw;
+    width: 65vw;
+    height: 40vw;
   }
   .reviews .reviews__slider .reviews__slider-item .reviews__slider-descr .reviews__slider-title h2 {
     font-size: 3.5vw;
   }
   .reviews .reviews__slider .reviews__slider-item .reviews__slider-descr .reviews__slider-text p {
     font-weight: 500;
-    font-size: 2vw;
+    font-size: 1.9vw;
+    line-height: 2.2vw;
   }
   .reviews .reviews__slider-btn {
     width: 8vw;
@@ -484,9 +492,9 @@
     height: 2.7vw;
   }
   .important-info .important-info__box .important-info__contacts ul .important-info__contacts-location::before {
-    left: -4.5vw;
-    width: 2.5vw;
-    height: 2.7vw;
+    left: -4.3vw;
+    width: 2.6vw;
+    height: 3.2vw;
   }
   .important-info .important-info__box .important-info__contacts button {
     width: 25vw;

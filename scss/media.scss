@@ -214,6 +214,17 @@
             .foooter__info-network {
                 margin: 3vw auto;
                 text-align: center;
+                button {
+                    width: 25vw;
+                    line-height: 5vw;
+                    font-size: 2.5vw;
+                    border-radius: 1.5vw;
+                    padding-left: 3vw;
+                    &::before {
+                        width: 4vw;
+                        height: 4vw;
+                    }
+                }
             }
         }
     }
@@ -260,17 +271,17 @@
         }
     }
     .main-block {
-        height: 70vh;
+        height: 100vh;
         background-position: center;
         .main-block__text {
             h1 {
-                font-size: 10vw;
-                line-height: 13vw;
-                width: 70%;
+                font-size: 9vw;
+                line-height: 10vw;
+                width: 60%;
                 margin: 15vw auto;
                 text-shadow: #0c0c07 3px 3px 3px;
                 .hotel {
-                    font-size: 9vw;
+                    font-size: 8vw;
                 }
             }
             h2 {
@@ -372,15 +383,16 @@
         .reviews__slider {
             .reviews__slider-item {
                 .reviews__slider-descr {
-                top: 5vw;
-                width: 60vw;
-                height: 38vw;
+                top: 4vw;
+                width: 65vw;
+                height: 40vw;
                     .reviews__slider-title h2 {
                         font-size: 3.5vw;
                     }
                     .reviews__slider-text p {
                         font-weight: 500;
-                        font-size: 2vw;
+                        font-size: 1.9vw;
+                        line-height: 2.2vw;
                     }
                 }
             }
@@ -554,10 +566,6 @@
                     height: 2.5vw;
                 }
             }
-        }
-    }
-    footer {
-        .footer__info {
         }
     }
 }
