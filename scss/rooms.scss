@@ -13,6 +13,9 @@
     h2 {
         font-weight: 500;
     }
+    .margin-top {
+        margin-top: 5vw;
+    }
     .flex {
         display: flex;
         .fas {
@@ -155,9 +158,29 @@
             .hide-td {
                 font-weight: 500;
                 line-height: 0;
-                td {
+                td,
+                tr {
                     display: none;
                 }
+            }
+            .room1 tr.studio-g1,
+            .room2 tr.studio-g1-1,
+            .room3 tr.studio-g2,
+            .room4 tr.delux-g2,
+            .room5 tr.superior-g2,
+            .room6 tr.apartment-sea-1,
+            .room7 tr.apartment-sea-2,
+            .room8 tr.apartment-sea-3,
+            .room9 tr.standart,
+            .room10 tr.apartment-park,
+            .room11 tr.villa-west,
+            .room12 tr.villa-south,
+            .room13 tr.villa-east,
+            .room14 tr.villa-vip,
+            .room15 tr.studio-north,
+            .room16 tr.cottage-sky,
+            .room17 tr.studio-sky {
+                display: inline-block;
             }
             .room1 td.price-studio-g1,
             .room2 td.price-studio-g1-1,
@@ -177,6 +200,7 @@
             .room16 td.price-cottage-sky,
             .room17 td.price-studio-sky {
                 display: inline-block;
+                vertical-align: text-bottom;
             }
         }
     }
@@ -188,6 +212,7 @@
             width: 58.5vw;
             font-size: 1.6vw;
             text-align: justify;
+            margin: 0;
         }
         .room-page__desc-blocks {
             display: flex;

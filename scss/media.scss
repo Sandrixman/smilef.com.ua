@@ -1075,6 +1075,23 @@
         }
     }
 
+    .rooms {
+        .rooms__slider {
+            .rooms__slider-item {
+                .rooms__slider-descr {
+                    .rooms__slider-boxes {
+                        .rooms__slider-price {
+                            width: 12vw;
+                            .hide-td {
+                                font-size: 2.5vw;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     .important-info {
         .important-info__box {
             flex-direction: column-reverse;
@@ -1398,6 +1415,7 @@
                         width: 8vw;
                         }
                         .rooms__slider-box {
+                            margin-top: 2vw;
                             &.without {
                                 &::after {
                                     top: 5vw;
@@ -1409,9 +1427,12 @@
                         .rooms__slider-price {
                             top: -5vw;
                             width: 30vw;
-                            height: 6vw;
+                            height: 7vw;
                             h2 {
                                 font-size: 4.5vw;
+                            }
+                            .hide-td {
+                                font-size: 4.4vw;
                             }
                         }
                     }

@@ -53,6 +53,10 @@ body {
   font-weight: 500;
 }
 
+.room-page .margin-top {
+  margin-top: 5vw;
+}
+
 .room-page .flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -233,8 +237,29 @@ body {
   line-height: 0;
 }
 
-.room-page .room-page__slider-box .room-page__info .hide-td td {
+.room-page .room-page__slider-box .room-page__info .hide-td td,
+.room-page .room-page__slider-box .room-page__info .hide-td tr {
   display: none;
+}
+
+.room-page .room-page__slider-box .room-page__info .room1 tr.studio-g1,
+.room-page .room-page__slider-box .room-page__info .room2 tr.studio-g1-1,
+.room-page .room-page__slider-box .room-page__info .room3 tr.studio-g2,
+.room-page .room-page__slider-box .room-page__info .room4 tr.delux-g2,
+.room-page .room-page__slider-box .room-page__info .room5 tr.superior-g2,
+.room-page .room-page__slider-box .room-page__info .room6 tr.apartment-sea-1,
+.room-page .room-page__slider-box .room-page__info .room7 tr.apartment-sea-2,
+.room-page .room-page__slider-box .room-page__info .room8 tr.apartment-sea-3,
+.room-page .room-page__slider-box .room-page__info .room9 tr.standart,
+.room-page .room-page__slider-box .room-page__info .room10 tr.apartment-park,
+.room-page .room-page__slider-box .room-page__info .room11 tr.villa-west,
+.room-page .room-page__slider-box .room-page__info .room12 tr.villa-south,
+.room-page .room-page__slider-box .room-page__info .room13 tr.villa-east,
+.room-page .room-page__slider-box .room-page__info .room14 tr.villa-vip,
+.room-page .room-page__slider-box .room-page__info .room15 tr.studio-north,
+.room-page .room-page__slider-box .room-page__info .room16 tr.cottage-sky,
+.room-page .room-page__slider-box .room-page__info .room17 tr.studio-sky {
+  display: inline-block;
 }
 
 .room-page .room-page__slider-box .room-page__info .room1 td.price-studio-g1,
@@ -255,6 +280,7 @@ body {
 .room-page .room-page__slider-box .room-page__info .room16 td.price-cottage-sky,
 .room-page .room-page__slider-box .room-page__info .room17 td.price-studio-sky {
   display: inline-block;
+  vertical-align: text-bottom;
 }
 
 .room-page .room-page__desc {
@@ -266,6 +292,7 @@ body {
   width: 58.5vw;
   font-size: 1.6vw;
   text-align: justify;
+  margin: 0;
 }
 
 .room-page .room-page__desc .room-page__desc-blocks {
@@ -2586,7 +2613,7 @@ body.scroll-lock {
 }
 
 .welcome .welcome__slider-item {
-  height: 26vw;
+  height: 27vw;
 }
 
 .welcome .welcome__slider-item img {
@@ -2597,9 +2624,9 @@ body.scroll-lock {
   content: "";
   position: absolute;
   width: 65%;
-  height: 24.8vw;
-  bottom: 0.6vw;
-  right: 0.4vw;
+  height: 26vw;
+  bottom: 0;
+  right: 0;
   background-color: #211403;
   z-index: -1;
 }
@@ -2631,7 +2658,7 @@ body.scroll-lock {
 
 .welcome .slick-dots {
   position: absolute;
-  bottom: 5%;
+  bottom: 3%;
   right: 30%;
 }
 
@@ -3218,11 +3245,14 @@ body.scroll-lock {
 
 .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price {
   position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   text-align: center;
   padding: 0.8vw;
   top: -2.5vw;
   left: -1vw;
-  width: 10vw;
+  width: 11vw;
   height: 3vw;
   background: #f5e5c1;
 }
@@ -3232,6 +3262,59 @@ body.scroll-lock {
   font-weight: 600;
   padding: 0;
   font-size: 1.4vw;
+  line-height: 1.3;
+}
+
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .hide-td {
+  font-weight: 600;
+  line-height: 0;
+  color: #211403;
+}
+
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .hide-td td,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .hide-td tr {
+  display: none;
+}
+
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room1 tr.studio-g1,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room2 tr.studio-g1-1,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room3 tr.studio-g2,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room4 tr.delux-g2,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room5 tr.superior-g2,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room6 tr.apartment-sea-1,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room7 tr.apartment-sea-2,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room8 tr.apartment-sea-3,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room9 tr.standart,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room10 tr.apartment-park,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room11 tr.villa-west,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room12 tr.villa-south,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room13 tr.villa-east,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room14 tr.villa-vip,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room15 tr.studio-north,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room16 tr.cottage-sky,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room17 tr.studio-sky {
+  display: inline-block;
+}
+
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room1 td.price-studio-g1,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room2 td.price-studio-g1-1,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room3 td.price-studio-g2,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room4 td.price-delux-g2,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room5 td.price-superior-g2,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room6 td.price-apartment-sea-1,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room7 td.price-apartment-sea-2,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room8 td.price-apartment-sea-3,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room9 td.price-standart,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room10 td.price-apartment-park,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room11 td.price-villa-west,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room12 td.price-villa-south,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room13 td.price-villa-east,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room14 td.price-villa-vip,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room15 td.price-studio-north,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room16 td.price-cottage-sky,
+.rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .room17 td.price-studio-sky {
+  display: inline-block;
+  vertical-align: text-bottom;
 }
 
 .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-icons {
@@ -3377,7 +3460,7 @@ body.scroll-lock {
 }
 
 .important-info .important-info__title h3 {
-  width: 55%;
+  width: 65%;
 }
 
 .important-info .important-info__description {
@@ -5731,6 +5814,12 @@ footer .footer__info .foooter__info-network a::before {
   .reviews .reviews__slider .reviews__slider-item .reviews__slider-descr .reviews__slider-text p {
     font-weight: 600;
   }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price {
+    width: 12vw;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .hide-td {
+    font-size: 2.5vw;
+  }
   .important-info .important-info__box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -6032,6 +6121,9 @@ footer .footer__info .foooter__info-network a::before {
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes img {
     width: 8vw;
   }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-box {
+    margin-top: 2vw;
+  }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-box.without::after {
     top: 5vw;
     left: 34.5vw;
@@ -6040,10 +6132,13 @@ footer .footer__info .foooter__info-network a::before {
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price {
     top: -5vw;
     width: 30vw;
-    height: 6vw;
+    height: 7vw;
   }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price h2 {
     font-size: 4.5vw;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .hide-td {
+    font-size: 4.4vw;
   }
   .rooms .rooms__slider .rooms__slider-btn {
     width: 8vw;

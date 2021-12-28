@@ -2326,6 +2326,9 @@
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes img {
     width: 8vw;
   }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-box {
+    margin-top: 2vw;
+  }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-box.without::after {
     top: 5vw;
     left: 34.5vw;
@@ -2334,10 +2337,13 @@
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price {
     top: -5vw;
     width: 30vw;
-    height: 6vw;
+    height: 7vw;
   }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price h2 {
     font-size: 4.5vw;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .hide-td {
+    font-size: 4.4vw;
   }
   .rooms .rooms__slider .rooms__slider-btn {
     width: 8vw;
@@ -3626,6 +3632,26 @@
   .room-page__price td {
     font-size: 1.8vw;
   }
+  .room-page__price .hide tr.main td,
+  .room-page__price .room1 tr.studio-g1 td,
+  .room-page__price .room2 tr.studio-g1-1 td,
+  .room-page__price .room3 tr.studio-g2 td,
+  .room-page__price .room4 tr.delux-g2 td,
+  .room-page__price .room5 tr.superior-g2 td,
+  .room-page__price .room6 tr.apartment-sea-1 td,
+  .room-page__price .room7 tr.apartment-sea-2 td,
+  .room-page__price .room8 tr.apartment-sea-3 td,
+  .room-page__price .room9 tr.standart td,
+  .room-page__price .room10 tr.apartment-park td,
+  .room-page__price .room11 tr.villa-west td,
+  .room-page__price .room12 tr.villa-south td,
+  .room-page__price .room13 tr.villa-east td,
+  .room-page__price .room14 tr.villa-vip td,
+  .room-page__price .room15 tr.studio-north td,
+  .room-page__price .room16 tr.cottage-sky td,
+  .room-page__price .room17 tr.studio-sky td {
+    font-size: 1.8vw;
+  }
   .room-page .room-page__title::before,
   .room-page .room-page__desc::before,
   .room-page .room-page__price::before {
@@ -3673,17 +3699,14 @@
     width: 60%;
     font-size: 8vw;
   }
-  .room-page .room-page__slider-box .room-page__info .hide-td {
-    top: 10px;
-    left: 15vw;
-  }
   .room-page .room-page__desc .room-page__desc-text {
     margin: 2vw 0;
   }
   .room-page .room-page__desc p {
     width: 100%;
     margin: 0;
-    font-size: 3vw;
+    font-size: 4vw;
+    line-height: 5vw;
   }
   .room-page .room-page__desc .room-page__desc-blocks {
     display: block;

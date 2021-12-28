@@ -171,7 +171,6 @@
 }
 
 .room-page .room-page__slider-box .room-page__info .room-page__info-price {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -195,15 +194,33 @@
 }
 
 .room-page .room-page__slider-box .room-page__info .hide-td {
-  position: absolute;
-  top: 0;
-  left: 10vw;
   font-weight: 500;
   line-height: 0;
 }
 
-.room-page .room-page__slider-box .room-page__info .hide-td td {
+.room-page .room-page__slider-box .room-page__info .hide-td td,
+.room-page .room-page__slider-box .room-page__info .hide-td tr {
   display: none;
+}
+
+.room-page .room-page__slider-box .room-page__info .room1 tr.studio-g1,
+.room-page .room-page__slider-box .room-page__info .room2 tr.studio-g1-1,
+.room-page .room-page__slider-box .room-page__info .room3 tr.studio-g2,
+.room-page .room-page__slider-box .room-page__info .room4 tr.delux-g2,
+.room-page .room-page__slider-box .room-page__info .room5 tr.superior-g2,
+.room-page .room-page__slider-box .room-page__info .room6 tr.apartment-sea-1,
+.room-page .room-page__slider-box .room-page__info .room7 tr.apartment-sea-2,
+.room-page .room-page__slider-box .room-page__info .room8 tr.apartment-sea-3,
+.room-page .room-page__slider-box .room-page__info .room9 tr.standart,
+.room-page .room-page__slider-box .room-page__info .room10 tr.apartment-park,
+.room-page .room-page__slider-box .room-page__info .room11 tr.villa-west,
+.room-page .room-page__slider-box .room-page__info .room12 tr.villa-south,
+.room-page .room-page__slider-box .room-page__info .room13 tr.villa-east,
+.room-page .room-page__slider-box .room-page__info .room14 tr.villa-vip,
+.room-page .room-page__slider-box .room-page__info .room15 tr.studio-north,
+.room-page .room-page__slider-box .room-page__info .room16 tr.cottage-sky,
+.room-page .room-page__slider-box .room-page__info .room17 tr.studio-sky {
+  display: inline-block;
 }
 
 .room-page .room-page__slider-box .room-page__info .room1 td.price-studio-g1,
@@ -224,6 +241,7 @@
 .room-page .room-page__slider-box .room-page__info .room16 td.price-cottage-sky,
 .room-page .room-page__slider-box .room-page__info .room17 td.price-studio-sky {
   display: inline-block;
+  vertical-align: text-bottom;
 }
 
 .room-page .room-page__desc {
@@ -235,6 +253,7 @@
   width: 58.5vw;
   font-size: 1.6vw;
   text-align: justify;
+  margin: 0;
 }
 
 .room-page .room-page__desc .room-page__desc-blocks {
