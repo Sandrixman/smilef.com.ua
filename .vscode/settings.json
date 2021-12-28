@@ -1,0 +1,7 @@
+{
+  "scss.hover.references": false,
+  "less.hover.references": false,
+  "css.hover.references": false,
+  "css.hover.documentation": false,
+  "scss.hover.documentation": false
+}

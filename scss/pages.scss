@@ -139,6 +139,7 @@
                 color: #444444;
             }
             p {
+                margin: 0;
                 font-size: 1.5vw;
                 font-weight: 500;
                 line-height: 1.7em;
@@ -261,8 +262,8 @@
 .pool {
     h2 {
         color: #444444;
-        text-align: center;
         margin-top: 5vw;
+        text-align: center;
     }
     ul {
         margin: 2vw 0 8vw;
@@ -281,15 +282,15 @@
                 height: 26vw;
             }
             .price-page__slider-item img{
-                width: 85%;
+                width: 90%;
             }
             .price-page__slider-item::after {
                 content: "";
                 position: absolute;
                 width: 65%;
-                height: 23.8vw;
-                bottom: 1.6vw;
-                right: 0.4vw;
+                height: 24.5vw;
+                bottom: 0.5vw;
+                right: 0;
                 background-color: rgb(33, 20, 3);
                 z-index: -1;
             }
@@ -316,7 +317,7 @@
             }
             .slick-dots {
                 position: absolute;
-                bottom: 9%;
+                bottom: -27%;
                 right: 30%;
             }
             .slick-dots li {
@@ -348,6 +349,7 @@
             font-weight: 500;
             letter-spacing: -0.2vw;
             margin: 1.5vw 0;
+            text-align: left;
             span {
                 font-weight: 700;
             }
@@ -431,5 +433,12 @@
         height: 40vw;
         margin-bottom: 5vw;
     }
-
+    .contacts__desc {
+        #yellow {
+            color: #E5B215;
+            font-style: italic;
+            font-size: 1.7vw;
+            font-weight: 400;
+        }
+    }
 }

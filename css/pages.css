@@ -1337,6 +1337,7 @@
 .contacts .contacts__info .children__desc p,
 .contacts .contacts__info .entertainment__desc p,
 .contacts .contacts__info .contacts__desc p {
+  margin: 0;
   font-size: 1.5vw;
   font-weight: 500;
   line-height: 1.7em;
@@ -1576,8 +1577,8 @@
 
 .pool h2 {
   color: #444444;
-  text-align: center;
   margin-top: 5vw;
+  text-align: center;
 }
 
 .pool ul {
@@ -1606,16 +1607,16 @@
 }
 
 .pool .pool__info .pool__slider .price-page__slider-item img {
-  width: 85%;
+  width: 90%;
 }
 
 .pool .pool__info .pool__slider .price-page__slider-item::after {
   content: "";
   position: absolute;
   width: 65%;
-  height: 23.8vw;
-  bottom: 1.6vw;
-  right: 0.4vw;
+  height: 24.5vw;
+  bottom: 0.5vw;
+  right: 0;
   background-color: #211403;
   z-index: -1;
 }
@@ -1648,7 +1649,7 @@
 
 .pool .pool__info .pool__slider .slick-dots {
   position: absolute;
-  bottom: 9%;
+  bottom: -27%;
   right: 30%;
 }
 
@@ -1684,6 +1685,7 @@
   font-weight: 500;
   letter-spacing: -0.2vw;
   margin: 1.5vw 0;
+  text-align: left;
 }
 
 .pool .pool__info h2 span {
@@ -1782,4 +1784,11 @@
   width: 100%;
   height: 40vw;
   margin-bottom: 5vw;
+}
+
+.contacts .contacts__desc #yellow {
+  color: #E5B215;
+  font-style: italic;
+  font-size: 1.7vw;
+  font-weight: 400;
 }

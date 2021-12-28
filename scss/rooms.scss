@@ -136,15 +136,47 @@
         .room-page__info {
             width: 35%;
             padding: 0 3vw;
+            .room-page__info-price {
+                display: flex;
+                justify-content: space-between;
+                width: 24vw;
+            }
+            .room-page__info-price,
             h2 {
                 font-size: 3.5vw;
                 color: #ce0000;
-                margin-bottom: 2vw;
+                margin-bottom: 1vw;
             }
             p {
                 font-size: 1.7vw;
                 font-weight: 500;
                 margin-left: 2vw;
+            }
+            .hide-td {
+                font-weight: 500;
+                line-height: 0;
+                td {
+                    display: none;
+                }
+            }
+            .room1 td.price-studio-g1,
+            .room2 td.price-studio-g1-1,
+            .room3 td.price-studio-g2,
+            .room4 td.price-delux-g2,
+            .room5 td.price-superior-g2,
+            .room6 td.price-apartment-sea-1,
+            .room7 td.price-apartment-sea-2,
+            .room8 td.price-apartment-sea-3,
+            .room9 td.price-standart,
+            .room10 td.price-apartment-park,
+            .room11 td.price-villa-west,
+            .room12 td.price-villa-south,
+            .room13 td.price-villa-east,
+            .room14 td.price-villa-vip,
+            .room15 td.price-studio-north,
+            .room16 td.price-cottage-sky,
+            .room17 td.price-studio-sky {
+                display: inline-block;
             }
         }
     }
@@ -234,12 +266,14 @@
     }
     table {
         border-spacing: 0;
+        border-right: 0.1vw solid;
     }
     td {
         text-align: center;
         font-size: 0.9vw;
         font-weight: 600;
-        border: 0.1vw solid;
+        border-bottom: 0.1vw solid;
+        border-left: 0.1vw solid;
         padding: 0.9vw;
         height: 3vw;
     }
@@ -252,7 +286,8 @@
             font-weight: 500;
             color: #fff;
             text-align: center;
-            border: 0.1vw solid #000;
+            border-bottom: 0.1vw solid #000;
+            border-left: 0.1vw solid #000;
         }
     }
     ul {
@@ -262,6 +297,7 @@
         line-height: 3vw;
         .fas::before {
             color: #e9ac5c;
+            margin-right: 2vw;
         }
     }
 }

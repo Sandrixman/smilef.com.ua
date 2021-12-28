@@ -1,3 +1,1885 @@
+@media screen and (min-width: 1200px) {
+  .hamburger .hamburger__btn {
+    width: 50px;
+    height: 45px;
+    border-radius: 13px;
+  }
+  .hamburger .hamburger__btn div {
+    width: 30px;
+    height: 3px;
+    margin: 7px auto;
+  }
+  .hamburger .hamburger__wrapper .menu__hamburger {
+    width: 700px;
+  }
+  .hamburger .hamburger__wrapper .menu__hamburger .menu__link p {
+    font-size: 45px;
+  }
+  .scrollup {
+    width: 50px;
+  }
+  .header .header__instagram {
+    font-size: 50px;
+  }
+  .main-block .main-block__text h2 {
+    width: 80%;
+    font-size: 23px;
+  }
+  .main-block .main-block__text h2::after, .main-block .main-block__text h2::before {
+    height: 3px;
+  }
+  .main-block .main-block__text h1 {
+    line-height: 25px;
+    font-weight: 600;
+    font-size: 50px;
+  }
+  .main-block .main-block__text h1 .hotel {
+    font-size: 40px;
+    line-height: 25px;
+  }
+  .main-block .main-block__text h3 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .main-block .main-block__btn a {
+    font-size: 21px;
+    border: 2px solid #f5e5c1;
+    padding: 13px 50px;
+    border-radius: 10px;
+  }
+  .welcome .welcome__info {
+    margin-left: 50px;
+  }
+  .welcome .welcome__info h3 {
+    font-size: 18px;
+    padding-left: 80px;
+  }
+  .welcome .welcome__info h3::before {
+    width: 75px;
+    height: 3px;
+  }
+  .welcome .welcome__info h2 {
+    font-size: 32px;
+    letter-spacing: -2.1px;
+    margin-top: 15px;
+  }
+  .welcome .welcome__info p {
+    font-size: 20px;
+  }
+  .welcome .welcome__slider-item {
+    height: 400px;
+  }
+  .welcome .welcome__slider-item::after {
+    height: 370px;
+  }
+  .welcome .welcome__slider-btn {
+    width: 70px;
+    height: 70px;
+  }
+  .welcome .slick-dots button {
+    width: 30px;
+    height: 30px;
+  }
+  .apartments__title,
+  .exellence__title,
+  .reviews__title,
+  .rooms__title,
+  .overview__title,
+  .important-info__title {
+    margin-bottom: 30px;
+  }
+  .apartments__title h3,
+  .exellence__title h3,
+  .reviews__title h3,
+  .rooms__title h3,
+  .overview__title h3,
+  .important-info__title h3 {
+    font-size: 20px;
+    width: 45%;
+  }
+  .apartments__title h3::after, .apartments__title h3::before,
+  .exellence__title h3::after,
+  .exellence__title h3::before,
+  .reviews__title h3::after,
+  .reviews__title h3::before,
+  .rooms__title h3::after,
+  .rooms__title h3::before,
+  .overview__title h3::after,
+  .overview__title h3::before,
+  .important-info__title h3::after,
+  .important-info__title h3::before {
+    height: 4px;
+  }
+  .apartments__title h2,
+  .exellence__title h2,
+  .reviews__title h2,
+  .rooms__title h2,
+  .overview__title h2,
+  .important-info__title h2 {
+    font-size: 32px;
+  }
+  .apartments .apartments__slider-wrapper {
+    height: 650px;
+  }
+  .apartments .apartments__slider-wrapper .apartments__slider-item .apartments__slider-descr {
+    top: 80px;
+    width: 700px;
+    height: 470px;
+    padding: 30px;
+  }
+  .apartments .apartments__slider-wrapper .apartments__slider-item .apartments__slider-descr h3 {
+    font-size: 21px;
+    line-height: 20px;
+  }
+  .apartments .apartments__slider-wrapper .apartments__slider-item .apartments__slider-descr h2 {
+    line-height: 20px;
+    font-size: 37px;
+    padding-top: 20px;
+  }
+  .apartments .apartments__slider-wrapper .apartments__slider-item .apartments__slider-descr p {
+    font-size: 21px;
+    line-height: 34px;
+    height: 180px;
+  }
+  .apartments .apartments__slider-wrapper .apartments__slider-item .apartments__slider-descr img {
+    width: 50px;
+    margin-right: 40px;
+  }
+  .apartments .apartments__slider-wrapper .apartments__slider-item .apartments__slider-descr a {
+    padding: 10px 24px;
+    font-size: 17px;
+    line-height: 100px;
+    border: 3px solid #ffd370;
+  }
+  .apartments .apartments__slider-wrapper .apartments__slider-item .apartments__slider-img {
+    height: 650px;
+    width: 650px;
+  }
+  .apartments .apartments__slider-wrapper .apartments__slider-item .apartments__slider-boxes {
+    width: 400px;
+    height: 120px;
+    bottom: -650px;
+  }
+  .apartments .apartments__slider-wrapper .apartments__slider-item .apartments__slider-boxes .apartments__slider-box.without::after {
+    top: 40px;
+    left: 160px;
+    width: 80px;
+    height: 3px;
+  }
+  .apartments .apartments__slider-wrapper .apartments__slider-item .apartments__slider-boxes .apartments__slider-box img {
+    width: 50px;
+  }
+  .apartments .apartments__slider-wrapper .apartments__slider-item .apartments__slider-boxes .apartments__slider-box p,
+  .apartments .apartments__slider-wrapper .apartments__slider-item .apartments__slider-boxes .apartments__slider-box span {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .apartments .slick-list {
+    height: 650px;
+  }
+  .apartments .apartments__slider-btn {
+    width: 75px;
+    height: 75px;
+  }
+  .apartments .apartments__slider-btnprev {
+    left: 480px;
+    bottom: 20px;
+  }
+  .apartments .apartments__slider-btnnext {
+    left: 550px;
+    bottom: 20px;
+  }
+  .exellence .exellence__tabs .exellence__tab {
+    padding: 20px;
+    line-height: 32px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .exellence .exellence__content {
+    margin-top: 50px;
+  }
+  .exellence .exellence__content .exellence__content-wrapper .exellence__content-box .exellence__content-text {
+    padding-left: 30px;
+  }
+  .exellence .exellence__content .exellence__content-wrapper .exellence__content-box .exellence__content-text h2 {
+    font-size: 25px;
+  }
+  .exellence .exellence__content .exellence__content-wrapper .exellence__content-box .exellence__content-text p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .exellence .exellence__content .exellence__content-wrapper .exellence__content-box .exellence__content-img {
+    height: 380px;
+  }
+  .exellence .exellence__content .exellence__content-wrapper .exellence__content-box .exellence__content-img::after {
+    height: 370px;
+  }
+  .reviews .reviews__slider .reviews__slider-item .reviews__slider-descr {
+    top: 130px;
+    width: 700px;
+    height: 450px;
+    padding: 40px;
+  }
+  .reviews .reviews__slider .reviews__slider-item .reviews__slider-descr .reviews__slider-title .reviews__slider-client {
+    width: 130px;
+    height: 130px;
+    margin-bottom: 30px;
+  }
+  .reviews .reviews__slider .reviews__slider-item .reviews__slider-descr .reviews__slider-title h2 {
+    font-size: 28px;
+    margin: 0 20px;
+  }
+  .reviews .reviews__slider .reviews__slider-item .reviews__slider-descr .reviews__slider-title::after {
+    width: 150px;
+    height: 100px;
+    bottom: 30px;
+    right: 60px;
+  }
+  .reviews .reviews__slider .reviews__slider-item .reviews__slider-descr .reviews__slider-text p {
+    line-height: 23px;
+    font-size: 18px;
+  }
+  .reviews .reviews__slider-btn {
+    width: 70px;
+    height: 70px;
+  }
+  .rooms .rooms__slider .rooms__slider-item {
+    margin: 20px;
+    height: 650px;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-img img {
+    height: 250px;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr {
+    padding: 15px;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price {
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    top: -40px;
+    left: -14px;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price h2 {
+    font-size: 21px;
+    line-height: 30px;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes img {
+    width: 50px;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes p {
+    line-height: 20px;
+    font-size: 13px;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes span {
+    font-size: 14px;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-box {
+    margin: 15px 0;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-box.without::after {
+    top: 45px;
+    left: 127px;
+    width: 75px;
+    height: 3px;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr h2 {
+    font-size: 23px;
+    line-height: 10px;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr button {
+    margin-top: 15px;
+    padding: 10px;
+    line-height: 20px;
+    font-size: 20px;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr hr {
+    border-bottom: 2px dashed;
+    margin: 15px 0;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr img {
+    width: 40px;
+  }
+  .rooms .rooms__slider .rooms__slider-btn {
+    width: 70px;
+    height: 70px;
+  }
+  .overview__description .overview__text {
+    width: 50%;
+  }
+  .overview__description .overview__text h2 {
+    font-size: 32px;
+    padding-right: 50px;
+  }
+  .overview__description .overview__text p {
+    font-size: 20px;
+    line-height: 25px;
+    padding-right: 50px;
+  }
+  .overview__description .overview__img::after {
+    width: 75%;
+    height: 370px;
+    bottom: -30px;
+  }
+  .important-info .important-info__description h4 {
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  .important-info .important-info__box {
+    margin-top: 50px;
+  }
+  .important-info .important-info__box .important-info__contacts .important-info__contacts-wrapper {
+    margin-left: 150px;
+  }
+  .important-info .important-info__box .important-info__contacts h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  .important-info .important-info__box .important-info__contacts ul {
+    padding-left: 40px;
+    font-size: 22px;
+  }
+  .important-info .important-info__box .important-info__contacts ul a {
+    margin: 15px 0;
+  }
+  .important-info .important-info__box .important-info__contacts ul .important-info__contacts-tel::before {
+    top: -5px;
+    left: -40px;
+    width: 30px;
+    height: 30px;
+  }
+  .important-info .important-info__box .important-info__contacts ul .important-info__contacts-mail::before {
+    left: -40px;
+    width: 30px;
+    height: 25px;
+  }
+  .important-info .important-info__box .important-info__contacts ul .important-info__contacts-location::before {
+    top: -5px;
+    left: -40px;
+    width: 25px;
+    height: 30px;
+  }
+  .important-info .important-info__box .important-info__contacts h3 {
+    font-size: 23px;
+    margin-top: 20px;
+  }
+  .important-info .important-info__box .important-info__contacts .important-info__contacts-btn a {
+    width: 150px;
+    line-height: 40px;
+    font-size: 18px;
+    border: 3px solid #ffd370;
+  }
+  .important-info .important-info__box .important-info__contacts .important-info__contacts-instagram::before {
+    top: 5px;
+    left: 15px;
+    width: 30px;
+    height: 30px;
+  }
+  .important-info .important-info__box .important-info__contacts .important-info__contacts-waze::before {
+    top: 7px;
+    right: 50px;
+    width: 25px;
+    height: 25px;
+  }
+  footer .footer__logo {
+    top: 10px;
+    padding: 0px 150px;
+    width: 6%;
+  }
+  footer hr {
+    margin: 70px 0;
+  }
+  footer h2 {
+    font-size: 20px;
+    margin: 0px auto 50px;
+    color: #fff;
+  }
+  footer .footer__info h4 {
+    font-size: 18px;
+  }
+  footer .footer__info h3 {
+    margin: 10px 0;
+    font-size: 24px;
+  }
+  footer .footer__info .foooter__info-wrapper {
+    margin-left: 50px;
+    line-height: 50px;
+  }
+  footer .footer__info .foooter__info-wrapper a {
+    font-size: 22px;
+    color: #fff;
+  }
+  footer .footer__info .foooter__info-wrapper .foooter__info-tel::before {
+    top: 5px;
+    left: -50px;
+    width: 30px;
+    height: 30px;
+  }
+  footer .footer__info .foooter__info-wrapper .foooter__info-mail::before {
+    top: 115px;
+    left: -50px;
+    width: 30px;
+    height: 25px;
+  }
+  footer .footer__info .foooter__info-wrapper .foooter__info-loc::before {
+    left: -50px;
+    width: 25px;
+    height: 30px;
+  }
+  footer .footer__info .foooter__info-network a {
+    font-size: 20px;
+    border: 3px solid #f5e5c1;
+    border-radius: 10px;
+    padding: 10px 30px 10px 50px;
+  }
+  footer .footer__info .foooter__info-network a::before {
+    top: 5px;
+    left: 15px;
+    width: 35px;
+    height: 35px;
+  }
+  .price-page .price-page__info .price-page__slider .price-page__slider-item,
+  .price-page .restoraunt__info .price-page__slider .price-page__slider-item,
+  .price-page .children__info .price-page__slider .price-page__slider-item,
+  .price-page .entertainment__info .price-page__slider .price-page__slider-item,
+  .price-page .contacts__info .price-page__slider .price-page__slider-item,
+  .restoraunt .price-page__info .price-page__slider .price-page__slider-item,
+  .restoraunt .restoraunt__info .price-page__slider .price-page__slider-item,
+  .restoraunt .children__info .price-page__slider .price-page__slider-item,
+  .restoraunt .entertainment__info .price-page__slider .price-page__slider-item,
+  .restoraunt .contacts__info .price-page__slider .price-page__slider-item,
+  .children .price-page__info .price-page__slider .price-page__slider-item,
+  .children .restoraunt__info .price-page__slider .price-page__slider-item,
+  .children .children__info .price-page__slider .price-page__slider-item,
+  .children .entertainment__info .price-page__slider .price-page__slider-item,
+  .children .contacts__info .price-page__slider .price-page__slider-item,
+  .entertainment .price-page__info .price-page__slider .price-page__slider-item,
+  .entertainment .restoraunt__info .price-page__slider .price-page__slider-item,
+  .entertainment .children__info .price-page__slider .price-page__slider-item,
+  .entertainment .entertainment__info .price-page__slider .price-page__slider-item,
+  .entertainment .contacts__info .price-page__slider .price-page__slider-item,
+  .contacts .price-page__info .price-page__slider .price-page__slider-item,
+  .contacts .restoraunt__info .price-page__slider .price-page__slider-item,
+  .contacts .children__info .price-page__slider .price-page__slider-item,
+  .contacts .entertainment__info .price-page__slider .price-page__slider-item,
+  .contacts .contacts__info .price-page__slider .price-page__slider-item {
+    height: 400px;
+  }
+  .price-page .price-page__info .price-page__slider .price-page__slider-item::after,
+  .price-page .restoraunt__info .price-page__slider .price-page__slider-item::after,
+  .price-page .children__info .price-page__slider .price-page__slider-item::after,
+  .price-page .entertainment__info .price-page__slider .price-page__slider-item::after,
+  .price-page .contacts__info .price-page__slider .price-page__slider-item::after,
+  .restoraunt .price-page__info .price-page__slider .price-page__slider-item::after,
+  .restoraunt .restoraunt__info .price-page__slider .price-page__slider-item::after,
+  .restoraunt .children__info .price-page__slider .price-page__slider-item::after,
+  .restoraunt .entertainment__info .price-page__slider .price-page__slider-item::after,
+  .restoraunt .contacts__info .price-page__slider .price-page__slider-item::after,
+  .children .price-page__info .price-page__slider .price-page__slider-item::after,
+  .children .restoraunt__info .price-page__slider .price-page__slider-item::after,
+  .children .children__info .price-page__slider .price-page__slider-item::after,
+  .children .entertainment__info .price-page__slider .price-page__slider-item::after,
+  .children .contacts__info .price-page__slider .price-page__slider-item::after,
+  .entertainment .price-page__info .price-page__slider .price-page__slider-item::after,
+  .entertainment .restoraunt__info .price-page__slider .price-page__slider-item::after,
+  .entertainment .children__info .price-page__slider .price-page__slider-item::after,
+  .entertainment .entertainment__info .price-page__slider .price-page__slider-item::after,
+  .entertainment .contacts__info .price-page__slider .price-page__slider-item::after,
+  .contacts .price-page__info .price-page__slider .price-page__slider-item::after,
+  .contacts .restoraunt__info .price-page__slider .price-page__slider-item::after,
+  .contacts .children__info .price-page__slider .price-page__slider-item::after,
+  .contacts .entertainment__info .price-page__slider .price-page__slider-item::after,
+  .contacts .contacts__info .price-page__slider .price-page__slider-item::after {
+    height: 370px;
+    bottom: 10px;
+    right: 0;
+  }
+  .price-page .price-page__info .price-page__slider .price-page__slider-btn,
+  .price-page .price-page__info .price-page__slider .price-page__slider-btn,
+  .price-page .restoraunt__info .price-page__slider .price-page__slider-btn,
+  .price-page .restoraunt__info .price-page__slider .price-page__slider-btn,
+  .price-page .children__info .price-page__slider .price-page__slider-btn,
+  .price-page .children__info .price-page__slider .price-page__slider-btn,
+  .price-page .entertainment__info .price-page__slider .price-page__slider-btn,
+  .price-page .entertainment__info .price-page__slider .price-page__slider-btn,
+  .price-page .contacts__info .price-page__slider .price-page__slider-btn,
+  .price-page .contacts__info .price-page__slider .price-page__slider-btn,
+  .restoraunt .price-page__info .price-page__slider .price-page__slider-btn,
+  .restoraunt .price-page__info .price-page__slider .price-page__slider-btn,
+  .restoraunt .restoraunt__info .price-page__slider .price-page__slider-btn,
+  .restoraunt .restoraunt__info .price-page__slider .price-page__slider-btn,
+  .restoraunt .children__info .price-page__slider .price-page__slider-btn,
+  .restoraunt .children__info .price-page__slider .price-page__slider-btn,
+  .restoraunt .entertainment__info .price-page__slider .price-page__slider-btn,
+  .restoraunt .entertainment__info .price-page__slider .price-page__slider-btn,
+  .restoraunt .contacts__info .price-page__slider .price-page__slider-btn,
+  .restoraunt .contacts__info .price-page__slider .price-page__slider-btn,
+  .children .price-page__info .price-page__slider .price-page__slider-btn,
+  .children .price-page__info .price-page__slider .price-page__slider-btn,
+  .children .restoraunt__info .price-page__slider .price-page__slider-btn,
+  .children .restoraunt__info .price-page__slider .price-page__slider-btn,
+  .children .children__info .price-page__slider .price-page__slider-btn,
+  .children .children__info .price-page__slider .price-page__slider-btn,
+  .children .entertainment__info .price-page__slider .price-page__slider-btn,
+  .children .entertainment__info .price-page__slider .price-page__slider-btn,
+  .children .contacts__info .price-page__slider .price-page__slider-btn,
+  .children .contacts__info .price-page__slider .price-page__slider-btn,
+  .entertainment .price-page__info .price-page__slider .price-page__slider-btn,
+  .entertainment .price-page__info .price-page__slider .price-page__slider-btn,
+  .entertainment .restoraunt__info .price-page__slider .price-page__slider-btn,
+  .entertainment .restoraunt__info .price-page__slider .price-page__slider-btn,
+  .entertainment .children__info .price-page__slider .price-page__slider-btn,
+  .entertainment .children__info .price-page__slider .price-page__slider-btn,
+  .entertainment .entertainment__info .price-page__slider .price-page__slider-btn,
+  .entertainment .entertainment__info .price-page__slider .price-page__slider-btn,
+  .entertainment .contacts__info .price-page__slider .price-page__slider-btn,
+  .entertainment .contacts__info .price-page__slider .price-page__slider-btn,
+  .contacts .price-page__info .price-page__slider .price-page__slider-btn,
+  .contacts .price-page__info .price-page__slider .price-page__slider-btn,
+  .contacts .restoraunt__info .price-page__slider .price-page__slider-btn,
+  .contacts .restoraunt__info .price-page__slider .price-page__slider-btn,
+  .contacts .children__info .price-page__slider .price-page__slider-btn,
+  .contacts .children__info .price-page__slider .price-page__slider-btn,
+  .contacts .entertainment__info .price-page__slider .price-page__slider-btn,
+  .contacts .entertainment__info .price-page__slider .price-page__slider-btn,
+  .contacts .contacts__info .price-page__slider .price-page__slider-btn,
+  .contacts .contacts__info .price-page__slider .price-page__slider-btn {
+    width: 70px;
+    height: 70px;
+  }
+  .price-page .price-page__info .price-page__slider .slick-dots li,
+  .price-page .restoraunt__info .price-page__slider .slick-dots li,
+  .price-page .children__info .price-page__slider .slick-dots li,
+  .price-page .entertainment__info .price-page__slider .slick-dots li,
+  .price-page .contacts__info .price-page__slider .slick-dots li,
+  .restoraunt .price-page__info .price-page__slider .slick-dots li,
+  .restoraunt .restoraunt__info .price-page__slider .slick-dots li,
+  .restoraunt .children__info .price-page__slider .slick-dots li,
+  .restoraunt .entertainment__info .price-page__slider .slick-dots li,
+  .restoraunt .contacts__info .price-page__slider .slick-dots li,
+  .children .price-page__info .price-page__slider .slick-dots li,
+  .children .restoraunt__info .price-page__slider .slick-dots li,
+  .children .children__info .price-page__slider .slick-dots li,
+  .children .entertainment__info .price-page__slider .slick-dots li,
+  .children .contacts__info .price-page__slider .slick-dots li,
+  .entertainment .price-page__info .price-page__slider .slick-dots li,
+  .entertainment .restoraunt__info .price-page__slider .slick-dots li,
+  .entertainment .children__info .price-page__slider .slick-dots li,
+  .entertainment .entertainment__info .price-page__slider .slick-dots li,
+  .entertainment .contacts__info .price-page__slider .slick-dots li,
+  .contacts .price-page__info .price-page__slider .slick-dots li,
+  .contacts .restoraunt__info .price-page__slider .slick-dots li,
+  .contacts .children__info .price-page__slider .slick-dots li,
+  .contacts .entertainment__info .price-page__slider .slick-dots li,
+  .contacts .contacts__info .price-page__slider .slick-dots li {
+    padding: 0 5px;
+  }
+  .price-page .price-page__info .price-page__slider .slick-dots button,
+  .price-page .restoraunt__info .price-page__slider .slick-dots button,
+  .price-page .children__info .price-page__slider .slick-dots button,
+  .price-page .entertainment__info .price-page__slider .slick-dots button,
+  .price-page .contacts__info .price-page__slider .slick-dots button,
+  .restoraunt .price-page__info .price-page__slider .slick-dots button,
+  .restoraunt .restoraunt__info .price-page__slider .slick-dots button,
+  .restoraunt .children__info .price-page__slider .slick-dots button,
+  .restoraunt .entertainment__info .price-page__slider .slick-dots button,
+  .restoraunt .contacts__info .price-page__slider .slick-dots button,
+  .children .price-page__info .price-page__slider .slick-dots button,
+  .children .restoraunt__info .price-page__slider .slick-dots button,
+  .children .children__info .price-page__slider .slick-dots button,
+  .children .entertainment__info .price-page__slider .slick-dots button,
+  .children .contacts__info .price-page__slider .slick-dots button,
+  .entertainment .price-page__info .price-page__slider .slick-dots button,
+  .entertainment .restoraunt__info .price-page__slider .slick-dots button,
+  .entertainment .children__info .price-page__slider .slick-dots button,
+  .entertainment .entertainment__info .price-page__slider .slick-dots button,
+  .entertainment .contacts__info .price-page__slider .slick-dots button,
+  .contacts .price-page__info .price-page__slider .slick-dots button,
+  .contacts .restoraunt__info .price-page__slider .slick-dots button,
+  .contacts .children__info .price-page__slider .slick-dots button,
+  .contacts .entertainment__info .price-page__slider .slick-dots button,
+  .contacts .contacts__info .price-page__slider .slick-dots button {
+    width: 25px;
+    height: 25px;
+  }
+  .price-page .price-page__info .price-page__desc,
+  .price-page .price-page__info .restoraunt__desc,
+  .price-page .price-page__info .children__desc,
+  .price-page .price-page__info .entertainment__desc,
+  .price-page .price-page__info .contacts__desc,
+  .price-page .restoraunt__info .price-page__desc,
+  .price-page .restoraunt__info .restoraunt__desc,
+  .price-page .restoraunt__info .children__desc,
+  .price-page .restoraunt__info .entertainment__desc,
+  .price-page .restoraunt__info .contacts__desc,
+  .price-page .children__info .price-page__desc,
+  .price-page .children__info .restoraunt__desc,
+  .price-page .children__info .children__desc,
+  .price-page .children__info .entertainment__desc,
+  .price-page .children__info .contacts__desc,
+  .price-page .entertainment__info .price-page__desc,
+  .price-page .entertainment__info .restoraunt__desc,
+  .price-page .entertainment__info .children__desc,
+  .price-page .entertainment__info .entertainment__desc,
+  .price-page .entertainment__info .contacts__desc,
+  .price-page .contacts__info .price-page__desc,
+  .price-page .contacts__info .restoraunt__desc,
+  .price-page .contacts__info .children__desc,
+  .price-page .contacts__info .entertainment__desc,
+  .price-page .contacts__info .contacts__desc,
+  .restoraunt .price-page__info .price-page__desc,
+  .restoraunt .price-page__info .restoraunt__desc,
+  .restoraunt .price-page__info .children__desc,
+  .restoraunt .price-page__info .entertainment__desc,
+  .restoraunt .price-page__info .contacts__desc,
+  .restoraunt .restoraunt__info .price-page__desc,
+  .restoraunt .restoraunt__info .restoraunt__desc,
+  .restoraunt .restoraunt__info .children__desc,
+  .restoraunt .restoraunt__info .entertainment__desc,
+  .restoraunt .restoraunt__info .contacts__desc,
+  .restoraunt .children__info .price-page__desc,
+  .restoraunt .children__info .restoraunt__desc,
+  .restoraunt .children__info .children__desc,
+  .restoraunt .children__info .entertainment__desc,
+  .restoraunt .children__info .contacts__desc,
+  .restoraunt .entertainment__info .price-page__desc,
+  .restoraunt .entertainment__info .restoraunt__desc,
+  .restoraunt .entertainment__info .children__desc,
+  .restoraunt .entertainment__info .entertainment__desc,
+  .restoraunt .entertainment__info .contacts__desc,
+  .restoraunt .contacts__info .price-page__desc,
+  .restoraunt .contacts__info .restoraunt__desc,
+  .restoraunt .contacts__info .children__desc,
+  .restoraunt .contacts__info .entertainment__desc,
+  .restoraunt .contacts__info .contacts__desc,
+  .children .price-page__info .price-page__desc,
+  .children .price-page__info .restoraunt__desc,
+  .children .price-page__info .children__desc,
+  .children .price-page__info .entertainment__desc,
+  .children .price-page__info .contacts__desc,
+  .children .restoraunt__info .price-page__desc,
+  .children .restoraunt__info .restoraunt__desc,
+  .children .restoraunt__info .children__desc,
+  .children .restoraunt__info .entertainment__desc,
+  .children .restoraunt__info .contacts__desc,
+  .children .children__info .price-page__desc,
+  .children .children__info .restoraunt__desc,
+  .children .children__info .children__desc,
+  .children .children__info .entertainment__desc,
+  .children .children__info .contacts__desc,
+  .children .entertainment__info .price-page__desc,
+  .children .entertainment__info .restoraunt__desc,
+  .children .entertainment__info .children__desc,
+  .children .entertainment__info .entertainment__desc,
+  .children .entertainment__info .contacts__desc,
+  .children .contacts__info .price-page__desc,
+  .children .contacts__info .restoraunt__desc,
+  .children .contacts__info .children__desc,
+  .children .contacts__info .entertainment__desc,
+  .children .contacts__info .contacts__desc,
+  .entertainment .price-page__info .price-page__desc,
+  .entertainment .price-page__info .restoraunt__desc,
+  .entertainment .price-page__info .children__desc,
+  .entertainment .price-page__info .entertainment__desc,
+  .entertainment .price-page__info .contacts__desc,
+  .entertainment .restoraunt__info .price-page__desc,
+  .entertainment .restoraunt__info .restoraunt__desc,
+  .entertainment .restoraunt__info .children__desc,
+  .entertainment .restoraunt__info .entertainment__desc,
+  .entertainment .restoraunt__info .contacts__desc,
+  .entertainment .children__info .price-page__desc,
+  .entertainment .children__info .restoraunt__desc,
+  .entertainment .children__info .children__desc,
+  .entertainment .children__info .entertainment__desc,
+  .entertainment .children__info .contacts__desc,
+  .entertainment .entertainment__info .price-page__desc,
+  .entertainment .entertainment__info .restoraunt__desc,
+  .entertainment .entertainment__info .children__desc,
+  .entertainment .entertainment__info .entertainment__desc,
+  .entertainment .entertainment__info .contacts__desc,
+  .entertainment .contacts__info .price-page__desc,
+  .entertainment .contacts__info .restoraunt__desc,
+  .entertainment .contacts__info .children__desc,
+  .entertainment .contacts__info .entertainment__desc,
+  .entertainment .contacts__info .contacts__desc,
+  .contacts .price-page__info .price-page__desc,
+  .contacts .price-page__info .restoraunt__desc,
+  .contacts .price-page__info .children__desc,
+  .contacts .price-page__info .entertainment__desc,
+  .contacts .price-page__info .contacts__desc,
+  .contacts .restoraunt__info .price-page__desc,
+  .contacts .restoraunt__info .restoraunt__desc,
+  .contacts .restoraunt__info .children__desc,
+  .contacts .restoraunt__info .entertainment__desc,
+  .contacts .restoraunt__info .contacts__desc,
+  .contacts .children__info .price-page__desc,
+  .contacts .children__info .restoraunt__desc,
+  .contacts .children__info .children__desc,
+  .contacts .children__info .entertainment__desc,
+  .contacts .children__info .contacts__desc,
+  .contacts .entertainment__info .price-page__desc,
+  .contacts .entertainment__info .restoraunt__desc,
+  .contacts .entertainment__info .children__desc,
+  .contacts .entertainment__info .entertainment__desc,
+  .contacts .entertainment__info .contacts__desc,
+  .contacts .contacts__info .price-page__desc,
+  .contacts .contacts__info .restoraunt__desc,
+  .contacts .contacts__info .children__desc,
+  .contacts .contacts__info .entertainment__desc,
+  .contacts .contacts__info .contacts__desc {
+    margin-right: 50px;
+  }
+  .price-page .price-page__info .price-page__desc h2,
+  .price-page .price-page__info .restoraunt__desc h2,
+  .price-page .price-page__info .children__desc h2,
+  .price-page .price-page__info .entertainment__desc h2,
+  .price-page .price-page__info .contacts__desc h2,
+  .price-page .restoraunt__info .price-page__desc h2,
+  .price-page .restoraunt__info .restoraunt__desc h2,
+  .price-page .restoraunt__info .children__desc h2,
+  .price-page .restoraunt__info .entertainment__desc h2,
+  .price-page .restoraunt__info .contacts__desc h2,
+  .price-page .children__info .price-page__desc h2,
+  .price-page .children__info .restoraunt__desc h2,
+  .price-page .children__info .children__desc h2,
+  .price-page .children__info .entertainment__desc h2,
+  .price-page .children__info .contacts__desc h2,
+  .price-page .entertainment__info .price-page__desc h2,
+  .price-page .entertainment__info .restoraunt__desc h2,
+  .price-page .entertainment__info .children__desc h2,
+  .price-page .entertainment__info .entertainment__desc h2,
+  .price-page .entertainment__info .contacts__desc h2,
+  .price-page .contacts__info .price-page__desc h2,
+  .price-page .contacts__info .restoraunt__desc h2,
+  .price-page .contacts__info .children__desc h2,
+  .price-page .contacts__info .entertainment__desc h2,
+  .price-page .contacts__info .contacts__desc h2,
+  .restoraunt .price-page__info .price-page__desc h2,
+  .restoraunt .price-page__info .restoraunt__desc h2,
+  .restoraunt .price-page__info .children__desc h2,
+  .restoraunt .price-page__info .entertainment__desc h2,
+  .restoraunt .price-page__info .contacts__desc h2,
+  .restoraunt .restoraunt__info .price-page__desc h2,
+  .restoraunt .restoraunt__info .restoraunt__desc h2,
+  .restoraunt .restoraunt__info .children__desc h2,
+  .restoraunt .restoraunt__info .entertainment__desc h2,
+  .restoraunt .restoraunt__info .contacts__desc h2,
+  .restoraunt .children__info .price-page__desc h2,
+  .restoraunt .children__info .restoraunt__desc h2,
+  .restoraunt .children__info .children__desc h2,
+  .restoraunt .children__info .entertainment__desc h2,
+  .restoraunt .children__info .contacts__desc h2,
+  .restoraunt .entertainment__info .price-page__desc h2,
+  .restoraunt .entertainment__info .restoraunt__desc h2,
+  .restoraunt .entertainment__info .children__desc h2,
+  .restoraunt .entertainment__info .entertainment__desc h2,
+  .restoraunt .entertainment__info .contacts__desc h2,
+  .restoraunt .contacts__info .price-page__desc h2,
+  .restoraunt .contacts__info .restoraunt__desc h2,
+  .restoraunt .contacts__info .children__desc h2,
+  .restoraunt .contacts__info .entertainment__desc h2,
+  .restoraunt .contacts__info .contacts__desc h2,
+  .children .price-page__info .price-page__desc h2,
+  .children .price-page__info .restoraunt__desc h2,
+  .children .price-page__info .children__desc h2,
+  .children .price-page__info .entertainment__desc h2,
+  .children .price-page__info .contacts__desc h2,
+  .children .restoraunt__info .price-page__desc h2,
+  .children .restoraunt__info .restoraunt__desc h2,
+  .children .restoraunt__info .children__desc h2,
+  .children .restoraunt__info .entertainment__desc h2,
+  .children .restoraunt__info .contacts__desc h2,
+  .children .children__info .price-page__desc h2,
+  .children .children__info .restoraunt__desc h2,
+  .children .children__info .children__desc h2,
+  .children .children__info .entertainment__desc h2,
+  .children .children__info .contacts__desc h2,
+  .children .entertainment__info .price-page__desc h2,
+  .children .entertainment__info .restoraunt__desc h2,
+  .children .entertainment__info .children__desc h2,
+  .children .entertainment__info .entertainment__desc h2,
+  .children .entertainment__info .contacts__desc h2,
+  .children .contacts__info .price-page__desc h2,
+  .children .contacts__info .restoraunt__desc h2,
+  .children .contacts__info .children__desc h2,
+  .children .contacts__info .entertainment__desc h2,
+  .children .contacts__info .contacts__desc h2,
+  .entertainment .price-page__info .price-page__desc h2,
+  .entertainment .price-page__info .restoraunt__desc h2,
+  .entertainment .price-page__info .children__desc h2,
+  .entertainment .price-page__info .entertainment__desc h2,
+  .entertainment .price-page__info .contacts__desc h2,
+  .entertainment .restoraunt__info .price-page__desc h2,
+  .entertainment .restoraunt__info .restoraunt__desc h2,
+  .entertainment .restoraunt__info .children__desc h2,
+  .entertainment .restoraunt__info .entertainment__desc h2,
+  .entertainment .restoraunt__info .contacts__desc h2,
+  .entertainment .children__info .price-page__desc h2,
+  .entertainment .children__info .restoraunt__desc h2,
+  .entertainment .children__info .children__desc h2,
+  .entertainment .children__info .entertainment__desc h2,
+  .entertainment .children__info .contacts__desc h2,
+  .entertainment .entertainment__info .price-page__desc h2,
+  .entertainment .entertainment__info .restoraunt__desc h2,
+  .entertainment .entertainment__info .children__desc h2,
+  .entertainment .entertainment__info .entertainment__desc h2,
+  .entertainment .entertainment__info .contacts__desc h2,
+  .entertainment .contacts__info .price-page__desc h2,
+  .entertainment .contacts__info .restoraunt__desc h2,
+  .entertainment .contacts__info .children__desc h2,
+  .entertainment .contacts__info .entertainment__desc h2,
+  .entertainment .contacts__info .contacts__desc h2,
+  .contacts .price-page__info .price-page__desc h2,
+  .contacts .price-page__info .restoraunt__desc h2,
+  .contacts .price-page__info .children__desc h2,
+  .contacts .price-page__info .entertainment__desc h2,
+  .contacts .price-page__info .contacts__desc h2,
+  .contacts .restoraunt__info .price-page__desc h2,
+  .contacts .restoraunt__info .restoraunt__desc h2,
+  .contacts .restoraunt__info .children__desc h2,
+  .contacts .restoraunt__info .entertainment__desc h2,
+  .contacts .restoraunt__info .contacts__desc h2,
+  .contacts .children__info .price-page__desc h2,
+  .contacts .children__info .restoraunt__desc h2,
+  .contacts .children__info .children__desc h2,
+  .contacts .children__info .entertainment__desc h2,
+  .contacts .children__info .contacts__desc h2,
+  .contacts .entertainment__info .price-page__desc h2,
+  .contacts .entertainment__info .restoraunt__desc h2,
+  .contacts .entertainment__info .children__desc h2,
+  .contacts .entertainment__info .entertainment__desc h2,
+  .contacts .entertainment__info .contacts__desc h2,
+  .contacts .contacts__info .price-page__desc h2,
+  .contacts .contacts__info .restoraunt__desc h2,
+  .contacts .contacts__info .children__desc h2,
+  .contacts .contacts__info .entertainment__desc h2,
+  .contacts .contacts__info .contacts__desc h2 {
+    font-size: 32px;
+    letter-spacing: 0;
+    text-align: left;
+  }
+  .price-page .price-page__info .price-page__desc h3,
+  .price-page .price-page__info .restoraunt__desc h3,
+  .price-page .price-page__info .children__desc h3,
+  .price-page .price-page__info .entertainment__desc h3,
+  .price-page .price-page__info .contacts__desc h3,
+  .price-page .restoraunt__info .price-page__desc h3,
+  .price-page .restoraunt__info .restoraunt__desc h3,
+  .price-page .restoraunt__info .children__desc h3,
+  .price-page .restoraunt__info .entertainment__desc h3,
+  .price-page .restoraunt__info .contacts__desc h3,
+  .price-page .children__info .price-page__desc h3,
+  .price-page .children__info .restoraunt__desc h3,
+  .price-page .children__info .children__desc h3,
+  .price-page .children__info .entertainment__desc h3,
+  .price-page .children__info .contacts__desc h3,
+  .price-page .entertainment__info .price-page__desc h3,
+  .price-page .entertainment__info .restoraunt__desc h3,
+  .price-page .entertainment__info .children__desc h3,
+  .price-page .entertainment__info .entertainment__desc h3,
+  .price-page .entertainment__info .contacts__desc h3,
+  .price-page .contacts__info .price-page__desc h3,
+  .price-page .contacts__info .restoraunt__desc h3,
+  .price-page .contacts__info .children__desc h3,
+  .price-page .contacts__info .entertainment__desc h3,
+  .price-page .contacts__info .contacts__desc h3,
+  .restoraunt .price-page__info .price-page__desc h3,
+  .restoraunt .price-page__info .restoraunt__desc h3,
+  .restoraunt .price-page__info .children__desc h3,
+  .restoraunt .price-page__info .entertainment__desc h3,
+  .restoraunt .price-page__info .contacts__desc h3,
+  .restoraunt .restoraunt__info .price-page__desc h3,
+  .restoraunt .restoraunt__info .restoraunt__desc h3,
+  .restoraunt .restoraunt__info .children__desc h3,
+  .restoraunt .restoraunt__info .entertainment__desc h3,
+  .restoraunt .restoraunt__info .contacts__desc h3,
+  .restoraunt .children__info .price-page__desc h3,
+  .restoraunt .children__info .restoraunt__desc h3,
+  .restoraunt .children__info .children__desc h3,
+  .restoraunt .children__info .entertainment__desc h3,
+  .restoraunt .children__info .contacts__desc h3,
+  .restoraunt .entertainment__info .price-page__desc h3,
+  .restoraunt .entertainment__info .restoraunt__desc h3,
+  .restoraunt .entertainment__info .children__desc h3,
+  .restoraunt .entertainment__info .entertainment__desc h3,
+  .restoraunt .entertainment__info .contacts__desc h3,
+  .restoraunt .contacts__info .price-page__desc h3,
+  .restoraunt .contacts__info .restoraunt__desc h3,
+  .restoraunt .contacts__info .children__desc h3,
+  .restoraunt .contacts__info .entertainment__desc h3,
+  .restoraunt .contacts__info .contacts__desc h3,
+  .children .price-page__info .price-page__desc h3,
+  .children .price-page__info .restoraunt__desc h3,
+  .children .price-page__info .children__desc h3,
+  .children .price-page__info .entertainment__desc h3,
+  .children .price-page__info .contacts__desc h3,
+  .children .restoraunt__info .price-page__desc h3,
+  .children .restoraunt__info .restoraunt__desc h3,
+  .children .restoraunt__info .children__desc h3,
+  .children .restoraunt__info .entertainment__desc h3,
+  .children .restoraunt__info .contacts__desc h3,
+  .children .children__info .price-page__desc h3,
+  .children .children__info .restoraunt__desc h3,
+  .children .children__info .children__desc h3,
+  .children .children__info .entertainment__desc h3,
+  .children .children__info .contacts__desc h3,
+  .children .entertainment__info .price-page__desc h3,
+  .children .entertainment__info .restoraunt__desc h3,
+  .children .entertainment__info .children__desc h3,
+  .children .entertainment__info .entertainment__desc h3,
+  .children .entertainment__info .contacts__desc h3,
+  .children .contacts__info .price-page__desc h3,
+  .children .contacts__info .restoraunt__desc h3,
+  .children .contacts__info .children__desc h3,
+  .children .contacts__info .entertainment__desc h3,
+  .children .contacts__info .contacts__desc h3,
+  .entertainment .price-page__info .price-page__desc h3,
+  .entertainment .price-page__info .restoraunt__desc h3,
+  .entertainment .price-page__info .children__desc h3,
+  .entertainment .price-page__info .entertainment__desc h3,
+  .entertainment .price-page__info .contacts__desc h3,
+  .entertainment .restoraunt__info .price-page__desc h3,
+  .entertainment .restoraunt__info .restoraunt__desc h3,
+  .entertainment .restoraunt__info .children__desc h3,
+  .entertainment .restoraunt__info .entertainment__desc h3,
+  .entertainment .restoraunt__info .contacts__desc h3,
+  .entertainment .children__info .price-page__desc h3,
+  .entertainment .children__info .restoraunt__desc h3,
+  .entertainment .children__info .children__desc h3,
+  .entertainment .children__info .entertainment__desc h3,
+  .entertainment .children__info .contacts__desc h3,
+  .entertainment .entertainment__info .price-page__desc h3,
+  .entertainment .entertainment__info .restoraunt__desc h3,
+  .entertainment .entertainment__info .children__desc h3,
+  .entertainment .entertainment__info .entertainment__desc h3,
+  .entertainment .entertainment__info .contacts__desc h3,
+  .entertainment .contacts__info .price-page__desc h3,
+  .entertainment .contacts__info .restoraunt__desc h3,
+  .entertainment .contacts__info .children__desc h3,
+  .entertainment .contacts__info .entertainment__desc h3,
+  .entertainment .contacts__info .contacts__desc h3,
+  .contacts .price-page__info .price-page__desc h3,
+  .contacts .price-page__info .restoraunt__desc h3,
+  .contacts .price-page__info .children__desc h3,
+  .contacts .price-page__info .entertainment__desc h3,
+  .contacts .price-page__info .contacts__desc h3,
+  .contacts .restoraunt__info .price-page__desc h3,
+  .contacts .restoraunt__info .restoraunt__desc h3,
+  .contacts .restoraunt__info .children__desc h3,
+  .contacts .restoraunt__info .entertainment__desc h3,
+  .contacts .restoraunt__info .contacts__desc h3,
+  .contacts .children__info .price-page__desc h3,
+  .contacts .children__info .restoraunt__desc h3,
+  .contacts .children__info .children__desc h3,
+  .contacts .children__info .entertainment__desc h3,
+  .contacts .children__info .contacts__desc h3,
+  .contacts .entertainment__info .price-page__desc h3,
+  .contacts .entertainment__info .restoraunt__desc h3,
+  .contacts .entertainment__info .children__desc h3,
+  .contacts .entertainment__info .entertainment__desc h3,
+  .contacts .entertainment__info .contacts__desc h3,
+  .contacts .contacts__info .price-page__desc h3,
+  .contacts .contacts__info .restoraunt__desc h3,
+  .contacts .contacts__info .children__desc h3,
+  .contacts .contacts__info .entertainment__desc h3,
+  .contacts .contacts__info .contacts__desc h3 {
+    font-size: 20px;
+    padding-left: 100px;
+  }
+  .price-page .price-page__info .price-page__desc h3::before,
+  .price-page .price-page__info .restoraunt__desc h3::before,
+  .price-page .price-page__info .children__desc h3::before,
+  .price-page .price-page__info .entertainment__desc h3::before,
+  .price-page .price-page__info .contacts__desc h3::before,
+  .price-page .restoraunt__info .price-page__desc h3::before,
+  .price-page .restoraunt__info .restoraunt__desc h3::before,
+  .price-page .restoraunt__info .children__desc h3::before,
+  .price-page .restoraunt__info .entertainment__desc h3::before,
+  .price-page .restoraunt__info .contacts__desc h3::before,
+  .price-page .children__info .price-page__desc h3::before,
+  .price-page .children__info .restoraunt__desc h3::before,
+  .price-page .children__info .children__desc h3::before,
+  .price-page .children__info .entertainment__desc h3::before,
+  .price-page .children__info .contacts__desc h3::before,
+  .price-page .entertainment__info .price-page__desc h3::before,
+  .price-page .entertainment__info .restoraunt__desc h3::before,
+  .price-page .entertainment__info .children__desc h3::before,
+  .price-page .entertainment__info .entertainment__desc h3::before,
+  .price-page .entertainment__info .contacts__desc h3::before,
+  .price-page .contacts__info .price-page__desc h3::before,
+  .price-page .contacts__info .restoraunt__desc h3::before,
+  .price-page .contacts__info .children__desc h3::before,
+  .price-page .contacts__info .entertainment__desc h3::before,
+  .price-page .contacts__info .contacts__desc h3::before,
+  .restoraunt .price-page__info .price-page__desc h3::before,
+  .restoraunt .price-page__info .restoraunt__desc h3::before,
+  .restoraunt .price-page__info .children__desc h3::before,
+  .restoraunt .price-page__info .entertainment__desc h3::before,
+  .restoraunt .price-page__info .contacts__desc h3::before,
+  .restoraunt .restoraunt__info .price-page__desc h3::before,
+  .restoraunt .restoraunt__info .restoraunt__desc h3::before,
+  .restoraunt .restoraunt__info .children__desc h3::before,
+  .restoraunt .restoraunt__info .entertainment__desc h3::before,
+  .restoraunt .restoraunt__info .contacts__desc h3::before,
+  .restoraunt .children__info .price-page__desc h3::before,
+  .restoraunt .children__info .restoraunt__desc h3::before,
+  .restoraunt .children__info .children__desc h3::before,
+  .restoraunt .children__info .entertainment__desc h3::before,
+  .restoraunt .children__info .contacts__desc h3::before,
+  .restoraunt .entertainment__info .price-page__desc h3::before,
+  .restoraunt .entertainment__info .restoraunt__desc h3::before,
+  .restoraunt .entertainment__info .children__desc h3::before,
+  .restoraunt .entertainment__info .entertainment__desc h3::before,
+  .restoraunt .entertainment__info .contacts__desc h3::before,
+  .restoraunt .contacts__info .price-page__desc h3::before,
+  .restoraunt .contacts__info .restoraunt__desc h3::before,
+  .restoraunt .contacts__info .children__desc h3::before,
+  .restoraunt .contacts__info .entertainment__desc h3::before,
+  .restoraunt .contacts__info .contacts__desc h3::before,
+  .children .price-page__info .price-page__desc h3::before,
+  .children .price-page__info .restoraunt__desc h3::before,
+  .children .price-page__info .children__desc h3::before,
+  .children .price-page__info .entertainment__desc h3::before,
+  .children .price-page__info .contacts__desc h3::before,
+  .children .restoraunt__info .price-page__desc h3::before,
+  .children .restoraunt__info .restoraunt__desc h3::before,
+  .children .restoraunt__info .children__desc h3::before,
+  .children .restoraunt__info .entertainment__desc h3::before,
+  .children .restoraunt__info .contacts__desc h3::before,
+  .children .children__info .price-page__desc h3::before,
+  .children .children__info .restoraunt__desc h3::before,
+  .children .children__info .children__desc h3::before,
+  .children .children__info .entertainment__desc h3::before,
+  .children .children__info .contacts__desc h3::before,
+  .children .entertainment__info .price-page__desc h3::before,
+  .children .entertainment__info .restoraunt__desc h3::before,
+  .children .entertainment__info .children__desc h3::before,
+  .children .entertainment__info .entertainment__desc h3::before,
+  .children .entertainment__info .contacts__desc h3::before,
+  .children .contacts__info .price-page__desc h3::before,
+  .children .contacts__info .restoraunt__desc h3::before,
+  .children .contacts__info .children__desc h3::before,
+  .children .contacts__info .entertainment__desc h3::before,
+  .children .contacts__info .contacts__desc h3::before,
+  .entertainment .price-page__info .price-page__desc h3::before,
+  .entertainment .price-page__info .restoraunt__desc h3::before,
+  .entertainment .price-page__info .children__desc h3::before,
+  .entertainment .price-page__info .entertainment__desc h3::before,
+  .entertainment .price-page__info .contacts__desc h3::before,
+  .entertainment .restoraunt__info .price-page__desc h3::before,
+  .entertainment .restoraunt__info .restoraunt__desc h3::before,
+  .entertainment .restoraunt__info .children__desc h3::before,
+  .entertainment .restoraunt__info .entertainment__desc h3::before,
+  .entertainment .restoraunt__info .contacts__desc h3::before,
+  .entertainment .children__info .price-page__desc h3::before,
+  .entertainment .children__info .restoraunt__desc h3::before,
+  .entertainment .children__info .children__desc h3::before,
+  .entertainment .children__info .entertainment__desc h3::before,
+  .entertainment .children__info .contacts__desc h3::before,
+  .entertainment .entertainment__info .price-page__desc h3::before,
+  .entertainment .entertainment__info .restoraunt__desc h3::before,
+  .entertainment .entertainment__info .children__desc h3::before,
+  .entertainment .entertainment__info .entertainment__desc h3::before,
+  .entertainment .entertainment__info .contacts__desc h3::before,
+  .entertainment .contacts__info .price-page__desc h3::before,
+  .entertainment .contacts__info .restoraunt__desc h3::before,
+  .entertainment .contacts__info .children__desc h3::before,
+  .entertainment .contacts__info .entertainment__desc h3::before,
+  .entertainment .contacts__info .contacts__desc h3::before,
+  .contacts .price-page__info .price-page__desc h3::before,
+  .contacts .price-page__info .restoraunt__desc h3::before,
+  .contacts .price-page__info .children__desc h3::before,
+  .contacts .price-page__info .entertainment__desc h3::before,
+  .contacts .price-page__info .contacts__desc h3::before,
+  .contacts .restoraunt__info .price-page__desc h3::before,
+  .contacts .restoraunt__info .restoraunt__desc h3::before,
+  .contacts .restoraunt__info .children__desc h3::before,
+  .contacts .restoraunt__info .entertainment__desc h3::before,
+  .contacts .restoraunt__info .contacts__desc h3::before,
+  .contacts .children__info .price-page__desc h3::before,
+  .contacts .children__info .restoraunt__desc h3::before,
+  .contacts .children__info .children__desc h3::before,
+  .contacts .children__info .entertainment__desc h3::before,
+  .contacts .children__info .contacts__desc h3::before,
+  .contacts .entertainment__info .price-page__desc h3::before,
+  .contacts .entertainment__info .restoraunt__desc h3::before,
+  .contacts .entertainment__info .children__desc h3::before,
+  .contacts .entertainment__info .entertainment__desc h3::before,
+  .contacts .entertainment__info .contacts__desc h3::before,
+  .contacts .contacts__info .price-page__desc h3::before,
+  .contacts .contacts__info .restoraunt__desc h3::before,
+  .contacts .contacts__info .children__desc h3::before,
+  .contacts .contacts__info .entertainment__desc h3::before,
+  .contacts .contacts__info .contacts__desc h3::before {
+    height: 3px;
+  }
+  .price-page .price-page__info .price-page__desc h4,
+  .price-page .price-page__info .restoraunt__desc h4,
+  .price-page .price-page__info .children__desc h4,
+  .price-page .price-page__info .entertainment__desc h4,
+  .price-page .price-page__info .contacts__desc h4,
+  .price-page .restoraunt__info .price-page__desc h4,
+  .price-page .restoraunt__info .restoraunt__desc h4,
+  .price-page .restoraunt__info .children__desc h4,
+  .price-page .restoraunt__info .entertainment__desc h4,
+  .price-page .restoraunt__info .contacts__desc h4,
+  .price-page .children__info .price-page__desc h4,
+  .price-page .children__info .restoraunt__desc h4,
+  .price-page .children__info .children__desc h4,
+  .price-page .children__info .entertainment__desc h4,
+  .price-page .children__info .contacts__desc h4,
+  .price-page .entertainment__info .price-page__desc h4,
+  .price-page .entertainment__info .restoraunt__desc h4,
+  .price-page .entertainment__info .children__desc h4,
+  .price-page .entertainment__info .entertainment__desc h4,
+  .price-page .entertainment__info .contacts__desc h4,
+  .price-page .contacts__info .price-page__desc h4,
+  .price-page .contacts__info .restoraunt__desc h4,
+  .price-page .contacts__info .children__desc h4,
+  .price-page .contacts__info .entertainment__desc h4,
+  .price-page .contacts__info .contacts__desc h4,
+  .restoraunt .price-page__info .price-page__desc h4,
+  .restoraunt .price-page__info .restoraunt__desc h4,
+  .restoraunt .price-page__info .children__desc h4,
+  .restoraunt .price-page__info .entertainment__desc h4,
+  .restoraunt .price-page__info .contacts__desc h4,
+  .restoraunt .restoraunt__info .price-page__desc h4,
+  .restoraunt .restoraunt__info .restoraunt__desc h4,
+  .restoraunt .restoraunt__info .children__desc h4,
+  .restoraunt .restoraunt__info .entertainment__desc h4,
+  .restoraunt .restoraunt__info .contacts__desc h4,
+  .restoraunt .children__info .price-page__desc h4,
+  .restoraunt .children__info .restoraunt__desc h4,
+  .restoraunt .children__info .children__desc h4,
+  .restoraunt .children__info .entertainment__desc h4,
+  .restoraunt .children__info .contacts__desc h4,
+  .restoraunt .entertainment__info .price-page__desc h4,
+  .restoraunt .entertainment__info .restoraunt__desc h4,
+  .restoraunt .entertainment__info .children__desc h4,
+  .restoraunt .entertainment__info .entertainment__desc h4,
+  .restoraunt .entertainment__info .contacts__desc h4,
+  .restoraunt .contacts__info .price-page__desc h4,
+  .restoraunt .contacts__info .restoraunt__desc h4,
+  .restoraunt .contacts__info .children__desc h4,
+  .restoraunt .contacts__info .entertainment__desc h4,
+  .restoraunt .contacts__info .contacts__desc h4,
+  .children .price-page__info .price-page__desc h4,
+  .children .price-page__info .restoraunt__desc h4,
+  .children .price-page__info .children__desc h4,
+  .children .price-page__info .entertainment__desc h4,
+  .children .price-page__info .contacts__desc h4,
+  .children .restoraunt__info .price-page__desc h4,
+  .children .restoraunt__info .restoraunt__desc h4,
+  .children .restoraunt__info .children__desc h4,
+  .children .restoraunt__info .entertainment__desc h4,
+  .children .restoraunt__info .contacts__desc h4,
+  .children .children__info .price-page__desc h4,
+  .children .children__info .restoraunt__desc h4,
+  .children .children__info .children__desc h4,
+  .children .children__info .entertainment__desc h4,
+  .children .children__info .contacts__desc h4,
+  .children .entertainment__info .price-page__desc h4,
+  .children .entertainment__info .restoraunt__desc h4,
+  .children .entertainment__info .children__desc h4,
+  .children .entertainment__info .entertainment__desc h4,
+  .children .entertainment__info .contacts__desc h4,
+  .children .contacts__info .price-page__desc h4,
+  .children .contacts__info .restoraunt__desc h4,
+  .children .contacts__info .children__desc h4,
+  .children .contacts__info .entertainment__desc h4,
+  .children .contacts__info .contacts__desc h4,
+  .entertainment .price-page__info .price-page__desc h4,
+  .entertainment .price-page__info .restoraunt__desc h4,
+  .entertainment .price-page__info .children__desc h4,
+  .entertainment .price-page__info .entertainment__desc h4,
+  .entertainment .price-page__info .contacts__desc h4,
+  .entertainment .restoraunt__info .price-page__desc h4,
+  .entertainment .restoraunt__info .restoraunt__desc h4,
+  .entertainment .restoraunt__info .children__desc h4,
+  .entertainment .restoraunt__info .entertainment__desc h4,
+  .entertainment .restoraunt__info .contacts__desc h4,
+  .entertainment .children__info .price-page__desc h4,
+  .entertainment .children__info .restoraunt__desc h4,
+  .entertainment .children__info .children__desc h4,
+  .entertainment .children__info .entertainment__desc h4,
+  .entertainment .children__info .contacts__desc h4,
+  .entertainment .entertainment__info .price-page__desc h4,
+  .entertainment .entertainment__info .restoraunt__desc h4,
+  .entertainment .entertainment__info .children__desc h4,
+  .entertainment .entertainment__info .entertainment__desc h4,
+  .entertainment .entertainment__info .contacts__desc h4,
+  .entertainment .contacts__info .price-page__desc h4,
+  .entertainment .contacts__info .restoraunt__desc h4,
+  .entertainment .contacts__info .children__desc h4,
+  .entertainment .contacts__info .entertainment__desc h4,
+  .entertainment .contacts__info .contacts__desc h4,
+  .contacts .price-page__info .price-page__desc h4,
+  .contacts .price-page__info .restoraunt__desc h4,
+  .contacts .price-page__info .children__desc h4,
+  .contacts .price-page__info .entertainment__desc h4,
+  .contacts .price-page__info .contacts__desc h4,
+  .contacts .restoraunt__info .price-page__desc h4,
+  .contacts .restoraunt__info .restoraunt__desc h4,
+  .contacts .restoraunt__info .children__desc h4,
+  .contacts .restoraunt__info .entertainment__desc h4,
+  .contacts .restoraunt__info .contacts__desc h4,
+  .contacts .children__info .price-page__desc h4,
+  .contacts .children__info .restoraunt__desc h4,
+  .contacts .children__info .children__desc h4,
+  .contacts .children__info .entertainment__desc h4,
+  .contacts .children__info .contacts__desc h4,
+  .contacts .entertainment__info .price-page__desc h4,
+  .contacts .entertainment__info .restoraunt__desc h4,
+  .contacts .entertainment__info .children__desc h4,
+  .contacts .entertainment__info .entertainment__desc h4,
+  .contacts .entertainment__info .contacts__desc h4,
+  .contacts .contacts__info .price-page__desc h4,
+  .contacts .contacts__info .restoraunt__desc h4,
+  .contacts .contacts__info .children__desc h4,
+  .contacts .contacts__info .entertainment__desc h4,
+  .contacts .contacts__info .contacts__desc h4 {
+    font-size: 18px;
+    margin: 10px 0 20px;
+  }
+  .price-page .price-page__info .price-page__desc p,
+  .price-page .price-page__info .restoraunt__desc p,
+  .price-page .price-page__info .children__desc p,
+  .price-page .price-page__info .entertainment__desc p,
+  .price-page .price-page__info .contacts__desc p,
+  .price-page .restoraunt__info .price-page__desc p,
+  .price-page .restoraunt__info .restoraunt__desc p,
+  .price-page .restoraunt__info .children__desc p,
+  .price-page .restoraunt__info .entertainment__desc p,
+  .price-page .restoraunt__info .contacts__desc p,
+  .price-page .children__info .price-page__desc p,
+  .price-page .children__info .restoraunt__desc p,
+  .price-page .children__info .children__desc p,
+  .price-page .children__info .entertainment__desc p,
+  .price-page .children__info .contacts__desc p,
+  .price-page .entertainment__info .price-page__desc p,
+  .price-page .entertainment__info .restoraunt__desc p,
+  .price-page .entertainment__info .children__desc p,
+  .price-page .entertainment__info .entertainment__desc p,
+  .price-page .entertainment__info .contacts__desc p,
+  .price-page .contacts__info .price-page__desc p,
+  .price-page .contacts__info .restoraunt__desc p,
+  .price-page .contacts__info .children__desc p,
+  .price-page .contacts__info .entertainment__desc p,
+  .price-page .contacts__info .contacts__desc p,
+  .restoraunt .price-page__info .price-page__desc p,
+  .restoraunt .price-page__info .restoraunt__desc p,
+  .restoraunt .price-page__info .children__desc p,
+  .restoraunt .price-page__info .entertainment__desc p,
+  .restoraunt .price-page__info .contacts__desc p,
+  .restoraunt .restoraunt__info .price-page__desc p,
+  .restoraunt .restoraunt__info .restoraunt__desc p,
+  .restoraunt .restoraunt__info .children__desc p,
+  .restoraunt .restoraunt__info .entertainment__desc p,
+  .restoraunt .restoraunt__info .contacts__desc p,
+  .restoraunt .children__info .price-page__desc p,
+  .restoraunt .children__info .restoraunt__desc p,
+  .restoraunt .children__info .children__desc p,
+  .restoraunt .children__info .entertainment__desc p,
+  .restoraunt .children__info .contacts__desc p,
+  .restoraunt .entertainment__info .price-page__desc p,
+  .restoraunt .entertainment__info .restoraunt__desc p,
+  .restoraunt .entertainment__info .children__desc p,
+  .restoraunt .entertainment__info .entertainment__desc p,
+  .restoraunt .entertainment__info .contacts__desc p,
+  .restoraunt .contacts__info .price-page__desc p,
+  .restoraunt .contacts__info .restoraunt__desc p,
+  .restoraunt .contacts__info .children__desc p,
+  .restoraunt .contacts__info .entertainment__desc p,
+  .restoraunt .contacts__info .contacts__desc p,
+  .children .price-page__info .price-page__desc p,
+  .children .price-page__info .restoraunt__desc p,
+  .children .price-page__info .children__desc p,
+  .children .price-page__info .entertainment__desc p,
+  .children .price-page__info .contacts__desc p,
+  .children .restoraunt__info .price-page__desc p,
+  .children .restoraunt__info .restoraunt__desc p,
+  .children .restoraunt__info .children__desc p,
+  .children .restoraunt__info .entertainment__desc p,
+  .children .restoraunt__info .contacts__desc p,
+  .children .children__info .price-page__desc p,
+  .children .children__info .restoraunt__desc p,
+  .children .children__info .children__desc p,
+  .children .children__info .entertainment__desc p,
+  .children .children__info .contacts__desc p,
+  .children .entertainment__info .price-page__desc p,
+  .children .entertainment__info .restoraunt__desc p,
+  .children .entertainment__info .children__desc p,
+  .children .entertainment__info .entertainment__desc p,
+  .children .entertainment__info .contacts__desc p,
+  .children .contacts__info .price-page__desc p,
+  .children .contacts__info .restoraunt__desc p,
+  .children .contacts__info .children__desc p,
+  .children .contacts__info .entertainment__desc p,
+  .children .contacts__info .contacts__desc p,
+  .entertainment .price-page__info .price-page__desc p,
+  .entertainment .price-page__info .restoraunt__desc p,
+  .entertainment .price-page__info .children__desc p,
+  .entertainment .price-page__info .entertainment__desc p,
+  .entertainment .price-page__info .contacts__desc p,
+  .entertainment .restoraunt__info .price-page__desc p,
+  .entertainment .restoraunt__info .restoraunt__desc p,
+  .entertainment .restoraunt__info .children__desc p,
+  .entertainment .restoraunt__info .entertainment__desc p,
+  .entertainment .restoraunt__info .contacts__desc p,
+  .entertainment .children__info .price-page__desc p,
+  .entertainment .children__info .restoraunt__desc p,
+  .entertainment .children__info .children__desc p,
+  .entertainment .children__info .entertainment__desc p,
+  .entertainment .children__info .contacts__desc p,
+  .entertainment .entertainment__info .price-page__desc p,
+  .entertainment .entertainment__info .restoraunt__desc p,
+  .entertainment .entertainment__info .children__desc p,
+  .entertainment .entertainment__info .entertainment__desc p,
+  .entertainment .entertainment__info .contacts__desc p,
+  .entertainment .contacts__info .price-page__desc p,
+  .entertainment .contacts__info .restoraunt__desc p,
+  .entertainment .contacts__info .children__desc p,
+  .entertainment .contacts__info .entertainment__desc p,
+  .entertainment .contacts__info .contacts__desc p,
+  .contacts .price-page__info .price-page__desc p,
+  .contacts .price-page__info .restoraunt__desc p,
+  .contacts .price-page__info .children__desc p,
+  .contacts .price-page__info .entertainment__desc p,
+  .contacts .price-page__info .contacts__desc p,
+  .contacts .restoraunt__info .price-page__desc p,
+  .contacts .restoraunt__info .restoraunt__desc p,
+  .contacts .restoraunt__info .children__desc p,
+  .contacts .restoraunt__info .entertainment__desc p,
+  .contacts .restoraunt__info .contacts__desc p,
+  .contacts .children__info .price-page__desc p,
+  .contacts .children__info .restoraunt__desc p,
+  .contacts .children__info .children__desc p,
+  .contacts .children__info .entertainment__desc p,
+  .contacts .children__info .contacts__desc p,
+  .contacts .entertainment__info .price-page__desc p,
+  .contacts .entertainment__info .restoraunt__desc p,
+  .contacts .entertainment__info .children__desc p,
+  .contacts .entertainment__info .entertainment__desc p,
+  .contacts .entertainment__info .contacts__desc p,
+  .contacts .contacts__info .price-page__desc p,
+  .contacts .contacts__info .restoraunt__desc p,
+  .contacts .contacts__info .children__desc p,
+  .contacts .contacts__info .entertainment__desc p,
+  .contacts .contacts__info .contacts__desc p {
+    font-size: 20px;
+  }
+  .price-page .price-page__info .price-page__desc #yellow,
+  .price-page .price-page__info .restoraunt__desc #yellow,
+  .price-page .price-page__info .children__desc #yellow,
+  .price-page .price-page__info .entertainment__desc #yellow,
+  .price-page .price-page__info .contacts__desc #yellow,
+  .price-page .restoraunt__info .price-page__desc #yellow,
+  .price-page .restoraunt__info .restoraunt__desc #yellow,
+  .price-page .restoraunt__info .children__desc #yellow,
+  .price-page .restoraunt__info .entertainment__desc #yellow,
+  .price-page .restoraunt__info .contacts__desc #yellow,
+  .price-page .children__info .price-page__desc #yellow,
+  .price-page .children__info .restoraunt__desc #yellow,
+  .price-page .children__info .children__desc #yellow,
+  .price-page .children__info .entertainment__desc #yellow,
+  .price-page .children__info .contacts__desc #yellow,
+  .price-page .entertainment__info .price-page__desc #yellow,
+  .price-page .entertainment__info .restoraunt__desc #yellow,
+  .price-page .entertainment__info .children__desc #yellow,
+  .price-page .entertainment__info .entertainment__desc #yellow,
+  .price-page .entertainment__info .contacts__desc #yellow,
+  .price-page .contacts__info .price-page__desc #yellow,
+  .price-page .contacts__info .restoraunt__desc #yellow,
+  .price-page .contacts__info .children__desc #yellow,
+  .price-page .contacts__info .entertainment__desc #yellow,
+  .price-page .contacts__info .contacts__desc #yellow,
+  .restoraunt .price-page__info .price-page__desc #yellow,
+  .restoraunt .price-page__info .restoraunt__desc #yellow,
+  .restoraunt .price-page__info .children__desc #yellow,
+  .restoraunt .price-page__info .entertainment__desc #yellow,
+  .restoraunt .price-page__info .contacts__desc #yellow,
+  .restoraunt .restoraunt__info .price-page__desc #yellow,
+  .restoraunt .restoraunt__info .restoraunt__desc #yellow,
+  .restoraunt .restoraunt__info .children__desc #yellow,
+  .restoraunt .restoraunt__info .entertainment__desc #yellow,
+  .restoraunt .restoraunt__info .contacts__desc #yellow,
+  .restoraunt .children__info .price-page__desc #yellow,
+  .restoraunt .children__info .restoraunt__desc #yellow,
+  .restoraunt .children__info .children__desc #yellow,
+  .restoraunt .children__info .entertainment__desc #yellow,
+  .restoraunt .children__info .contacts__desc #yellow,
+  .restoraunt .entertainment__info .price-page__desc #yellow,
+  .restoraunt .entertainment__info .restoraunt__desc #yellow,
+  .restoraunt .entertainment__info .children__desc #yellow,
+  .restoraunt .entertainment__info .entertainment__desc #yellow,
+  .restoraunt .entertainment__info .contacts__desc #yellow,
+  .restoraunt .contacts__info .price-page__desc #yellow,
+  .restoraunt .contacts__info .restoraunt__desc #yellow,
+  .restoraunt .contacts__info .children__desc #yellow,
+  .restoraunt .contacts__info .entertainment__desc #yellow,
+  .restoraunt .contacts__info .contacts__desc #yellow,
+  .children .price-page__info .price-page__desc #yellow,
+  .children .price-page__info .restoraunt__desc #yellow,
+  .children .price-page__info .children__desc #yellow,
+  .children .price-page__info .entertainment__desc #yellow,
+  .children .price-page__info .contacts__desc #yellow,
+  .children .restoraunt__info .price-page__desc #yellow,
+  .children .restoraunt__info .restoraunt__desc #yellow,
+  .children .restoraunt__info .children__desc #yellow,
+  .children .restoraunt__info .entertainment__desc #yellow,
+  .children .restoraunt__info .contacts__desc #yellow,
+  .children .children__info .price-page__desc #yellow,
+  .children .children__info .restoraunt__desc #yellow,
+  .children .children__info .children__desc #yellow,
+  .children .children__info .entertainment__desc #yellow,
+  .children .children__info .contacts__desc #yellow,
+  .children .entertainment__info .price-page__desc #yellow,
+  .children .entertainment__info .restoraunt__desc #yellow,
+  .children .entertainment__info .children__desc #yellow,
+  .children .entertainment__info .entertainment__desc #yellow,
+  .children .entertainment__info .contacts__desc #yellow,
+  .children .contacts__info .price-page__desc #yellow,
+  .children .contacts__info .restoraunt__desc #yellow,
+  .children .contacts__info .children__desc #yellow,
+  .children .contacts__info .entertainment__desc #yellow,
+  .children .contacts__info .contacts__desc #yellow,
+  .entertainment .price-page__info .price-page__desc #yellow,
+  .entertainment .price-page__info .restoraunt__desc #yellow,
+  .entertainment .price-page__info .children__desc #yellow,
+  .entertainment .price-page__info .entertainment__desc #yellow,
+  .entertainment .price-page__info .contacts__desc #yellow,
+  .entertainment .restoraunt__info .price-page__desc #yellow,
+  .entertainment .restoraunt__info .restoraunt__desc #yellow,
+  .entertainment .restoraunt__info .children__desc #yellow,
+  .entertainment .restoraunt__info .entertainment__desc #yellow,
+  .entertainment .restoraunt__info .contacts__desc #yellow,
+  .entertainment .children__info .price-page__desc #yellow,
+  .entertainment .children__info .restoraunt__desc #yellow,
+  .entertainment .children__info .children__desc #yellow,
+  .entertainment .children__info .entertainment__desc #yellow,
+  .entertainment .children__info .contacts__desc #yellow,
+  .entertainment .entertainment__info .price-page__desc #yellow,
+  .entertainment .entertainment__info .restoraunt__desc #yellow,
+  .entertainment .entertainment__info .children__desc #yellow,
+  .entertainment .entertainment__info .entertainment__desc #yellow,
+  .entertainment .entertainment__info .contacts__desc #yellow,
+  .entertainment .contacts__info .price-page__desc #yellow,
+  .entertainment .contacts__info .restoraunt__desc #yellow,
+  .entertainment .contacts__info .children__desc #yellow,
+  .entertainment .contacts__info .entertainment__desc #yellow,
+  .entertainment .contacts__info .contacts__desc #yellow,
+  .contacts .price-page__info .price-page__desc #yellow,
+  .contacts .price-page__info .restoraunt__desc #yellow,
+  .contacts .price-page__info .children__desc #yellow,
+  .contacts .price-page__info .entertainment__desc #yellow,
+  .contacts .price-page__info .contacts__desc #yellow,
+  .contacts .restoraunt__info .price-page__desc #yellow,
+  .contacts .restoraunt__info .restoraunt__desc #yellow,
+  .contacts .restoraunt__info .children__desc #yellow,
+  .contacts .restoraunt__info .entertainment__desc #yellow,
+  .contacts .restoraunt__info .contacts__desc #yellow,
+  .contacts .children__info .price-page__desc #yellow,
+  .contacts .children__info .restoraunt__desc #yellow,
+  .contacts .children__info .children__desc #yellow,
+  .contacts .children__info .entertainment__desc #yellow,
+  .contacts .children__info .contacts__desc #yellow,
+  .contacts .entertainment__info .price-page__desc #yellow,
+  .contacts .entertainment__info .restoraunt__desc #yellow,
+  .contacts .entertainment__info .children__desc #yellow,
+  .contacts .entertainment__info .entertainment__desc #yellow,
+  .contacts .entertainment__info .contacts__desc #yellow,
+  .contacts .contacts__info .price-page__desc #yellow,
+  .contacts .contacts__info .restoraunt__desc #yellow,
+  .contacts .contacts__info .children__desc #yellow,
+  .contacts .contacts__info .entertainment__desc #yellow,
+  .contacts .contacts__info .contacts__desc #yellow {
+    font-size: 20px;
+  }
+  .price-page .price-page__rooms p,
+  .price-page .restoraunt .price-page__rooms p,
+  .price-page .children .price-page__rooms p,
+  .price-page .entertainment .price-page__rooms p,
+  .price-page .contacts .price-page__rooms p,
+  .restoraunt .price-page__rooms p,
+  .restoraunt .restoraunt .price-page__rooms p,
+  .restoraunt .children .price-page__rooms p,
+  .restoraunt .entertainment .price-page__rooms p,
+  .restoraunt .contacts .price-page__rooms p,
+  .children .price-page__rooms p,
+  .children .restoraunt .price-page__rooms p,
+  .children .children .price-page__rooms p,
+  .children .entertainment .price-page__rooms p,
+  .children .contacts .price-page__rooms p,
+  .entertainment .price-page__rooms p,
+  .entertainment .restoraunt .price-page__rooms p,
+  .entertainment .children .price-page__rooms p,
+  .entertainment .entertainment .price-page__rooms p,
+  .entertainment .contacts .price-page__rooms p,
+  .contacts .price-page__rooms p,
+  .contacts .restoraunt .price-page__rooms p,
+  .contacts .children .price-page__rooms p,
+  .contacts .entertainment .price-page__rooms p,
+  .contacts .contacts .price-page__rooms p {
+    font-size: 18px;
+  }
+  .price-page .price-page__title h2,
+  .restoraunt .price-page__title h2,
+  .children .price-page__title h2,
+  .entertainment .price-page__title h2,
+  .contacts .price-page__title h2 {
+    font-size: 32px;
+  }
+  .price-page .price-page__rooms a,
+  .restoraunt .price-page__rooms a,
+  .children .price-page__rooms a,
+  .entertainment .price-page__rooms a,
+  .contacts .price-page__rooms a {
+    border: 3px solid;
+    height: 350px;
+  }
+  .price-page .price-page__rooms .price-page__rooms-box,
+  .restoraunt .price-page__rooms .price-page__rooms-box,
+  .children .price-page__rooms .price-page__rooms-box,
+  .entertainment .price-page__rooms .price-page__rooms-box,
+  .contacts .price-page__rooms .price-page__rooms-box {
+    margin-top: 10px;
+  }
+  .price-page .price-page__rooms .price-page__rooms-box h2,
+  .restoraunt .price-page__rooms .price-page__rooms-box h2,
+  .children .price-page__rooms .price-page__rooms-box h2,
+  .entertainment .price-page__rooms .price-page__rooms-box h2,
+  .contacts .price-page__rooms .price-page__rooms-box h2 {
+    font-size: 37px;
+  }
+  .price-page .restoraunt__img,
+  .price-page .children__img,
+  .price-page .entertainment__img,
+  .restoraunt .restoraunt__img,
+  .restoraunt .children__img,
+  .restoraunt .entertainment__img,
+  .children .restoraunt__img,
+  .children .children__img,
+  .children .entertainment__img,
+  .entertainment .restoraunt__img,
+  .entertainment .children__img,
+  .entertainment .entertainment__img,
+  .contacts .restoraunt__img,
+  .contacts .children__img,
+  .contacts .entertainment__img {
+    width: 55%;
+    height: 400px;
+  }
+  .price-page .restoraunt__img::after,
+  .price-page .children__img::after,
+  .price-page .entertainment__img::after,
+  .restoraunt .restoraunt__img::after,
+  .restoraunt .children__img::after,
+  .restoraunt .entertainment__img::after,
+  .children .restoraunt__img::after,
+  .children .children__img::after,
+  .children .entertainment__img::after,
+  .entertainment .restoraunt__img::after,
+  .entertainment .children__img::after,
+  .entertainment .entertainment__img::after,
+  .contacts .restoraunt__img::after,
+  .contacts .children__img::after,
+  .contacts .entertainment__img::after {
+    height: 380px;
+  }
+  .price-page .restoraunt__btn,
+  .restoraunt .restoraunt__btn,
+  .children .restoraunt__btn,
+  .entertainment .restoraunt__btn,
+  .contacts .restoraunt__btn {
+    margin: 50px 0 80px;
+  }
+  .price-page .restoraunt__btn button,
+  .restoraunt .restoraunt__btn button,
+  .children .restoraunt__btn button,
+  .entertainment .restoraunt__btn button,
+  .contacts .restoraunt__btn button {
+    width: 150px;
+    padding: 10px;
+    line-height: 25px;
+    font-size: 20px;
+    border: 3px solid #ffd370;
+  }
+  .price-page .restoraunt__btn button:hover,
+  .restoraunt .restoraunt__btn button:hover,
+  .children .restoraunt__btn button:hover,
+  .entertainment .restoraunt__btn button:hover,
+  .contacts .restoraunt__btn button:hover {
+    border: 3px solid #211403;
+  }
+  .price-page .restoraunt__btn form + form,
+  .restoraunt .restoraunt__btn form + form,
+  .children .restoraunt__btn form + form,
+  .entertainment .restoraunt__btn form + form,
+  .contacts .restoraunt__btn form + form {
+    margin-left: 20px;
+  }
+  .pool h2 {
+    margin-top: 40px;
+  }
+  .pool ul {
+    margin: 20px 0 80px;
+  }
+  .pool ul li {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .pool .pool__info .pool__slider {
+    width: 500px;
+  }
+  .pool .pool__info .pool__slider .price-page__slider-item {
+    height: 335px;
+  }
+  .pool .pool__info .pool__slider .price-page__slider-item img {
+    width: 450px;
+  }
+  .pool .pool__info .pool__slider .price-page__slider-item::after {
+    height: 320px;
+    bottom: 0;
+    right: 0;
+  }
+  .pool .pool__info .pool__slider .price-page__slider-btn,
+  .pool .pool__info .pool__slider .price-page__slider-btn {
+    bottom: 15px;
+    width: 60px;
+    height: 60px;
+  }
+  .pool .pool__info .pool__slider .slick-dots {
+    bottom: -21%;
+  }
+  .pool .pool__info .pool__slider .slick-dots li {
+    padding: 0 5px;
+  }
+  .pool .pool__info .pool__slider .slick-dots button {
+    width: 20px;
+    height: 20px;
+  }
+  .pool .pool__info .pool__desc {
+    width: 700px;
+    margin-right: 30px;
+  }
+  .pool .pool__info h2 {
+    font-size: 30px;
+    letter-spacing: 0;
+    margin: 15px 0;
+  }
+  .pool .pool__info h3 {
+    font-size: 22px;
+    padding-left: 105px;
+  }
+  .pool .pool__info h3::before {
+    height: 3px;
+  }
+  .pool .pool__info h4 {
+    font-size: 20px;
+  }
+  .pool .pool__info p {
+    font-size: 17px;
+  }
+  .children__info,
+  .entertainment__info,
+  .contacts__info {
+    margin-bottom: 100px;
+  }
+  .children__info h4,
+  .entertainment__info h4,
+  .contacts__info h4 {
+    margin-top: 10px;
+  }
+  .children__info .contacts__img,
+  .entertainment__info .contacts__img,
+  .contacts__info .contacts__img {
+    width: 50%;
+    height: 600px;
+  }
+  .children__info .contacts__img::after,
+  .entertainment__info .contacts__img::after,
+  .contacts__info .contacts__img::after {
+    width: 75%;
+    height: 550px;
+    bottom: 0;
+  }
+  .contacts h2 {
+    margin: 20px 0;
+    font-size: 32px;
+    font-weight: 500;
+  }
+  .contacts h5 {
+    font-size: 22px;
+    margin: 20px 0;
+    line-height: 35px;
+  }
+  .contacts h6 {
+    font-size: 24px;
+  }
+  .contacts iframe {
+    height: 500px;
+    margin-bottom: 50px;
+  }
+  #room-page__red-text {
+    font-size: 20px;
+  }
+  .room-page h1, .room-page h2 {
+    font-size: 40px;
+  }
+  .room-page .flex .fas {
+    font-size: 50px;
+    width: 60px;
+  }
+  .room-page .room-page__title p {
+    font-size: 20px;
+  }
+  .room-page .room-page__title::before,
+  .room-page .room-page__desc::before,
+  .room-page .room-page__price::before {
+    height: 4px;
+    top: -10px;
+  }
+  .room-page .room-page__slider-box .room-page__slider-wrapper {
+    width: 70%;
+  }
+  .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__sliderbig .main-img {
+    height: 400px;
+  }
+  .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__sliderbig .bg-img {
+    height: 400px;
+  }
+  .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__slider .room-page__slider-item {
+    border: 5px solid #28303d;
+  }
+  .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__slider .room-page__slider-item img {
+    height: 150px;
+  }
+  .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__slider-btn {
+    border: 3px solid #ffffffc7;
+    width: 50px;
+    height: 50px;
+  }
+  .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__slider-btnnext {
+    right: 10px;
+  }
+  .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__slider-btnprev {
+    left: 10px;
+  }
+  .room-page .room-page__slider-box .room-page__info {
+    padding: 0 40px;
+  }
+  .room-page .room-page__slider-box .room-page__info .room-page__info-price {
+    width: 280px;
+  }
+  .room-page .room-page__slider-box .room-page__info .hide-td {
+    left: 80px;
+  }
+  .room-page .room-page__slider-box .room-page__info .room-page__info-price,
+  .room-page .room-page__slider-box .room-page__info h2 {
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+  .room-page .room-page__slider-box .room-page__info p {
+    font-size: 21px;
+    margin: 20px 0 20px 30px;
+  }
+  .room-page .room-page__desc {
+    margin-top: 50px;
+  }
+  .room-page .room-page__desc p {
+    width: 100%;
+    font-size: 20px;
+  }
+  .room-page .room-page__desc .room-page__desc-blocks .room-page__desc-block ul {
+    font-size: 32px;
+    padding-top: 30px;
+  }
+  .room-page .room-page__desc .room-page__desc-blocks .room-page__desc-block ul li {
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: 30px;
+  }
+  .room-page .room-page__desc .room-page__desc-blocks .room-page__desc-block ul li:first-child {
+    padding-top: 20px;
+  }
+  .room-page__price {
+    margin: 50px 0 100px;
+  }
+  .room-page__price h2 {
+    font-size: 32px;
+    letter-spacing: 0;
+    margin-top: 30px;
+  }
+  .room-page__price h3 {
+    font-size: 18px;
+    margin: 10px 0 20px;
+  }
+  .room-page__price p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+  }
+  .room-page__price table {
+    border-right: 1px solid;
+  }
+  .room-page__price .hide tr.main td,
+  .room-page__price .room1 tr.studio-g1 td,
+  .room-page__price .room2 tr.studio-g1-1 td,
+  .room-page__price .room3 tr.studio-g2 td,
+  .room-page__price .room4 tr.delux-g2 td,
+  .room-page__price .room5 tr.superior-g2 td,
+  .room-page__price .room6 tr.apartment-sea-1 td,
+  .room-page__price .room7 tr.apartment-sea-2 td,
+  .room-page__price .room8 tr.apartment-sea-3 td,
+  .room-page__price .room9 tr.standart td,
+  .room-page__price .room10 tr.apartment-park td,
+  .room-page__price .room11 tr.villa-west td,
+  .room-page__price .room12 tr.villa-south td,
+  .room-page__price .room13 tr.villa-east td,
+  .room-page__price .room14 tr.villa-vip td,
+  .room-page__price .room15 tr.studio-north td,
+  .room-page__price .room16 tr.cottage-sky td,
+  .room-page__price .room17 tr.studio-sky td {
+    width: 150px;
+    font-size: 22px;
+    border: 1px solid;
+    padding: 10px;
+    height: 60px;
+  }
+  .room-page__price td {
+    font-size: 16px;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    height: 60px;
+    padding: 10px;
+  }
+  .room-page__price .main td {
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    padding: 10px;
+  }
+  .room-page__price ul {
+    margin-top: 10px;
+  }
+  .room-page__price li {
+    position: relative;
+    padding-left: 50px;
+    font-size: 21px;
+    line-height: 40px;
+  }
+  .room-page__price li .fas::before {
+    position: absolute;
+    left: 20px;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .hamburger .hamburger__btn {
     width: 4vw;
@@ -5,6 +1887,16 @@
   }
   .hamburger .hamburger__btn div {
     width: 2.3vw;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .header .header__phones {
+    display: none;
+  }
+  .exellence .exellence__tabs .exellence__tab:hover {
+    background-color: #211403;
+    color: #F5E5C1;
   }
 }
 
@@ -22,8 +1914,8 @@
   .header .header__logo {
     width: 20%;
   }
-  .header .header__instagram img {
-    width: 6vw;
+  .header .header__instagram {
+    font-size: 6vw;
   }
   .header .header__btn-call {
     font-size: 1.9vw;
@@ -43,6 +1935,15 @@
   }
   .main-block {
     height: 60vw;
+  }
+  .main-block .main-block__text h2 {
+    width: 100%;
+  }
+  .main-block .main-block__text h2::before {
+    display: none;
+  }
+  .main-block .main-block__text h2::after {
+    display: none;
   }
   .main-block .main-block__btn a {
     border-radius: 1.5vw;
@@ -76,7 +1977,7 @@
     width: 90%;
   }
   .welcome .welcome__slider-item {
-    height: 47vw;
+    height: 52vw;
   }
   .welcome .welcome__slider-item img {
     width: 90%;
@@ -87,17 +1988,20 @@
         image-rendering: pixelated;
   }
   .welcome .welcome__slider-item::after {
-    width: 60%;
-    height: 45vw;
-    bottom: 0vw;
-    right: 1vw;
+    height: 49vw;
+    bottom: 0;
+    right: 0;
   }
   .welcome .welcome__slider-btn {
     width: 8vw;
     height: 8vw;
   }
+  .welcome .welcome__slider-btn img {
+    -webkit-transform: translate(10%, 10%);
+            transform: translate(10%, 10%);
+  }
   .welcome .welcome__slider-btnprev {
-    right: 10%;
+    right: 8%;
   }
   .welcome .slick-dots {
     bottom: 3%;
@@ -161,7 +2065,7 @@
 }
 
 @media screen and (max-width: 586px) {
-  .header .header__location-item {
+  .header .header__location {
     display: none;
   }
   footer h2 {
@@ -184,32 +2088,42 @@
     width: 50%;
   }
   footer .footer__info .foooter__info-location {
-    width: 50%;
+    width: 43%;
   }
   footer .footer__info .foooter__info-network {
     margin: 3vw auto;
     text-align: center;
   }
-  footer .footer__info .foooter__info-network button {
-    width: 25vw;
-    line-height: 5vw;
-    font-size: 2.5vw;
+  footer .footer__info .foooter__info-network a {
+    font-size: 3vw;
     border-radius: 1.5vw;
-    padding-left: 3vw;
+    padding: 2vw 5vw 2vw 10vw;
+  }
+  footer .footer__info .foooter__info-network a::before {
+    width: 5vw;
+    height: 5vw;
+    top: 1.2vw;
+    left: 3vw;
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 450px) {
+  .container {
+    margin: 10vw auto;
+  }
   .hamburger .hamburger__btn {
     width: 9vw;
     height: 8vw;
-    right: 4.5vw;
-    top: 3vw;
+    right: 4vw;
+    top: 4.5vw;
     border-radius: 2vw;
   }
   .hamburger .hamburger__btn div {
     width: 5vw;
     margin: 1.5vw auto;
+  }
+  .hamburger .hamburger__btn .hamburger__btn-line-top.top-animate {
+    top: 1.7vw;
   }
   .hamburger .hamburger__wrapper .menu__hamburger {
     margin: 10vw auto;
@@ -223,10 +2137,7 @@
     width: 25%;
   }
   .header .header__instagram {
-    width: 8vw;
-  }
-  .header .header__instagram img {
-    width: 8vw;
+    font-size: 9vw;
   }
   .header .header__btn-call {
     font-size: 3.2vw;
@@ -240,7 +2151,7 @@
   .main-block .main-block__text h1 {
     font-size: 9vw;
     line-height: 10vw;
-    width: 60%;
+    width: 50%;
     margin: 15vw auto;
     text-shadow: #0c0c07 3px 3px 3px;
   }
@@ -289,8 +2200,8 @@
   .rooms__title h3,
   .overview__title h3,
   .important-info__title h3 {
-    width: 70%;
-    font-size: 2.5vw;
+    width: 80%;
+    font-size: 3vw;
   }
   .apartments__title h3::before,
   .exellence__title h3::before,
@@ -313,6 +2224,9 @@
   .apartments {
     display: none;
   }
+  .exellence hr {
+    display: none;
+  }
   .exellence .exellence__tabs {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -320,7 +2234,8 @@
   .exellence .exellence__tabs .exellence__tab {
     width: 45%;
     font-size: 3vw;
-    border: 0.3vw solid #211403;
+    margin-top: 0.5vw;
+    border: 0.2vw solid #211403;
   }
   .exellence .exellence__content .exellence__content-wrapper .exellence__content-box {
     -ms-flex-wrap: wrap;
@@ -342,21 +2257,27 @@
     font-size: 5vw;
   }
   .exellence .exellence__content .exellence__content-wrapper .exellence__content-box .exellence__content-text p {
-    font-size: 2.9vw;
+    font-size: 3vw;
     line-height: 3.5vw;
   }
+  .reviews .reviews__slider .reviews__slider-item {
+    height: 60vw;
+  }
+  .reviews .reviews__slider .reviews__slider-item .reviews__slider-img {
+    width: 75%;
+  }
   .reviews .reviews__slider .reviews__slider-item .reviews__slider-descr {
-    top: 4vw;
+    top: 4.8vw;
     width: 65vw;
-    height: 40vw;
+    height: 50vw;
   }
   .reviews .reviews__slider .reviews__slider-item .reviews__slider-descr .reviews__slider-title h2 {
     font-size: 3.5vw;
   }
   .reviews .reviews__slider .reviews__slider-item .reviews__slider-descr .reviews__slider-text p {
     font-weight: 500;
-    font-size: 1.9vw;
-    line-height: 2.2vw;
+    font-size: 2.4vw;
+    line-height: 2.5vw;
   }
   .reviews .reviews__slider-btn {
     width: 8vw;
@@ -369,65 +2290,69 @@
     left: -7vw;
   }
   .rooms .rooms__slider .rooms__slider-item {
-    height: 60vw;
+    height: 120vw;
   }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-img img {
-    height: 20vw;
+    height: 45vw;
   }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr h2 {
-    line-height: 2vw;
-    font-size: 3vw;
+    line-height: 5vw;
+    font-size: 6vw;
   }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr p {
-    font-size: 1.6vw;
-    line-height: 2.2vw;
+    font-size: 3.5vw;
+    line-height: 6vw;
   }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr button {
-    font-size: 2vw;
+    font-size: 4vw;
+    padding: 3vw;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr hr {
+    margin: 3vw 0;
   }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr img {
-    width: 4vw;
+    width: 7vw;
   }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes {
-    margin-bottom: 1.5vw;
+    margin: 1vw 0;
   }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes p {
-    font-size: 1.4vw;
-    line-height: 2vw;
+    font-size: 2.5vw;
+    line-height: 3vw;
   }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes span {
-    font-size: 2vw;
+    font-size: 3vw;
   }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes img {
-    width: 5.5vw;
+    width: 8vw;
   }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-box.without::after {
-    top: 3.5vw;
-    left: 13.3vw;
-    width: 9vw;
+    top: 5vw;
+    left: 34.5vw;
+    width: 12vw;
   }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price {
-    top: -3.4vw;
-    width: 15vw;
-    height: 4vw;
+    top: -5vw;
+    width: 30vw;
+    height: 6vw;
   }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price h2 {
-    font-size: 2.4vw;
+    font-size: 4.5vw;
   }
-  .rooms .rooms__slider-btn {
+  .rooms .rooms__slider .rooms__slider-btn {
     width: 8vw;
     height: 8vw;
   }
-  .rooms .rooms__slider-btnnext {
+  .rooms .rooms__slider .rooms__slider-btnnext {
     right: -7vw;
   }
-  .rooms .rooms__slider-btnprev {
+  .rooms .rooms__slider .rooms__slider-btnprev {
     left: -7vw;
   }
   .rooms .slick-dots {
     position: absolute;
-    bottom: -5%;
-    right: 18%;
+    bottom: -3%;
+    right: 10%;
   }
   .rooms .slick-dots li {
     display: inline-block;
@@ -436,13 +2361,12 @@
   .rooms .slick-dots button {
     padding: 0;
     margin: 0;
-    width: 2.2vw;
-    height: 2.2vw;
+    width: 3vw;
+    height: 3vw;
     font-size: 0;
     border: none;
     border-radius: 50%;
     background-color: #665252;
-    cursor: pointer;
   }
   .rooms li.slick-active button {
     background-color: #F5E5C1;
@@ -458,7 +2382,7 @@
     font-size: 3vw;
   }
   .overview__description .overview__text p {
-    font-size: 2.4vw;
+    font-size: 2.6vw;
   }
   .overview__description .overview__img {
     width: 100%;
@@ -466,49 +2390,1315 @@
   .overview__description .overview__img::after {
     height: 47vw;
   }
+  .important-info .important-info__title h3 {
+    width: 75%;
+  }
   .important-info .important-info__description h4 {
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
   .important-info .important-info__box .important-info__contacts h2 {
     font-size: 5vw;
   }
   .important-info .important-info__box .important-info__contacts h3 {
-    font-size: 3vw;
-    margin-left: 19vw;
+    font-size: 3.5vw;
+    margin-left: 15vw;
   }
   .important-info .important-info__box .important-info__contacts ul {
-    font-size: 3vw;
-    margin-left: 23vw;
+    font-size: 3.5vw;
+    line-height: 5.5vw;
+    margin: 3vw 0 3vw 22vw;
   }
   .important-info .important-info__box .important-info__contacts ul .important-info__contacts-tel::before {
+    top: 1vw;
     left: -4.5vw;
-    width: 3vw;
-    height: 3vw;
+    width: 3.2vw;
+    height: 3.2vw;
   }
   .important-info .important-info__box .important-info__contacts ul .important-info__contacts-mail::before {
     left: -4.5vw;
-    top: 0.6vw;
-    width: 3.3vw;
-    height: 2.7vw;
+    top: 1.6vw;
+    width: 3.5vw;
+    height: 2.9vw;
   }
   .important-info .important-info__box .important-info__contacts ul .important-info__contacts-location::before {
+    top: 1vw;
     left: -4.3vw;
-    width: 2.6vw;
-    height: 3.2vw;
+    width: 2.8vw;
+    height: 3.4vw;
   }
-  .important-info .important-info__box .important-info__contacts button {
+  .important-info .important-info__box .important-info__contacts .important-info__contacts-btn a {
     width: 25vw;
     line-height: 5vw;
-    font-size: 2.5vw;
+    font-size: 2.7vw;
   }
   .important-info .important-info__box .important-info__contacts .important-info__contacts-instagram::before {
     width: 4vw;
     height: 4vw;
+    top: 0.4vw;
+    left: 1.3vw;
   }
   .important-info .important-info__box .important-info__contacts .important-info__contacts-waze::before {
     top: 1.2vw;
     right: 6vw;
     width: 2.6vw;
     height: 2.5vw;
+  }
+  .important-info .important-info__box .important-info__map:hover {
+    width: 100%;
+  }
+  footer .footer__info h3 {
+    font-size: 4.5vw;
+  }
+  footer .footer__info h4 {
+    font-size: 3vw;
+    font-style: italic;
+  }
+  footer .footer__info a {
+    font-size: 3vw;
+    line-height: 6vw;
+  }
+  footer .footer__info .foooter__info-wrapper {
+    margin-left: 5vw;
+  }
+  footer .footer__info .foooter__info-wrapper .foooter__info-tel::before {
+    top: 1.1vw;
+    left: -4.5vw;
+    width: 3vw;
+    height: 3vw;
+  }
+  footer .footer__info .foooter__info-wrapper .foooter__info-mail::before {
+    top: 14vw;
+    left: -4.5vw;
+    width: 3.3vw;
+    height: 2.8vw;
+  }
+  footer .footer__info .foooter__info-wrapper .foooter__info-loc::before {
+    top: 1vw;
+    left: -4.7vw;
+    width: 3vw;
+    height: 3.4vw;
+  }
+  .page-banner {
+    height: 40vh;
+  }
+  .price-page .price-page__info,
+  .price-page .restoraunt__info,
+  .price-page .children__info,
+  .price-page .entertainment__info,
+  .price-page .contacts__info,
+  .restoraunt .price-page__info,
+  .restoraunt .restoraunt__info,
+  .restoraunt .children__info,
+  .restoraunt .entertainment__info,
+  .restoraunt .contacts__info,
+  .children .price-page__info,
+  .children .restoraunt__info,
+  .children .children__info,
+  .children .entertainment__info,
+  .children .contacts__info,
+  .entertainment .price-page__info,
+  .entertainment .restoraunt__info,
+  .entertainment .children__info,
+  .entertainment .entertainment__info,
+  .entertainment .contacts__info,
+  .contacts .price-page__info,
+  .contacts .restoraunt__info,
+  .contacts .children__info,
+  .contacts .entertainment__info,
+  .contacts .contacts__info {
+    display: block;
+  }
+  .price-page .price-page__info .price-page__slider,
+  .price-page .restoraunt__info .price-page__slider,
+  .price-page .children__info .price-page__slider,
+  .price-page .entertainment__info .price-page__slider,
+  .price-page .contacts__info .price-page__slider,
+  .restoraunt .price-page__info .price-page__slider,
+  .restoraunt .restoraunt__info .price-page__slider,
+  .restoraunt .children__info .price-page__slider,
+  .restoraunt .entertainment__info .price-page__slider,
+  .restoraunt .contacts__info .price-page__slider,
+  .children .price-page__info .price-page__slider,
+  .children .restoraunt__info .price-page__slider,
+  .children .children__info .price-page__slider,
+  .children .entertainment__info .price-page__slider,
+  .children .contacts__info .price-page__slider,
+  .entertainment .price-page__info .price-page__slider,
+  .entertainment .restoraunt__info .price-page__slider,
+  .entertainment .children__info .price-page__slider,
+  .entertainment .entertainment__info .price-page__slider,
+  .entertainment .contacts__info .price-page__slider,
+  .contacts .price-page__info .price-page__slider,
+  .contacts .restoraunt__info .price-page__slider,
+  .contacts .children__info .price-page__slider,
+  .contacts .entertainment__info .price-page__slider,
+  .contacts .contacts__info .price-page__slider {
+    width: 100%;
+    margin-top: 5vw;
+  }
+  .price-page .price-page__info .price-page__slider .price-page__slider-item,
+  .price-page .restoraunt__info .price-page__slider .price-page__slider-item,
+  .price-page .children__info .price-page__slider .price-page__slider-item,
+  .price-page .entertainment__info .price-page__slider .price-page__slider-item,
+  .price-page .contacts__info .price-page__slider .price-page__slider-item,
+  .restoraunt .price-page__info .price-page__slider .price-page__slider-item,
+  .restoraunt .restoraunt__info .price-page__slider .price-page__slider-item,
+  .restoraunt .children__info .price-page__slider .price-page__slider-item,
+  .restoraunt .entertainment__info .price-page__slider .price-page__slider-item,
+  .restoraunt .contacts__info .price-page__slider .price-page__slider-item,
+  .children .price-page__info .price-page__slider .price-page__slider-item,
+  .children .restoraunt__info .price-page__slider .price-page__slider-item,
+  .children .children__info .price-page__slider .price-page__slider-item,
+  .children .entertainment__info .price-page__slider .price-page__slider-item,
+  .children .contacts__info .price-page__slider .price-page__slider-item,
+  .entertainment .price-page__info .price-page__slider .price-page__slider-item,
+  .entertainment .restoraunt__info .price-page__slider .price-page__slider-item,
+  .entertainment .children__info .price-page__slider .price-page__slider-item,
+  .entertainment .entertainment__info .price-page__slider .price-page__slider-item,
+  .entertainment .contacts__info .price-page__slider .price-page__slider-item,
+  .contacts .price-page__info .price-page__slider .price-page__slider-item,
+  .contacts .restoraunt__info .price-page__slider .price-page__slider-item,
+  .contacts .children__info .price-page__slider .price-page__slider-item,
+  .contacts .entertainment__info .price-page__slider .price-page__slider-item,
+  .contacts .contacts__info .price-page__slider .price-page__slider-item {
+    height: 55vw;
+  }
+  .price-page .price-page__info .price-page__slider .price-page__slider-item img,
+  .price-page .restoraunt__info .price-page__slider .price-page__slider-item img,
+  .price-page .children__info .price-page__slider .price-page__slider-item img,
+  .price-page .entertainment__info .price-page__slider .price-page__slider-item img,
+  .price-page .contacts__info .price-page__slider .price-page__slider-item img,
+  .restoraunt .price-page__info .price-page__slider .price-page__slider-item img,
+  .restoraunt .restoraunt__info .price-page__slider .price-page__slider-item img,
+  .restoraunt .children__info .price-page__slider .price-page__slider-item img,
+  .restoraunt .entertainment__info .price-page__slider .price-page__slider-item img,
+  .restoraunt .contacts__info .price-page__slider .price-page__slider-item img,
+  .children .price-page__info .price-page__slider .price-page__slider-item img,
+  .children .restoraunt__info .price-page__slider .price-page__slider-item img,
+  .children .children__info .price-page__slider .price-page__slider-item img,
+  .children .entertainment__info .price-page__slider .price-page__slider-item img,
+  .children .contacts__info .price-page__slider .price-page__slider-item img,
+  .entertainment .price-page__info .price-page__slider .price-page__slider-item img,
+  .entertainment .restoraunt__info .price-page__slider .price-page__slider-item img,
+  .entertainment .children__info .price-page__slider .price-page__slider-item img,
+  .entertainment .entertainment__info .price-page__slider .price-page__slider-item img,
+  .entertainment .contacts__info .price-page__slider .price-page__slider-item img,
+  .contacts .price-page__info .price-page__slider .price-page__slider-item img,
+  .contacts .restoraunt__info .price-page__slider .price-page__slider-item img,
+  .contacts .children__info .price-page__slider .price-page__slider-item img,
+  .contacts .entertainment__info .price-page__slider .price-page__slider-item img,
+  .contacts .contacts__info .price-page__slider .price-page__slider-item img {
+    width: 92%;
+    height: 90%;
+  }
+  .price-page .price-page__info .price-page__slider .price-page__slider-item::after,
+  .price-page .restoraunt__info .price-page__slider .price-page__slider-item::after,
+  .price-page .children__info .price-page__slider .price-page__slider-item::after,
+  .price-page .entertainment__info .price-page__slider .price-page__slider-item::after,
+  .price-page .contacts__info .price-page__slider .price-page__slider-item::after,
+  .restoraunt .price-page__info .price-page__slider .price-page__slider-item::after,
+  .restoraunt .restoraunt__info .price-page__slider .price-page__slider-item::after,
+  .restoraunt .children__info .price-page__slider .price-page__slider-item::after,
+  .restoraunt .entertainment__info .price-page__slider .price-page__slider-item::after,
+  .restoraunt .contacts__info .price-page__slider .price-page__slider-item::after,
+  .children .price-page__info .price-page__slider .price-page__slider-item::after,
+  .children .restoraunt__info .price-page__slider .price-page__slider-item::after,
+  .children .children__info .price-page__slider .price-page__slider-item::after,
+  .children .entertainment__info .price-page__slider .price-page__slider-item::after,
+  .children .contacts__info .price-page__slider .price-page__slider-item::after,
+  .entertainment .price-page__info .price-page__slider .price-page__slider-item::after,
+  .entertainment .restoraunt__info .price-page__slider .price-page__slider-item::after,
+  .entertainment .children__info .price-page__slider .price-page__slider-item::after,
+  .entertainment .entertainment__info .price-page__slider .price-page__slider-item::after,
+  .entertainment .contacts__info .price-page__slider .price-page__slider-item::after,
+  .contacts .price-page__info .price-page__slider .price-page__slider-item::after,
+  .contacts .restoraunt__info .price-page__slider .price-page__slider-item::after,
+  .contacts .children__info .price-page__slider .price-page__slider-item::after,
+  .contacts .entertainment__info .price-page__slider .price-page__slider-item::after,
+  .contacts .contacts__info .price-page__slider .price-page__slider-item::after {
+    height: 50vw;
+    bottom: 0;
+    right: 0;
+  }
+  .price-page .price-page__info .price-page__slider .slick-dots,
+  .price-page .restoraunt__info .price-page__slider .slick-dots,
+  .price-page .children__info .price-page__slider .slick-dots,
+  .price-page .entertainment__info .price-page__slider .slick-dots,
+  .price-page .contacts__info .price-page__slider .slick-dots,
+  .restoraunt .price-page__info .price-page__slider .slick-dots,
+  .restoraunt .restoraunt__info .price-page__slider .slick-dots,
+  .restoraunt .children__info .price-page__slider .slick-dots,
+  .restoraunt .entertainment__info .price-page__slider .slick-dots,
+  .restoraunt .contacts__info .price-page__slider .slick-dots,
+  .children .price-page__info .price-page__slider .slick-dots,
+  .children .restoraunt__info .price-page__slider .slick-dots,
+  .children .children__info .price-page__slider .slick-dots,
+  .children .entertainment__info .price-page__slider .slick-dots,
+  .children .contacts__info .price-page__slider .slick-dots,
+  .entertainment .price-page__info .price-page__slider .slick-dots,
+  .entertainment .restoraunt__info .price-page__slider .slick-dots,
+  .entertainment .children__info .price-page__slider .slick-dots,
+  .entertainment .entertainment__info .price-page__slider .slick-dots,
+  .entertainment .contacts__info .price-page__slider .slick-dots,
+  .contacts .price-page__info .price-page__slider .slick-dots,
+  .contacts .restoraunt__info .price-page__slider .slick-dots,
+  .contacts .children__info .price-page__slider .slick-dots,
+  .contacts .entertainment__info .price-page__slider .slick-dots,
+  .contacts .contacts__info .price-page__slider .slick-dots {
+    bottom: 2%;
+    right: 30%;
+  }
+  .price-page .price-page__info .price-page__slider .slick-dots li,
+  .price-page .restoraunt__info .price-page__slider .slick-dots li,
+  .price-page .children__info .price-page__slider .slick-dots li,
+  .price-page .entertainment__info .price-page__slider .slick-dots li,
+  .price-page .contacts__info .price-page__slider .slick-dots li,
+  .restoraunt .price-page__info .price-page__slider .slick-dots li,
+  .restoraunt .restoraunt__info .price-page__slider .slick-dots li,
+  .restoraunt .children__info .price-page__slider .slick-dots li,
+  .restoraunt .entertainment__info .price-page__slider .slick-dots li,
+  .restoraunt .contacts__info .price-page__slider .slick-dots li,
+  .children .price-page__info .price-page__slider .slick-dots li,
+  .children .restoraunt__info .price-page__slider .slick-dots li,
+  .children .children__info .price-page__slider .slick-dots li,
+  .children .entertainment__info .price-page__slider .slick-dots li,
+  .children .contacts__info .price-page__slider .slick-dots li,
+  .entertainment .price-page__info .price-page__slider .slick-dots li,
+  .entertainment .restoraunt__info .price-page__slider .slick-dots li,
+  .entertainment .children__info .price-page__slider .slick-dots li,
+  .entertainment .entertainment__info .price-page__slider .slick-dots li,
+  .entertainment .contacts__info .price-page__slider .slick-dots li,
+  .contacts .price-page__info .price-page__slider .slick-dots li,
+  .contacts .restoraunt__info .price-page__slider .slick-dots li,
+  .contacts .children__info .price-page__slider .slick-dots li,
+  .contacts .entertainment__info .price-page__slider .slick-dots li,
+  .contacts .contacts__info .price-page__slider .slick-dots li {
+    padding: 0 1vw;
+  }
+  .price-page .price-page__info .price-page__slider .slick-dots button,
+  .price-page .restoraunt__info .price-page__slider .slick-dots button,
+  .price-page .children__info .price-page__slider .slick-dots button,
+  .price-page .entertainment__info .price-page__slider .slick-dots button,
+  .price-page .contacts__info .price-page__slider .slick-dots button,
+  .restoraunt .price-page__info .price-page__slider .slick-dots button,
+  .restoraunt .restoraunt__info .price-page__slider .slick-dots button,
+  .restoraunt .children__info .price-page__slider .slick-dots button,
+  .restoraunt .entertainment__info .price-page__slider .slick-dots button,
+  .restoraunt .contacts__info .price-page__slider .slick-dots button,
+  .children .price-page__info .price-page__slider .slick-dots button,
+  .children .restoraunt__info .price-page__slider .slick-dots button,
+  .children .children__info .price-page__slider .slick-dots button,
+  .children .entertainment__info .price-page__slider .slick-dots button,
+  .children .contacts__info .price-page__slider .slick-dots button,
+  .entertainment .price-page__info .price-page__slider .slick-dots button,
+  .entertainment .restoraunt__info .price-page__slider .slick-dots button,
+  .entertainment .children__info .price-page__slider .slick-dots button,
+  .entertainment .entertainment__info .price-page__slider .slick-dots button,
+  .entertainment .contacts__info .price-page__slider .slick-dots button,
+  .contacts .price-page__info .price-page__slider .slick-dots button,
+  .contacts .restoraunt__info .price-page__slider .slick-dots button,
+  .contacts .children__info .price-page__slider .slick-dots button,
+  .contacts .entertainment__info .price-page__slider .slick-dots button,
+  .contacts .contacts__info .price-page__slider .slick-dots button {
+    width: 3.5vw;
+    height: 3.5vw;
+  }
+  .price-page .price-page__info .price-page__desc,
+  .price-page .price-page__info .restoraunt__desc,
+  .price-page .price-page__info .children__desc,
+  .price-page .price-page__info .entertainment__desc,
+  .price-page .price-page__info .contacts__desc,
+  .price-page .restoraunt__info .price-page__desc,
+  .price-page .restoraunt__info .restoraunt__desc,
+  .price-page .restoraunt__info .children__desc,
+  .price-page .restoraunt__info .entertainment__desc,
+  .price-page .restoraunt__info .contacts__desc,
+  .price-page .children__info .price-page__desc,
+  .price-page .children__info .restoraunt__desc,
+  .price-page .children__info .children__desc,
+  .price-page .children__info .entertainment__desc,
+  .price-page .children__info .contacts__desc,
+  .price-page .entertainment__info .price-page__desc,
+  .price-page .entertainment__info .restoraunt__desc,
+  .price-page .entertainment__info .children__desc,
+  .price-page .entertainment__info .entertainment__desc,
+  .price-page .entertainment__info .contacts__desc,
+  .price-page .contacts__info .price-page__desc,
+  .price-page .contacts__info .restoraunt__desc,
+  .price-page .contacts__info .children__desc,
+  .price-page .contacts__info .entertainment__desc,
+  .price-page .contacts__info .contacts__desc,
+  .restoraunt .price-page__info .price-page__desc,
+  .restoraunt .price-page__info .restoraunt__desc,
+  .restoraunt .price-page__info .children__desc,
+  .restoraunt .price-page__info .entertainment__desc,
+  .restoraunt .price-page__info .contacts__desc,
+  .restoraunt .restoraunt__info .price-page__desc,
+  .restoraunt .restoraunt__info .restoraunt__desc,
+  .restoraunt .restoraunt__info .children__desc,
+  .restoraunt .restoraunt__info .entertainment__desc,
+  .restoraunt .restoraunt__info .contacts__desc,
+  .restoraunt .children__info .price-page__desc,
+  .restoraunt .children__info .restoraunt__desc,
+  .restoraunt .children__info .children__desc,
+  .restoraunt .children__info .entertainment__desc,
+  .restoraunt .children__info .contacts__desc,
+  .restoraunt .entertainment__info .price-page__desc,
+  .restoraunt .entertainment__info .restoraunt__desc,
+  .restoraunt .entertainment__info .children__desc,
+  .restoraunt .entertainment__info .entertainment__desc,
+  .restoraunt .entertainment__info .contacts__desc,
+  .restoraunt .contacts__info .price-page__desc,
+  .restoraunt .contacts__info .restoraunt__desc,
+  .restoraunt .contacts__info .children__desc,
+  .restoraunt .contacts__info .entertainment__desc,
+  .restoraunt .contacts__info .contacts__desc,
+  .children .price-page__info .price-page__desc,
+  .children .price-page__info .restoraunt__desc,
+  .children .price-page__info .children__desc,
+  .children .price-page__info .entertainment__desc,
+  .children .price-page__info .contacts__desc,
+  .children .restoraunt__info .price-page__desc,
+  .children .restoraunt__info .restoraunt__desc,
+  .children .restoraunt__info .children__desc,
+  .children .restoraunt__info .entertainment__desc,
+  .children .restoraunt__info .contacts__desc,
+  .children .children__info .price-page__desc,
+  .children .children__info .restoraunt__desc,
+  .children .children__info .children__desc,
+  .children .children__info .entertainment__desc,
+  .children .children__info .contacts__desc,
+  .children .entertainment__info .price-page__desc,
+  .children .entertainment__info .restoraunt__desc,
+  .children .entertainment__info .children__desc,
+  .children .entertainment__info .entertainment__desc,
+  .children .entertainment__info .contacts__desc,
+  .children .contacts__info .price-page__desc,
+  .children .contacts__info .restoraunt__desc,
+  .children .contacts__info .children__desc,
+  .children .contacts__info .entertainment__desc,
+  .children .contacts__info .contacts__desc,
+  .entertainment .price-page__info .price-page__desc,
+  .entertainment .price-page__info .restoraunt__desc,
+  .entertainment .price-page__info .children__desc,
+  .entertainment .price-page__info .entertainment__desc,
+  .entertainment .price-page__info .contacts__desc,
+  .entertainment .restoraunt__info .price-page__desc,
+  .entertainment .restoraunt__info .restoraunt__desc,
+  .entertainment .restoraunt__info .children__desc,
+  .entertainment .restoraunt__info .entertainment__desc,
+  .entertainment .restoraunt__info .contacts__desc,
+  .entertainment .children__info .price-page__desc,
+  .entertainment .children__info .restoraunt__desc,
+  .entertainment .children__info .children__desc,
+  .entertainment .children__info .entertainment__desc,
+  .entertainment .children__info .contacts__desc,
+  .entertainment .entertainment__info .price-page__desc,
+  .entertainment .entertainment__info .restoraunt__desc,
+  .entertainment .entertainment__info .children__desc,
+  .entertainment .entertainment__info .entertainment__desc,
+  .entertainment .entertainment__info .contacts__desc,
+  .entertainment .contacts__info .price-page__desc,
+  .entertainment .contacts__info .restoraunt__desc,
+  .entertainment .contacts__info .children__desc,
+  .entertainment .contacts__info .entertainment__desc,
+  .entertainment .contacts__info .contacts__desc,
+  .contacts .price-page__info .price-page__desc,
+  .contacts .price-page__info .restoraunt__desc,
+  .contacts .price-page__info .children__desc,
+  .contacts .price-page__info .entertainment__desc,
+  .contacts .price-page__info .contacts__desc,
+  .contacts .restoraunt__info .price-page__desc,
+  .contacts .restoraunt__info .restoraunt__desc,
+  .contacts .restoraunt__info .children__desc,
+  .contacts .restoraunt__info .entertainment__desc,
+  .contacts .restoraunt__info .contacts__desc,
+  .contacts .children__info .price-page__desc,
+  .contacts .children__info .restoraunt__desc,
+  .contacts .children__info .children__desc,
+  .contacts .children__info .entertainment__desc,
+  .contacts .children__info .contacts__desc,
+  .contacts .entertainment__info .price-page__desc,
+  .contacts .entertainment__info .restoraunt__desc,
+  .contacts .entertainment__info .children__desc,
+  .contacts .entertainment__info .entertainment__desc,
+  .contacts .entertainment__info .contacts__desc,
+  .contacts .contacts__info .price-page__desc,
+  .contacts .contacts__info .restoraunt__desc,
+  .contacts .contacts__info .children__desc,
+  .contacts .contacts__info .entertainment__desc,
+  .contacts .contacts__info .contacts__desc {
+    width: 100%;
+  }
+  .price-page .price-page__info .price-page__desc h2,
+  .price-page .price-page__info .restoraunt__desc h2,
+  .price-page .price-page__info .children__desc h2,
+  .price-page .price-page__info .entertainment__desc h2,
+  .price-page .price-page__info .contacts__desc h2,
+  .price-page .restoraunt__info .price-page__desc h2,
+  .price-page .restoraunt__info .restoraunt__desc h2,
+  .price-page .restoraunt__info .children__desc h2,
+  .price-page .restoraunt__info .entertainment__desc h2,
+  .price-page .restoraunt__info .contacts__desc h2,
+  .price-page .children__info .price-page__desc h2,
+  .price-page .children__info .restoraunt__desc h2,
+  .price-page .children__info .children__desc h2,
+  .price-page .children__info .entertainment__desc h2,
+  .price-page .children__info .contacts__desc h2,
+  .price-page .entertainment__info .price-page__desc h2,
+  .price-page .entertainment__info .restoraunt__desc h2,
+  .price-page .entertainment__info .children__desc h2,
+  .price-page .entertainment__info .entertainment__desc h2,
+  .price-page .entertainment__info .contacts__desc h2,
+  .price-page .contacts__info .price-page__desc h2,
+  .price-page .contacts__info .restoraunt__desc h2,
+  .price-page .contacts__info .children__desc h2,
+  .price-page .contacts__info .entertainment__desc h2,
+  .price-page .contacts__info .contacts__desc h2,
+  .restoraunt .price-page__info .price-page__desc h2,
+  .restoraunt .price-page__info .restoraunt__desc h2,
+  .restoraunt .price-page__info .children__desc h2,
+  .restoraunt .price-page__info .entertainment__desc h2,
+  .restoraunt .price-page__info .contacts__desc h2,
+  .restoraunt .restoraunt__info .price-page__desc h2,
+  .restoraunt .restoraunt__info .restoraunt__desc h2,
+  .restoraunt .restoraunt__info .children__desc h2,
+  .restoraunt .restoraunt__info .entertainment__desc h2,
+  .restoraunt .restoraunt__info .contacts__desc h2,
+  .restoraunt .children__info .price-page__desc h2,
+  .restoraunt .children__info .restoraunt__desc h2,
+  .restoraunt .children__info .children__desc h2,
+  .restoraunt .children__info .entertainment__desc h2,
+  .restoraunt .children__info .contacts__desc h2,
+  .restoraunt .entertainment__info .price-page__desc h2,
+  .restoraunt .entertainment__info .restoraunt__desc h2,
+  .restoraunt .entertainment__info .children__desc h2,
+  .restoraunt .entertainment__info .entertainment__desc h2,
+  .restoraunt .entertainment__info .contacts__desc h2,
+  .restoraunt .contacts__info .price-page__desc h2,
+  .restoraunt .contacts__info .restoraunt__desc h2,
+  .restoraunt .contacts__info .children__desc h2,
+  .restoraunt .contacts__info .entertainment__desc h2,
+  .restoraunt .contacts__info .contacts__desc h2,
+  .children .price-page__info .price-page__desc h2,
+  .children .price-page__info .restoraunt__desc h2,
+  .children .price-page__info .children__desc h2,
+  .children .price-page__info .entertainment__desc h2,
+  .children .price-page__info .contacts__desc h2,
+  .children .restoraunt__info .price-page__desc h2,
+  .children .restoraunt__info .restoraunt__desc h2,
+  .children .restoraunt__info .children__desc h2,
+  .children .restoraunt__info .entertainment__desc h2,
+  .children .restoraunt__info .contacts__desc h2,
+  .children .children__info .price-page__desc h2,
+  .children .children__info .restoraunt__desc h2,
+  .children .children__info .children__desc h2,
+  .children .children__info .entertainment__desc h2,
+  .children .children__info .contacts__desc h2,
+  .children .entertainment__info .price-page__desc h2,
+  .children .entertainment__info .restoraunt__desc h2,
+  .children .entertainment__info .children__desc h2,
+  .children .entertainment__info .entertainment__desc h2,
+  .children .entertainment__info .contacts__desc h2,
+  .children .contacts__info .price-page__desc h2,
+  .children .contacts__info .restoraunt__desc h2,
+  .children .contacts__info .children__desc h2,
+  .children .contacts__info .entertainment__desc h2,
+  .children .contacts__info .contacts__desc h2,
+  .entertainment .price-page__info .price-page__desc h2,
+  .entertainment .price-page__info .restoraunt__desc h2,
+  .entertainment .price-page__info .children__desc h2,
+  .entertainment .price-page__info .entertainment__desc h2,
+  .entertainment .price-page__info .contacts__desc h2,
+  .entertainment .restoraunt__info .price-page__desc h2,
+  .entertainment .restoraunt__info .restoraunt__desc h2,
+  .entertainment .restoraunt__info .children__desc h2,
+  .entertainment .restoraunt__info .entertainment__desc h2,
+  .entertainment .restoraunt__info .contacts__desc h2,
+  .entertainment .children__info .price-page__desc h2,
+  .entertainment .children__info .restoraunt__desc h2,
+  .entertainment .children__info .children__desc h2,
+  .entertainment .children__info .entertainment__desc h2,
+  .entertainment .children__info .contacts__desc h2,
+  .entertainment .entertainment__info .price-page__desc h2,
+  .entertainment .entertainment__info .restoraunt__desc h2,
+  .entertainment .entertainment__info .children__desc h2,
+  .entertainment .entertainment__info .entertainment__desc h2,
+  .entertainment .entertainment__info .contacts__desc h2,
+  .entertainment .contacts__info .price-page__desc h2,
+  .entertainment .contacts__info .restoraunt__desc h2,
+  .entertainment .contacts__info .children__desc h2,
+  .entertainment .contacts__info .entertainment__desc h2,
+  .entertainment .contacts__info .contacts__desc h2,
+  .contacts .price-page__info .price-page__desc h2,
+  .contacts .price-page__info .restoraunt__desc h2,
+  .contacts .price-page__info .children__desc h2,
+  .contacts .price-page__info .entertainment__desc h2,
+  .contacts .price-page__info .contacts__desc h2,
+  .contacts .restoraunt__info .price-page__desc h2,
+  .contacts .restoraunt__info .restoraunt__desc h2,
+  .contacts .restoraunt__info .children__desc h2,
+  .contacts .restoraunt__info .entertainment__desc h2,
+  .contacts .restoraunt__info .contacts__desc h2,
+  .contacts .children__info .price-page__desc h2,
+  .contacts .children__info .restoraunt__desc h2,
+  .contacts .children__info .children__desc h2,
+  .contacts .children__info .entertainment__desc h2,
+  .contacts .children__info .contacts__desc h2,
+  .contacts .entertainment__info .price-page__desc h2,
+  .contacts .entertainment__info .restoraunt__desc h2,
+  .contacts .entertainment__info .children__desc h2,
+  .contacts .entertainment__info .entertainment__desc h2,
+  .contacts .entertainment__info .contacts__desc h2,
+  .contacts .contacts__info .price-page__desc h2,
+  .contacts .contacts__info .restoraunt__desc h2,
+  .contacts .contacts__info .children__desc h2,
+  .contacts .contacts__info .entertainment__desc h2,
+  .contacts .contacts__info .contacts__desc h2 {
+    font-size: 7vw;
+    margin-top: 2vw;
+  }
+  .price-page .price-page__info .price-page__desc h3,
+  .price-page .price-page__info .restoraunt__desc h3,
+  .price-page .price-page__info .children__desc h3,
+  .price-page .price-page__info .entertainment__desc h3,
+  .price-page .price-page__info .contacts__desc h3,
+  .price-page .restoraunt__info .price-page__desc h3,
+  .price-page .restoraunt__info .restoraunt__desc h3,
+  .price-page .restoraunt__info .children__desc h3,
+  .price-page .restoraunt__info .entertainment__desc h3,
+  .price-page .restoraunt__info .contacts__desc h3,
+  .price-page .children__info .price-page__desc h3,
+  .price-page .children__info .restoraunt__desc h3,
+  .price-page .children__info .children__desc h3,
+  .price-page .children__info .entertainment__desc h3,
+  .price-page .children__info .contacts__desc h3,
+  .price-page .entertainment__info .price-page__desc h3,
+  .price-page .entertainment__info .restoraunt__desc h3,
+  .price-page .entertainment__info .children__desc h3,
+  .price-page .entertainment__info .entertainment__desc h3,
+  .price-page .entertainment__info .contacts__desc h3,
+  .price-page .contacts__info .price-page__desc h3,
+  .price-page .contacts__info .restoraunt__desc h3,
+  .price-page .contacts__info .children__desc h3,
+  .price-page .contacts__info .entertainment__desc h3,
+  .price-page .contacts__info .contacts__desc h3,
+  .restoraunt .price-page__info .price-page__desc h3,
+  .restoraunt .price-page__info .restoraunt__desc h3,
+  .restoraunt .price-page__info .children__desc h3,
+  .restoraunt .price-page__info .entertainment__desc h3,
+  .restoraunt .price-page__info .contacts__desc h3,
+  .restoraunt .restoraunt__info .price-page__desc h3,
+  .restoraunt .restoraunt__info .restoraunt__desc h3,
+  .restoraunt .restoraunt__info .children__desc h3,
+  .restoraunt .restoraunt__info .entertainment__desc h3,
+  .restoraunt .restoraunt__info .contacts__desc h3,
+  .restoraunt .children__info .price-page__desc h3,
+  .restoraunt .children__info .restoraunt__desc h3,
+  .restoraunt .children__info .children__desc h3,
+  .restoraunt .children__info .entertainment__desc h3,
+  .restoraunt .children__info .contacts__desc h3,
+  .restoraunt .entertainment__info .price-page__desc h3,
+  .restoraunt .entertainment__info .restoraunt__desc h3,
+  .restoraunt .entertainment__info .children__desc h3,
+  .restoraunt .entertainment__info .entertainment__desc h3,
+  .restoraunt .entertainment__info .contacts__desc h3,
+  .restoraunt .contacts__info .price-page__desc h3,
+  .restoraunt .contacts__info .restoraunt__desc h3,
+  .restoraunt .contacts__info .children__desc h3,
+  .restoraunt .contacts__info .entertainment__desc h3,
+  .restoraunt .contacts__info .contacts__desc h3,
+  .children .price-page__info .price-page__desc h3,
+  .children .price-page__info .restoraunt__desc h3,
+  .children .price-page__info .children__desc h3,
+  .children .price-page__info .entertainment__desc h3,
+  .children .price-page__info .contacts__desc h3,
+  .children .restoraunt__info .price-page__desc h3,
+  .children .restoraunt__info .restoraunt__desc h3,
+  .children .restoraunt__info .children__desc h3,
+  .children .restoraunt__info .entertainment__desc h3,
+  .children .restoraunt__info .contacts__desc h3,
+  .children .children__info .price-page__desc h3,
+  .children .children__info .restoraunt__desc h3,
+  .children .children__info .children__desc h3,
+  .children .children__info .entertainment__desc h3,
+  .children .children__info .contacts__desc h3,
+  .children .entertainment__info .price-page__desc h3,
+  .children .entertainment__info .restoraunt__desc h3,
+  .children .entertainment__info .children__desc h3,
+  .children .entertainment__info .entertainment__desc h3,
+  .children .entertainment__info .contacts__desc h3,
+  .children .contacts__info .price-page__desc h3,
+  .children .contacts__info .restoraunt__desc h3,
+  .children .contacts__info .children__desc h3,
+  .children .contacts__info .entertainment__desc h3,
+  .children .contacts__info .contacts__desc h3,
+  .entertainment .price-page__info .price-page__desc h3,
+  .entertainment .price-page__info .restoraunt__desc h3,
+  .entertainment .price-page__info .children__desc h3,
+  .entertainment .price-page__info .entertainment__desc h3,
+  .entertainment .price-page__info .contacts__desc h3,
+  .entertainment .restoraunt__info .price-page__desc h3,
+  .entertainment .restoraunt__info .restoraunt__desc h3,
+  .entertainment .restoraunt__info .children__desc h3,
+  .entertainment .restoraunt__info .entertainment__desc h3,
+  .entertainment .restoraunt__info .contacts__desc h3,
+  .entertainment .children__info .price-page__desc h3,
+  .entertainment .children__info .restoraunt__desc h3,
+  .entertainment .children__info .children__desc h3,
+  .entertainment .children__info .entertainment__desc h3,
+  .entertainment .children__info .contacts__desc h3,
+  .entertainment .entertainment__info .price-page__desc h3,
+  .entertainment .entertainment__info .restoraunt__desc h3,
+  .entertainment .entertainment__info .children__desc h3,
+  .entertainment .entertainment__info .entertainment__desc h3,
+  .entertainment .entertainment__info .contacts__desc h3,
+  .entertainment .contacts__info .price-page__desc h3,
+  .entertainment .contacts__info .restoraunt__desc h3,
+  .entertainment .contacts__info .children__desc h3,
+  .entertainment .contacts__info .entertainment__desc h3,
+  .entertainment .contacts__info .contacts__desc h3,
+  .contacts .price-page__info .price-page__desc h3,
+  .contacts .price-page__info .restoraunt__desc h3,
+  .contacts .price-page__info .children__desc h3,
+  .contacts .price-page__info .entertainment__desc h3,
+  .contacts .price-page__info .contacts__desc h3,
+  .contacts .restoraunt__info .price-page__desc h3,
+  .contacts .restoraunt__info .restoraunt__desc h3,
+  .contacts .restoraunt__info .children__desc h3,
+  .contacts .restoraunt__info .entertainment__desc h3,
+  .contacts .restoraunt__info .contacts__desc h3,
+  .contacts .children__info .price-page__desc h3,
+  .contacts .children__info .restoraunt__desc h3,
+  .contacts .children__info .children__desc h3,
+  .contacts .children__info .entertainment__desc h3,
+  .contacts .children__info .contacts__desc h3,
+  .contacts .entertainment__info .price-page__desc h3,
+  .contacts .entertainment__info .restoraunt__desc h3,
+  .contacts .entertainment__info .children__desc h3,
+  .contacts .entertainment__info .entertainment__desc h3,
+  .contacts .entertainment__info .contacts__desc h3,
+  .contacts .contacts__info .price-page__desc h3,
+  .contacts .contacts__info .restoraunt__desc h3,
+  .contacts .contacts__info .children__desc h3,
+  .contacts .contacts__info .entertainment__desc h3,
+  .contacts .contacts__info .contacts__desc h3 {
+    font-size: 5vw;
+    padding-left: 10vw;
+  }
+  .price-page .price-page__info .price-page__desc h3::before,
+  .price-page .price-page__info .restoraunt__desc h3::before,
+  .price-page .price-page__info .children__desc h3::before,
+  .price-page .price-page__info .entertainment__desc h3::before,
+  .price-page .price-page__info .contacts__desc h3::before,
+  .price-page .restoraunt__info .price-page__desc h3::before,
+  .price-page .restoraunt__info .restoraunt__desc h3::before,
+  .price-page .restoraunt__info .children__desc h3::before,
+  .price-page .restoraunt__info .entertainment__desc h3::before,
+  .price-page .restoraunt__info .contacts__desc h3::before,
+  .price-page .children__info .price-page__desc h3::before,
+  .price-page .children__info .restoraunt__desc h3::before,
+  .price-page .children__info .children__desc h3::before,
+  .price-page .children__info .entertainment__desc h3::before,
+  .price-page .children__info .contacts__desc h3::before,
+  .price-page .entertainment__info .price-page__desc h3::before,
+  .price-page .entertainment__info .restoraunt__desc h3::before,
+  .price-page .entertainment__info .children__desc h3::before,
+  .price-page .entertainment__info .entertainment__desc h3::before,
+  .price-page .entertainment__info .contacts__desc h3::before,
+  .price-page .contacts__info .price-page__desc h3::before,
+  .price-page .contacts__info .restoraunt__desc h3::before,
+  .price-page .contacts__info .children__desc h3::before,
+  .price-page .contacts__info .entertainment__desc h3::before,
+  .price-page .contacts__info .contacts__desc h3::before,
+  .restoraunt .price-page__info .price-page__desc h3::before,
+  .restoraunt .price-page__info .restoraunt__desc h3::before,
+  .restoraunt .price-page__info .children__desc h3::before,
+  .restoraunt .price-page__info .entertainment__desc h3::before,
+  .restoraunt .price-page__info .contacts__desc h3::before,
+  .restoraunt .restoraunt__info .price-page__desc h3::before,
+  .restoraunt .restoraunt__info .restoraunt__desc h3::before,
+  .restoraunt .restoraunt__info .children__desc h3::before,
+  .restoraunt .restoraunt__info .entertainment__desc h3::before,
+  .restoraunt .restoraunt__info .contacts__desc h3::before,
+  .restoraunt .children__info .price-page__desc h3::before,
+  .restoraunt .children__info .restoraunt__desc h3::before,
+  .restoraunt .children__info .children__desc h3::before,
+  .restoraunt .children__info .entertainment__desc h3::before,
+  .restoraunt .children__info .contacts__desc h3::before,
+  .restoraunt .entertainment__info .price-page__desc h3::before,
+  .restoraunt .entertainment__info .restoraunt__desc h3::before,
+  .restoraunt .entertainment__info .children__desc h3::before,
+  .restoraunt .entertainment__info .entertainment__desc h3::before,
+  .restoraunt .entertainment__info .contacts__desc h3::before,
+  .restoraunt .contacts__info .price-page__desc h3::before,
+  .restoraunt .contacts__info .restoraunt__desc h3::before,
+  .restoraunt .contacts__info .children__desc h3::before,
+  .restoraunt .contacts__info .entertainment__desc h3::before,
+  .restoraunt .contacts__info .contacts__desc h3::before,
+  .children .price-page__info .price-page__desc h3::before,
+  .children .price-page__info .restoraunt__desc h3::before,
+  .children .price-page__info .children__desc h3::before,
+  .children .price-page__info .entertainment__desc h3::before,
+  .children .price-page__info .contacts__desc h3::before,
+  .children .restoraunt__info .price-page__desc h3::before,
+  .children .restoraunt__info .restoraunt__desc h3::before,
+  .children .restoraunt__info .children__desc h3::before,
+  .children .restoraunt__info .entertainment__desc h3::before,
+  .children .restoraunt__info .contacts__desc h3::before,
+  .children .children__info .price-page__desc h3::before,
+  .children .children__info .restoraunt__desc h3::before,
+  .children .children__info .children__desc h3::before,
+  .children .children__info .entertainment__desc h3::before,
+  .children .children__info .contacts__desc h3::before,
+  .children .entertainment__info .price-page__desc h3::before,
+  .children .entertainment__info .restoraunt__desc h3::before,
+  .children .entertainment__info .children__desc h3::before,
+  .children .entertainment__info .entertainment__desc h3::before,
+  .children .entertainment__info .contacts__desc h3::before,
+  .children .contacts__info .price-page__desc h3::before,
+  .children .contacts__info .restoraunt__desc h3::before,
+  .children .contacts__info .children__desc h3::before,
+  .children .contacts__info .entertainment__desc h3::before,
+  .children .contacts__info .contacts__desc h3::before,
+  .entertainment .price-page__info .price-page__desc h3::before,
+  .entertainment .price-page__info .restoraunt__desc h3::before,
+  .entertainment .price-page__info .children__desc h3::before,
+  .entertainment .price-page__info .entertainment__desc h3::before,
+  .entertainment .price-page__info .contacts__desc h3::before,
+  .entertainment .restoraunt__info .price-page__desc h3::before,
+  .entertainment .restoraunt__info .restoraunt__desc h3::before,
+  .entertainment .restoraunt__info .children__desc h3::before,
+  .entertainment .restoraunt__info .entertainment__desc h3::before,
+  .entertainment .restoraunt__info .contacts__desc h3::before,
+  .entertainment .children__info .price-page__desc h3::before,
+  .entertainment .children__info .restoraunt__desc h3::before,
+  .entertainment .children__info .children__desc h3::before,
+  .entertainment .children__info .entertainment__desc h3::before,
+  .entertainment .children__info .contacts__desc h3::before,
+  .entertainment .entertainment__info .price-page__desc h3::before,
+  .entertainment .entertainment__info .restoraunt__desc h3::before,
+  .entertainment .entertainment__info .children__desc h3::before,
+  .entertainment .entertainment__info .entertainment__desc h3::before,
+  .entertainment .entertainment__info .contacts__desc h3::before,
+  .entertainment .contacts__info .price-page__desc h3::before,
+  .entertainment .contacts__info .restoraunt__desc h3::before,
+  .entertainment .contacts__info .children__desc h3::before,
+  .entertainment .contacts__info .entertainment__desc h3::before,
+  .entertainment .contacts__info .contacts__desc h3::before,
+  .contacts .price-page__info .price-page__desc h3::before,
+  .contacts .price-page__info .restoraunt__desc h3::before,
+  .contacts .price-page__info .children__desc h3::before,
+  .contacts .price-page__info .entertainment__desc h3::before,
+  .contacts .price-page__info .contacts__desc h3::before,
+  .contacts .restoraunt__info .price-page__desc h3::before,
+  .contacts .restoraunt__info .restoraunt__desc h3::before,
+  .contacts .restoraunt__info .children__desc h3::before,
+  .contacts .restoraunt__info .entertainment__desc h3::before,
+  .contacts .restoraunt__info .contacts__desc h3::before,
+  .contacts .children__info .price-page__desc h3::before,
+  .contacts .children__info .restoraunt__desc h3::before,
+  .contacts .children__info .children__desc h3::before,
+  .contacts .children__info .entertainment__desc h3::before,
+  .contacts .children__info .contacts__desc h3::before,
+  .contacts .entertainment__info .price-page__desc h3::before,
+  .contacts .entertainment__info .restoraunt__desc h3::before,
+  .contacts .entertainment__info .children__desc h3::before,
+  .contacts .entertainment__info .entertainment__desc h3::before,
+  .contacts .entertainment__info .contacts__desc h3::before,
+  .contacts .contacts__info .price-page__desc h3::before,
+  .contacts .contacts__info .restoraunt__desc h3::before,
+  .contacts .contacts__info .children__desc h3::before,
+  .contacts .contacts__info .entertainment__desc h3::before,
+  .contacts .contacts__info .contacts__desc h3::before {
+    width: 10%;
+    height: 0.5vw;
+  }
+  .price-page .price-page__info .price-page__desc h4,
+  .price-page .price-page__info .restoraunt__desc h4,
+  .price-page .price-page__info .children__desc h4,
+  .price-page .price-page__info .entertainment__desc h4,
+  .price-page .price-page__info .contacts__desc h4,
+  .price-page .restoraunt__info .price-page__desc h4,
+  .price-page .restoraunt__info .restoraunt__desc h4,
+  .price-page .restoraunt__info .children__desc h4,
+  .price-page .restoraunt__info .entertainment__desc h4,
+  .price-page .restoraunt__info .contacts__desc h4,
+  .price-page .children__info .price-page__desc h4,
+  .price-page .children__info .restoraunt__desc h4,
+  .price-page .children__info .children__desc h4,
+  .price-page .children__info .entertainment__desc h4,
+  .price-page .children__info .contacts__desc h4,
+  .price-page .entertainment__info .price-page__desc h4,
+  .price-page .entertainment__info .restoraunt__desc h4,
+  .price-page .entertainment__info .children__desc h4,
+  .price-page .entertainment__info .entertainment__desc h4,
+  .price-page .entertainment__info .contacts__desc h4,
+  .price-page .contacts__info .price-page__desc h4,
+  .price-page .contacts__info .restoraunt__desc h4,
+  .price-page .contacts__info .children__desc h4,
+  .price-page .contacts__info .entertainment__desc h4,
+  .price-page .contacts__info .contacts__desc h4,
+  .restoraunt .price-page__info .price-page__desc h4,
+  .restoraunt .price-page__info .restoraunt__desc h4,
+  .restoraunt .price-page__info .children__desc h4,
+  .restoraunt .price-page__info .entertainment__desc h4,
+  .restoraunt .price-page__info .contacts__desc h4,
+  .restoraunt .restoraunt__info .price-page__desc h4,
+  .restoraunt .restoraunt__info .restoraunt__desc h4,
+  .restoraunt .restoraunt__info .children__desc h4,
+  .restoraunt .restoraunt__info .entertainment__desc h4,
+  .restoraunt .restoraunt__info .contacts__desc h4,
+  .restoraunt .children__info .price-page__desc h4,
+  .restoraunt .children__info .restoraunt__desc h4,
+  .restoraunt .children__info .children__desc h4,
+  .restoraunt .children__info .entertainment__desc h4,
+  .restoraunt .children__info .contacts__desc h4,
+  .restoraunt .entertainment__info .price-page__desc h4,
+  .restoraunt .entertainment__info .restoraunt__desc h4,
+  .restoraunt .entertainment__info .children__desc h4,
+  .restoraunt .entertainment__info .entertainment__desc h4,
+  .restoraunt .entertainment__info .contacts__desc h4,
+  .restoraunt .contacts__info .price-page__desc h4,
+  .restoraunt .contacts__info .restoraunt__desc h4,
+  .restoraunt .contacts__info .children__desc h4,
+  .restoraunt .contacts__info .entertainment__desc h4,
+  .restoraunt .contacts__info .contacts__desc h4,
+  .children .price-page__info .price-page__desc h4,
+  .children .price-page__info .restoraunt__desc h4,
+  .children .price-page__info .children__desc h4,
+  .children .price-page__info .entertainment__desc h4,
+  .children .price-page__info .contacts__desc h4,
+  .children .restoraunt__info .price-page__desc h4,
+  .children .restoraunt__info .restoraunt__desc h4,
+  .children .restoraunt__info .children__desc h4,
+  .children .restoraunt__info .entertainment__desc h4,
+  .children .restoraunt__info .contacts__desc h4,
+  .children .children__info .price-page__desc h4,
+  .children .children__info .restoraunt__desc h4,
+  .children .children__info .children__desc h4,
+  .children .children__info .entertainment__desc h4,
+  .children .children__info .contacts__desc h4,
+  .children .entertainment__info .price-page__desc h4,
+  .children .entertainment__info .restoraunt__desc h4,
+  .children .entertainment__info .children__desc h4,
+  .children .entertainment__info .entertainment__desc h4,
+  .children .entertainment__info .contacts__desc h4,
+  .children .contacts__info .price-page__desc h4,
+  .children .contacts__info .restoraunt__desc h4,
+  .children .contacts__info .children__desc h4,
+  .children .contacts__info .entertainment__desc h4,
+  .children .contacts__info .contacts__desc h4,
+  .entertainment .price-page__info .price-page__desc h4,
+  .entertainment .price-page__info .restoraunt__desc h4,
+  .entertainment .price-page__info .children__desc h4,
+  .entertainment .price-page__info .entertainment__desc h4,
+  .entertainment .price-page__info .contacts__desc h4,
+  .entertainment .restoraunt__info .price-page__desc h4,
+  .entertainment .restoraunt__info .restoraunt__desc h4,
+  .entertainment .restoraunt__info .children__desc h4,
+  .entertainment .restoraunt__info .entertainment__desc h4,
+  .entertainment .restoraunt__info .contacts__desc h4,
+  .entertainment .children__info .price-page__desc h4,
+  .entertainment .children__info .restoraunt__desc h4,
+  .entertainment .children__info .children__desc h4,
+  .entertainment .children__info .entertainment__desc h4,
+  .entertainment .children__info .contacts__desc h4,
+  .entertainment .entertainment__info .price-page__desc h4,
+  .entertainment .entertainment__info .restoraunt__desc h4,
+  .entertainment .entertainment__info .children__desc h4,
+  .entertainment .entertainment__info .entertainment__desc h4,
+  .entertainment .entertainment__info .contacts__desc h4,
+  .entertainment .contacts__info .price-page__desc h4,
+  .entertainment .contacts__info .restoraunt__desc h4,
+  .entertainment .contacts__info .children__desc h4,
+  .entertainment .contacts__info .entertainment__desc h4,
+  .entertainment .contacts__info .contacts__desc h4,
+  .contacts .price-page__info .price-page__desc h4,
+  .contacts .price-page__info .restoraunt__desc h4,
+  .contacts .price-page__info .children__desc h4,
+  .contacts .price-page__info .entertainment__desc h4,
+  .contacts .price-page__info .contacts__desc h4,
+  .contacts .restoraunt__info .price-page__desc h4,
+  .contacts .restoraunt__info .restoraunt__desc h4,
+  .contacts .restoraunt__info .children__desc h4,
+  .contacts .restoraunt__info .entertainment__desc h4,
+  .contacts .restoraunt__info .contacts__desc h4,
+  .contacts .children__info .price-page__desc h4,
+  .contacts .children__info .restoraunt__desc h4,
+  .contacts .children__info .children__desc h4,
+  .contacts .children__info .entertainment__desc h4,
+  .contacts .children__info .contacts__desc h4,
+  .contacts .entertainment__info .price-page__desc h4,
+  .contacts .entertainment__info .restoraunt__desc h4,
+  .contacts .entertainment__info .children__desc h4,
+  .contacts .entertainment__info .entertainment__desc h4,
+  .contacts .entertainment__info .contacts__desc h4,
+  .contacts .contacts__info .price-page__desc h4,
+  .contacts .contacts__info .restoraunt__desc h4,
+  .contacts .contacts__info .children__desc h4,
+  .contacts .contacts__info .entertainment__desc h4,
+  .contacts .contacts__info .contacts__desc h4 {
+    font-size: 3.4vw;
+    margin: 2vw 0 4vw;
+  }
+  .price-page .price-page__info .price-page__desc p,
+  .price-page .price-page__info .restoraunt__desc p,
+  .price-page .price-page__info .children__desc p,
+  .price-page .price-page__info .entertainment__desc p,
+  .price-page .price-page__info .contacts__desc p,
+  .price-page .restoraunt__info .price-page__desc p,
+  .price-page .restoraunt__info .restoraunt__desc p,
+  .price-page .restoraunt__info .children__desc p,
+  .price-page .restoraunt__info .entertainment__desc p,
+  .price-page .restoraunt__info .contacts__desc p,
+  .price-page .children__info .price-page__desc p,
+  .price-page .children__info .restoraunt__desc p,
+  .price-page .children__info .children__desc p,
+  .price-page .children__info .entertainment__desc p,
+  .price-page .children__info .contacts__desc p,
+  .price-page .entertainment__info .price-page__desc p,
+  .price-page .entertainment__info .restoraunt__desc p,
+  .price-page .entertainment__info .children__desc p,
+  .price-page .entertainment__info .entertainment__desc p,
+  .price-page .entertainment__info .contacts__desc p,
+  .price-page .contacts__info .price-page__desc p,
+  .price-page .contacts__info .restoraunt__desc p,
+  .price-page .contacts__info .children__desc p,
+  .price-page .contacts__info .entertainment__desc p,
+  .price-page .contacts__info .contacts__desc p,
+  .restoraunt .price-page__info .price-page__desc p,
+  .restoraunt .price-page__info .restoraunt__desc p,
+  .restoraunt .price-page__info .children__desc p,
+  .restoraunt .price-page__info .entertainment__desc p,
+  .restoraunt .price-page__info .contacts__desc p,
+  .restoraunt .restoraunt__info .price-page__desc p,
+  .restoraunt .restoraunt__info .restoraunt__desc p,
+  .restoraunt .restoraunt__info .children__desc p,
+  .restoraunt .restoraunt__info .entertainment__desc p,
+  .restoraunt .restoraunt__info .contacts__desc p,
+  .restoraunt .children__info .price-page__desc p,
+  .restoraunt .children__info .restoraunt__desc p,
+  .restoraunt .children__info .children__desc p,
+  .restoraunt .children__info .entertainment__desc p,
+  .restoraunt .children__info .contacts__desc p,
+  .restoraunt .entertainment__info .price-page__desc p,
+  .restoraunt .entertainment__info .restoraunt__desc p,
+  .restoraunt .entertainment__info .children__desc p,
+  .restoraunt .entertainment__info .entertainment__desc p,
+  .restoraunt .entertainment__info .contacts__desc p,
+  .restoraunt .contacts__info .price-page__desc p,
+  .restoraunt .contacts__info .restoraunt__desc p,
+  .restoraunt .contacts__info .children__desc p,
+  .restoraunt .contacts__info .entertainment__desc p,
+  .restoraunt .contacts__info .contacts__desc p,
+  .children .price-page__info .price-page__desc p,
+  .children .price-page__info .restoraunt__desc p,
+  .children .price-page__info .children__desc p,
+  .children .price-page__info .entertainment__desc p,
+  .children .price-page__info .contacts__desc p,
+  .children .restoraunt__info .price-page__desc p,
+  .children .restoraunt__info .restoraunt__desc p,
+  .children .restoraunt__info .children__desc p,
+  .children .restoraunt__info .entertainment__desc p,
+  .children .restoraunt__info .contacts__desc p,
+  .children .children__info .price-page__desc p,
+  .children .children__info .restoraunt__desc p,
+  .children .children__info .children__desc p,
+  .children .children__info .entertainment__desc p,
+  .children .children__info .contacts__desc p,
+  .children .entertainment__info .price-page__desc p,
+  .children .entertainment__info .restoraunt__desc p,
+  .children .entertainment__info .children__desc p,
+  .children .entertainment__info .entertainment__desc p,
+  .children .entertainment__info .contacts__desc p,
+  .children .contacts__info .price-page__desc p,
+  .children .contacts__info .restoraunt__desc p,
+  .children .contacts__info .children__desc p,
+  .children .contacts__info .entertainment__desc p,
+  .children .contacts__info .contacts__desc p,
+  .entertainment .price-page__info .price-page__desc p,
+  .entertainment .price-page__info .restoraunt__desc p,
+  .entertainment .price-page__info .children__desc p,
+  .entertainment .price-page__info .entertainment__desc p,
+  .entertainment .price-page__info .contacts__desc p,
+  .entertainment .restoraunt__info .price-page__desc p,
+  .entertainment .restoraunt__info .restoraunt__desc p,
+  .entertainment .restoraunt__info .children__desc p,
+  .entertainment .restoraunt__info .entertainment__desc p,
+  .entertainment .restoraunt__info .contacts__desc p,
+  .entertainment .children__info .price-page__desc p,
+  .entertainment .children__info .restoraunt__desc p,
+  .entertainment .children__info .children__desc p,
+  .entertainment .children__info .entertainment__desc p,
+  .entertainment .children__info .contacts__desc p,
+  .entertainment .entertainment__info .price-page__desc p,
+  .entertainment .entertainment__info .restoraunt__desc p,
+  .entertainment .entertainment__info .children__desc p,
+  .entertainment .entertainment__info .entertainment__desc p,
+  .entertainment .entertainment__info .contacts__desc p,
+  .entertainment .contacts__info .price-page__desc p,
+  .entertainment .contacts__info .restoraunt__desc p,
+  .entertainment .contacts__info .children__desc p,
+  .entertainment .contacts__info .entertainment__desc p,
+  .entertainment .contacts__info .contacts__desc p,
+  .contacts .price-page__info .price-page__desc p,
+  .contacts .price-page__info .restoraunt__desc p,
+  .contacts .price-page__info .children__desc p,
+  .contacts .price-page__info .entertainment__desc p,
+  .contacts .price-page__info .contacts__desc p,
+  .contacts .restoraunt__info .price-page__desc p,
+  .contacts .restoraunt__info .restoraunt__desc p,
+  .contacts .restoraunt__info .children__desc p,
+  .contacts .restoraunt__info .entertainment__desc p,
+  .contacts .restoraunt__info .contacts__desc p,
+  .contacts .children__info .price-page__desc p,
+  .contacts .children__info .restoraunt__desc p,
+  .contacts .children__info .children__desc p,
+  .contacts .children__info .entertainment__desc p,
+  .contacts .children__info .contacts__desc p,
+  .contacts .entertainment__info .price-page__desc p,
+  .contacts .entertainment__info .restoraunt__desc p,
+  .contacts .entertainment__info .children__desc p,
+  .contacts .entertainment__info .entertainment__desc p,
+  .contacts .entertainment__info .contacts__desc p,
+  .contacts .contacts__info .price-page__desc p,
+  .contacts .contacts__info .restoraunt__desc p,
+  .contacts .contacts__info .children__desc p,
+  .contacts .contacts__info .entertainment__desc p,
+  .contacts .contacts__info .contacts__desc p {
+    font-size: 2.8vw;
+  }
+  .price-page .price-page__rooms a,
+  .restoraunt .price-page__rooms a,
+  .children .price-page__rooms a,
+  .entertainment .price-page__rooms a,
+  .contacts .price-page__rooms a {
+    border-left: 1vw solid;
+    border-right: 1vw solid;
+    border-bottom: 1vw solid;
+    height: 50vw;
+  }
+  .price-page .price-page__rooms .price-page__rooms-box,
+  .restoraunt .price-page__rooms .price-page__rooms-box,
+  .children .price-page__rooms .price-page__rooms-box,
+  .entertainment .price-page__rooms .price-page__rooms-box,
+  .contacts .price-page__rooms .price-page__rooms-box {
+    display: -ms-grid;
+    display: grid;
+    margin-top: 0;
+  }
+  .price-page .price-page__rooms .price-page__rooms-box h2,
+  .restoraunt .price-page__rooms .price-page__rooms-box h2,
+  .children .price-page__rooms .price-page__rooms-box h2,
+  .entertainment .price-page__rooms .price-page__rooms-box h2,
+  .contacts .price-page__rooms .price-page__rooms-box h2 {
+    font-size: 6vw;
+    width: 48%;
+  }
+  .price-page .restoraunt__img,
+  .price-page .children__img,
+  .price-page .entertainment__img,
+  .restoraunt .restoraunt__img,
+  .restoraunt .children__img,
+  .restoraunt .entertainment__img,
+  .children .restoraunt__img,
+  .children .children__img,
+  .children .entertainment__img,
+  .entertainment .restoraunt__img,
+  .entertainment .children__img,
+  .entertainment .entertainment__img,
+  .contacts .restoraunt__img,
+  .contacts .children__img,
+  .contacts .entertainment__img {
+    position: relative;
+    width: 55%;
+    height: 27vw;
+    margin: auto;
+  }
+  .price-page .restoraunt__img img,
+  .price-page .children__img img,
+  .price-page .entertainment__img img,
+  .restoraunt .restoraunt__img img,
+  .restoraunt .children__img img,
+  .restoraunt .entertainment__img img,
+  .children .restoraunt__img img,
+  .children .children__img img,
+  .children .entertainment__img img,
+  .entertainment .restoraunt__img img,
+  .entertainment .children__img img,
+  .entertainment .entertainment__img img,
+  .contacts .restoraunt__img img,
+  .contacts .children__img img,
+  .contacts .entertainment__img img {
+    width: 90%;
+    height: 90%;
+  }
+  .price-page .restoraunt__img::after,
+  .price-page .children__img::after,
+  .price-page .entertainment__img::after,
+  .restoraunt .restoraunt__img::after,
+  .restoraunt .children__img::after,
+  .restoraunt .entertainment__img::after,
+  .children .restoraunt__img::after,
+  .children .children__img::after,
+  .children .entertainment__img::after,
+  .entertainment .restoraunt__img::after,
+  .entertainment .children__img::after,
+  .entertainment .entertainment__img::after,
+  .contacts .restoraunt__img::after,
+  .contacts .children__img::after,
+  .contacts .entertainment__img::after {
+    content: "";
+    position: absolute;
+    width: 65%;
+    height: 26vw;
+    bottom: 0;
+    right: 0;
+    background-color: #211403;
+    z-index: -1;
+  }
+  .price-page .restoraunt__btn,
+  .restoraunt .restoraunt__btn,
+  .children .restoraunt__btn,
+  .entertainment .restoraunt__btn,
+  .contacts .restoraunt__btn {
+    margin: 3vw 0 7vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .price-page .restoraunt__btn button,
+  .restoraunt .restoraunt__btn button,
+  .children .restoraunt__btn button,
+  .entertainment .restoraunt__btn button,
+  .contacts .restoraunt__btn button {
+    position: relative;
+    width: 12vw;
+    background-color: white;
+    color: #0c0c0c;
+    line-height: 3vw;
+    font-weight: 500;
+    font-size: 1.3vw;
+    border: 0.3vw solid #ffd370;
+    cursor: pointer;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+  }
+  .price-page .restoraunt__btn button:hover,
+  .restoraunt .restoraunt__btn button:hover,
+  .children .restoraunt__btn button:hover,
+  .entertainment .restoraunt__btn button:hover,
+  .contacts .restoraunt__btn button:hover {
+    border: 0.3vw solid #211403;
+    background-color: #ffd370;
+    -webkit-transition: .3s all;
+    transition: .3s all;
+  }
+  .price-page .restoraunt__btn form + form,
+  .restoraunt .restoraunt__btn form + form,
+  .children .restoraunt__btn form + form,
+  .entertainment .restoraunt__btn form + form,
+  .contacts .restoraunt__btn form + form {
+    margin-left: 2vw;
+  }
+  .room-page__price {
+    margin: 10vw 0;
+  }
+  .room-page__price h2 {
+    font-size: 6.7vw;
+  }
+  .room-page__price h3 {
+    font-size: 3vw;
+  }
+  .room-page__price li {
+    line-height: 10vw;
+  }
+  .room-page__price .fa, .room-page__price .fas, .room-page__price .far, .room-page__price .fal, .room-page__price .fad, .room-page__price .fab {
+    line-height: 1.5;
+  }
+  .room-page__price .main td {
+    font-size: 1.8vw;
+  }
+  .room-page__price td {
+    font-size: 1.8vw;
+  }
+  .room-page .room-page__title::before,
+  .room-page .room-page__desc::before,
+  .room-page .room-page__price::before {
+    width: 25%;
+    height: 1vw;
+    top: -3vw;
+  }
+  .room-page h1,
+  .room-page h2 {
+    font-size: 7vw;
+  }
+  .room-page .room-page__title p {
+    font-size: 3vw;
+  }
+  .room-page #room-page__red-text {
+    font-size: 2.5vw;
+  }
+  .room-page .room-page__slider-box {
+    display: block;
+  }
+  .room-page .room-page__slider-box .room-page__slider-wrapper {
+    width: 100%;
+  }
+  .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__sliderbig .room-page__sliderbig-item {
+    height: 50vw;
+  }
+  .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__sliderbig .main-img {
+    height: 50vw;
+  }
+  .room-page .room-page__slider-box .room-page__slider-wrapper .room-page__slider .room-page__slider-item img {
+    height: 15vw;
+  }
+  .room-page .room-page__slider-box .room-page__info {
+    width: 100%;
+    padding-top: 5vw;
+  }
+  .room-page .room-page__slider-box .room-page__info h2 {
+    font-size: 8vw;
+  }
+  .room-page .room-page__slider-box .room-page__info p {
+    font-size: 4vw;
+    line-height: 1vw;
+  }
+  .room-page .room-page__slider-box .room-page__info .room-page__info-price {
+    width: 60%;
+    font-size: 8vw;
+  }
+  .room-page .room-page__slider-box .room-page__info .hide-td {
+    top: 10px;
+    left: 15vw;
+  }
+  .room-page .room-page__desc .room-page__desc-text {
+    margin: 2vw 0;
+  }
+  .room-page .room-page__desc p {
+    width: 100%;
+    margin: 0;
+    font-size: 3vw;
+  }
+  .room-page .room-page__desc .room-page__desc-blocks {
+    display: block;
+  }
+  .room-page .room-page__desc .room-page__desc-blocks h2 {
+    margin-top: 7vw;
+  }
+  .room-page .room-page__desc .room-page__desc-blocks .room-page__desc-block {
+    width: 100%;
+  }
+  .room-page .room-page__desc .room-page__desc-blocks .room-page__desc-block ul {
+    font-size: 5vw;
+  }
+  .room-page .room-page__desc .room-page__desc-blocks .room-page__desc-block ul li {
+    font-size: 4vw;
+    line-height: 5vw;
   }
 }

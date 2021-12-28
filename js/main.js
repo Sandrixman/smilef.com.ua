@@ -17,6 +17,9 @@ $(function () {
     $.get('../components/priceTable.php', data => {
         $(".room-page__price-table").append(data);
     });
+    $.get('../components/priceTable.php', data => {
+        $(".hide-td").append(data);
+    });
 
     // спливаючий хедер
     const header = $('.header');
@@ -79,21 +82,13 @@ $(function () {
         fade: true,
         cssEase: 'linear',
         prevArrow: '<button class="welcome__slider-btn welcome__slider-btnprev"><img src="./img/left-arrow.svg" alt="arrow"></button> ',
-        nextArrow: `<button class="welcome__slider-btn welcome__slider-btnnext"><img src="./img/right-arrow.svg" alt="arrow" ></button> `,
-        responsive: [
-            {
-                breakpoint: 993,
-                settings: {
-                    arrows: false
-                }
-            }
-        ]
+        nextArrow: `<button class="welcome__slider-btn welcome__slider-btnnext"><img src="./img/right-arrow.svg" alt="arrow" ></button> `
     });
 
     $('.apartments__slider').slick({
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 300,
         fade: true,
         prevArrow: '<button class="apartments__slider-btn apartments__slider-btnprev"><img src="./img/left-arrow.svg" alt="arrow"></button> ',
         nextArrow: `<button class="apartments__slider-btn apartments__slider-btnnext"><img src="./img/right-arrow.svg" alt="arrow" ></button> `,
@@ -110,7 +105,7 @@ $(function () {
     $('.reviews__slider').slick({
         dots: false,
         infinite: true,
-        speed: 500,
+        speed: 300,
         fade: true,
         prevArrow: '<button class="reviews__slider-btn reviews__slider-btnprev"><img src="./img/left-arrow.svg" alt="arrow"></button> ',
         nextArrow: `<button class="reviews__slider-btn reviews__slider-btnnext"><img src="./img/right-arrow.svg" alt="arrow" ></button> `,
@@ -125,10 +120,9 @@ $(function () {
         nextArrow: `<button class="rooms__slider-btn rooms__slider-btnnext"><img src="./img/right-arrow.svg" alt="arrow" ></button> `,
         responsive: [
             {
-                breakpoint: 420,
+                breakpoint: 450,
                 settings: {
-                    slidesToShow: 2,
-                    arrows: false,
+                    slidesToShow: 1,
                     dots: true
                 }
             }
@@ -137,14 +131,14 @@ $(function () {
 
     // анімація слайдера
     $('.apartments__slider-btnnext').click(function () {
-        $(".apartments__slider-descr").fadeOut("normal", function () {
-            $(".apartments__slider-descr").fadeIn("normal");
+        $(".apartments__slider-descr").hide("normal", function () {
+            $(".apartments__slider-descr").show("normal");
         });
-        $(".apartments__slider-img").fadeOut("normal", function () {
-            $(".apartments__slider-img").fadeIn("normal");
+        $(".apartments__slider-img").hide("normal", function () {
+            $(".apartments__slider-img").show("normal");
         });
-        $(".apartments__slider-boxes").fadeOut("normal", function () {
-            $(".apartments__slider-boxes").fadeIn("normal");
+        $(".apartments__slider-boxes").hide("normal", function () {
+            $(".apartments__slider-boxes").show("normal");
         });
     });
     $('.apartments__slider-btnprev').click(function () {

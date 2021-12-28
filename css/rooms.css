@@ -170,16 +170,60 @@
   padding: 0 3vw;
 }
 
+.room-page .room-page__slider-box .room-page__info .room-page__info-price {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 24vw;
+}
+
+.room-page .room-page__slider-box .room-page__info .room-page__info-price,
 .room-page .room-page__slider-box .room-page__info h2 {
   font-size: 3.5vw;
   color: #ce0000;
-  margin-bottom: 2vw;
+  margin-bottom: 1vw;
 }
 
 .room-page .room-page__slider-box .room-page__info p {
   font-size: 1.7vw;
   font-weight: 500;
   margin-left: 2vw;
+}
+
+.room-page .room-page__slider-box .room-page__info .hide-td {
+  position: absolute;
+  top: 0;
+  left: 10vw;
+  font-weight: 500;
+  line-height: 0;
+}
+
+.room-page .room-page__slider-box .room-page__info .hide-td td {
+  display: none;
+}
+
+.room-page .room-page__slider-box .room-page__info .room1 td.price-studio-g1,
+.room-page .room-page__slider-box .room-page__info .room2 td.price-studio-g1-1,
+.room-page .room-page__slider-box .room-page__info .room3 td.price-studio-g2,
+.room-page .room-page__slider-box .room-page__info .room4 td.price-delux-g2,
+.room-page .room-page__slider-box .room-page__info .room5 td.price-superior-g2,
+.room-page .room-page__slider-box .room-page__info .room6 td.price-apartment-sea-1,
+.room-page .room-page__slider-box .room-page__info .room7 td.price-apartment-sea-2,
+.room-page .room-page__slider-box .room-page__info .room8 td.price-apartment-sea-3,
+.room-page .room-page__slider-box .room-page__info .room9 td.price-standart,
+.room-page .room-page__slider-box .room-page__info .room10 td.price-apartment-park,
+.room-page .room-page__slider-box .room-page__info .room11 td.price-villa-west,
+.room-page .room-page__slider-box .room-page__info .room12 td.price-villa-south,
+.room-page .room-page__slider-box .room-page__info .room13 td.price-villa-east,
+.room-page .room-page__slider-box .room-page__info .room14 td.price-villa-vip,
+.room-page .room-page__slider-box .room-page__info .room15 td.price-studio-north,
+.room-page .room-page__slider-box .room-page__info .room16 td.price-cottage-sky,
+.room-page .room-page__slider-box .room-page__info .room17 td.price-studio-sky {
+  display: inline-block;
 }
 
 .room-page .room-page__desc {
@@ -299,13 +343,15 @@
 
 .room-page__price table {
   border-spacing: 0;
+  border-right: 0.1vw solid;
 }
 
 .room-page__price td {
   text-align: center;
   font-size: 0.9vw;
   font-weight: 600;
-  border: 0.1vw solid;
+  border-bottom: 0.1vw solid;
+  border-left: 0.1vw solid;
   padding: 0.9vw;
   height: 3vw;
 }
@@ -321,7 +367,8 @@
   font-weight: 500;
   color: #fff;
   text-align: center;
-  border: 0.1vw solid #000;
+  border-bottom: 0.1vw solid #000;
+  border-left: 0.1vw solid #000;
 }
 
 .room-page__price ul {
@@ -334,4 +381,5 @@
 
 .room-page__price li .fas::before {
   color: #e9ac5c;
+  margin-right: 2vw;
 }

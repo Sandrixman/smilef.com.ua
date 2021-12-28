@@ -8,6 +8,7 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <title>ГОТЕЛЬ «УЛЫБКА ФОРТУНЫ»</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
     <link rel="stylesheet" href="css/icons-font.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/slick.css">
@@ -41,43 +42,63 @@
                 <div class="room-page__slider-wrapper">
                     <div class="room-page__sliderbig">
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/cottage-sky/77_w.jpg" alt="">
+                            <a data-fancybox="cottage-sky" data-src="./photo/cottage-sky/77_w.jpg">
+                                <img class="main-img" data-lazy="./photo/cottage-sky/77_w.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/cottage-sky/77_w.jpg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/cottage-sky/78_w.jpg" alt="">
+                            <a data-fancybox="cottage-sky" data-src="./photo/cottage-sky/78_w.jpg">
+                                <img class="main-img" data-lazy="./photo/cottage-sky/78_w.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/cottage-sky/78_w.jpg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/cottage-sky/79_w-1.jpg" alt="">
+                            <a data-fancybox="cottage-sky" data-src="./photo/cottage-sky/79_w-1.jpg">
+                                <img class="main-img" data-lazy="./photo/cottage-sky/79_w-1.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/cottage-sky/79_w-1.jpg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/cottage-sky/2.jpg" alt="">
+                            <a data-fancybox="cottage-sky" data-src="./photo/cottage-sky/2.jpg">
+                                <img class="main-img" data-lazy="./photo/cottage-sky/2.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/cottage-sky/2.jpg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/cottage-sky/3.jpg" alt="">
+                            <a data-fancybox="cottage-sky" data-src="./photo/cottage-sky/3.jpg">
+                                <img class="main-img" data-lazy="./photo/cottage-sky/3.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/cottage-sky/3.jpg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/cottage-sky/5.jpg" alt="">
+                            <a data-fancybox="cottage-sky" data-src="./photo/cottage-sky/5.jpg">
+                                <img class="main-img" data-lazy="./photo/cottage-sky/5.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/cottage-sky/5.jpg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/cottage-sky/6.jpg" alt="">
+                            <a data-fancybox="cottage-sky" data-src="./photo/cottage-sky/6.jpg">
+                                <img class="main-img" data-lazy="./photo/cottage-sky/6.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/cottage-sky/6.jpg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/cottage-sky/9.jpg" alt="">
+                            <a data-fancybox="cottage-sky" data-src="./photo/cottage-sky/9.jpg">
+                                <img class="main-img" data-lazy="./photo/cottage-sky/9.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/cottage-sky/9.jpg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/cottage-sky/12.jpg" alt="">
+                            <a data-fancybox="cottage-sky" data-src="./photo/cottage-sky/12.jpg">
+                                <img class="main-img" data-lazy="./photo/cottage-sky/12.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/cottage-sky/12.jpg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/cottage-sky/13.jpg" alt="">
+                            <a data-fancybox="cottage-sky" data-src="./photo/cottage-sky/13.jpg">
+                                <img class="main-img" data-lazy="./photo/cottage-sky/13.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/cottage-sky/13.jpg" alt="">
                         </div>
                     </div>
@@ -115,7 +136,13 @@
                     </div>
                 </div>
                 <div class="room-page__info">
-                    <h2>від 1600 грн</h2>
+                    <div class="room-page__info-price">
+                        <h2>від</h2>
+                        <div class="hide-td room16">
+
+                        </div>
+                        <h2>грн</h2>
+                    </div>
                     <div class="flex">
                         <i class='fas fa-chair'></i>
                         <p>1 вітальня з кухнею</p>
@@ -144,23 +171,11 @@
             </div>
             <div class="room-page__desc">
                 <!-- <h2>ОПИС:</h2>
-                <p>Villa VIP: Комфортні двоповерхові апартаменти знаходяться на першій лінії морського узбережжя.
-                    Огороджена територія
-                    забезпечує максимальну приватність відпочинку, а простора веранда – це можливість приймати сонячні
-                    ванни або милуватися
-                    зорями. У дворику є літня кухня з усім необхідним обладнанням для приготування їжі та великим
-                    холодильником для її
-                    зберігання. Сучасний функціональний дизайн дарує естетичне задоволення від гармонійного поєднання
-                    кольорів та фактур. На
-                    першому поверсі знаходиться зручна вітальня. В спальнях на другому поверсі встановлені широкі зручні
-                    ліжка з
-                    ортопедичними матрацами преміум-класу, які мають оптимальну ступіть жорсткості. У ванній кімнаті є
-                    гігієнічні засоби,
-                    свіжі рушники, все необхідне для догляду за собою. Також гості готелю отримують вільний доступ до
-                    інтернету та
-                    телебачення. В номері працює потужний кондиціонер, є шафи для зберігання речей та сейф.</p> -->
-                <h2>У НОМЕРІ:</h2>
+                <p>
+
+                </p> -->
                 <div class="room-page__desc-blocks">
+                    <h2>У НОМЕРІ:</h2>
                     <div class="room-page__desc-block">
                         <ul>*Вітальня з кухнею:
                             <li>інтернет WI-FI</li>
@@ -249,7 +264,7 @@
                 </div>
             </div>
             <div class="room-page__price">
-                <h2>ЦІНИ НА РОЗМІЩЕННЯ В 2021</h2>
+                <h2>ЦІНИ НА РОЗМІЩЕННЯ В 2022</h2>
                 <h3>ЦІНИ ВКАЗАНІ У ГРИВНІ НА НОМЕР ЗА ДОБУ</h3>
                 <div class="room-page__price-table hide room16">
 
@@ -263,6 +278,7 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="../js/slick.min.js"></script>
     <script src="../js/main.js"></script>
     <script src="../js/rooms.js"></script>

@@ -8,6 +8,7 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <title>ГОТЕЛЬ «УЛЫБКА ФОРТУНЫ»</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
     <link rel="stylesheet" href="css/icons-font.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/slick.css">
@@ -41,23 +42,33 @@
                 <div class="room-page__slider-wrapper">
                     <div class="room-page__sliderbig">
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/studio-g1/main-min_11zon-1.jpeg" alt="">
+                            <a data-fancybox="studio-g1" data-src="./photo/studio-g1/main-min_11zon-1.jpeg">
+                                <img class="main-img" data-lazy="./photo/studio-g1/main-min_11zon-1.jpeg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/studio-g1/main-min_11zon-1.jpeg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/studio-g1/IMG_2566-min.jpg" alt="">
+                            <a data-fancybox="studio-g1" data-src="./photo/studio-g1/IMG_2566-min.jpg">
+                                <img class="main-img" data-lazy="./photo/studio-g1/IMG_2566-min.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/studio-g1/IMG_2566-min.jpg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/studio-g1/IMG_2608-min.jpg" alt="">
+                            <a data-fancybox="studio-g1" data-src="./photo/studio-g1/IMG_2608-min.jpg">
+                                <img class="main-img" data-lazy="./photo/studio-g1/IMG_2608-min.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/studio-g1/IMG_2608-min.jpg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/studio-g1/IMG_2614-min.jpg" alt="">
+                            <a data-fancybox="studio-g1" data-src="./photo/studio-g1/IMG_2614-min.jpg">
+                                <img class="main-img" data-lazy="./photo/studio-g1/IMG_2614-min.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/studio-g1/IMG_2614-min.jpg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/studio-g1/IMG_2617-min.jpg" alt="">
+                            <a data-fancybox="studio-g1" data-src="./photo/studio-g1/IMG_2617-min.jpg">
+                                <img class="main-img" data-lazy="./photo/studio-g1/IMG_2617-min.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/studio-g1/IMG_2617-min.jpg" alt="">
                         </div>
                     </div>
@@ -80,7 +91,13 @@
                     </div>
                 </div>
                 <div class="room-page__info">
-                    <h2>від 1800 грн</h2>
+                    <div class="room-page__info-price">
+                        <h2>від</h2>
+                        <div class="hide-td room1">
+
+                        </div>
+                        <h2>грн</h2>
+                    </div>
                     <div class="flex">
                         <i class='fas fa-door-open'></i>
                         <p>1 комнатні номера</p>
@@ -109,19 +126,17 @@
             </div>
             <div class="room-page__desc">
                 <h2>ОПИС:</h2>
-                <p>Studio G1: апартаменти з окремим входом та добре продуманим функціональним дизайном, де кожна річ має
-                    оптимальний розмір
-                    та розташування. Двомісне ліжко з ортопедичним матрацом преміум-класу має оптимальну ступіть
-                    жорсткості.
-                    У ванній
-                    кімнати гості зможуть знайти все необхідне для догляду за собою. На кухні встановлення обладнання
-                    для
-                    зберігання
-                    харчових продуктів та їх приготування. В номері працює кондиціонер, є телевізор та доступ до
-                    інтернету,
-                    зручний диван.</p>
-                <h2>У НОМЕРІ:</h2>
+                <div class="room-page__desc-text">
+                    <p>Studio G1:</p>
+                    <p>апартаменти з окремим входом та добре продуманим функціональним дизайном, де кожна річ має
+                        оптимальний розмір та розташування.</p>
+                    <p>Двомісне ліжко з ортопедичним матрацом преміум-класу має оптимальну ступіть жорсткості.</p>
+                    <p>У ванній кімнати гості зможуть знайти все необхідне для догляду за собою.</p>
+                    <p>На кухні встановлення обладнання для зберігання харчових продуктів та їх приготування.</p>
+                    <p>В номері працює кондиціонер, є телевізор та доступ до інтернету, зручний диван.</p>
+                </div>
                 <div class="room-page__desc-blocks">
+                    <h2>У НОМЕРІ:</h2>
                     <div class="room-page__desc-block">
                         <ul>*Спальня:
                             <li>гардеробна кімната</li>
@@ -203,7 +218,7 @@
                 </div>
             </div>
             <div class="room-page__price">
-                <h2>ЦІНИ НА РОЗМІЩЕННЯ В 2021</h2>
+                <h2>ЦІНИ НА РОЗМІЩЕННЯ В 2022</h2>
                 <h3>ЦІНИ ВКАЗАНІ У ГРИВНІ НА НОМЕР ЗА ДОБУ</h3>
                 <div class="room-page__price-table hide room1">
 
@@ -217,6 +232,7 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="../js/slick.min.js"></script>
     <script src="../js/main.js"></script>
     <script src="../js/rooms.js"></script>

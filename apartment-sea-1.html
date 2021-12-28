@@ -8,6 +8,7 @@
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <title>ГОТЕЛЬ «УЛЫБКА ФОРТУНЫ»</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
     <link rel="stylesheet" href="css/icons-font.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/slick.css">
@@ -41,27 +42,41 @@
                 <div class="room-page__slider-wrapper">
                     <div class="room-page__sliderbig">
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/apartment-sea-1/main-min-3.jpg" alt="">
+                            <a data-fancybox="apartment-sea1" data-src="./photo/apartment-sea-1/main-min-3.jpg">
+                                <img class="main-img" data-lazy="./photo/apartment-sea-1/main-min-3.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/apartment-sea-1/main-min-3.jpg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/apartment-sea-1/IMG_2385-min.jpg" alt="">
+                            <a data-fancybox="apartment-sea1" data-src="./photo/apartment-sea-1/IMG_2385-min.jpg">
+                                <img class="main-img" data-lazy="./photo/apartment-sea-1/IMG_2385-min.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/apartment-sea-1/IMG_2385-min.jpg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/apartment-sea-1/IMG_2391-min.jpg" alt="">
+                            <a data-fancybox="apartment-sea1" data-src="./photo/apartment-sea-1/IMG_2391-min.jpg">
+                                <img class="main-img" data-lazy="./photo/apartment-sea-1/IMG_2391-min.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/apartment-sea-1/IMG_2391-min.jpg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/apartment-sea-1/IMG_2421-min.jpg" alt="">
+                            <a data-fancybox="apartment-sea1" data-src="./photo/apartment-sea-1/IMG_2421-min.jpg">
+                                <img class="main-img" data-lazy="./photo/apartment-sea-1/IMG_2421-min.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/apartment-sea-1/IMG_2421-min.jpg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/apartment-sea-1/IMG_2376-min.jpg" alt="">
+                            <a data-fancybox="apartment-sea1" data-src="./photo/apartment-sea-1/IMG_2376-min.jpg">
+                                <img class="main-img" data-lazy="./photo/apartment-sea-1/IMG_2376-min.jpg" alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/apartment-sea-1/IMG_2376-min.jpg" alt="">
                         </div>
                         <div class="room-page__sliderbig-item">
-                            <img class="main-img" data-lazy="./photo/apartment-sea-1/IMG_6485-min-scaled.jpg" alt="">
+                            <a data-fancybox="apartment-sea1"
+                                data-src="./photo/apartment-sea-1/IMG_6485-min-scaled.jpg">
+                                <img class="main-img" data-lazy="./photo/apartment-sea-1/IMG_6485-min-scaled.jpg"
+                                    alt="">
+                            </a>
                             <img class="bg-img" data-lazy="./photo/apartment-sea-1/IMG_6485-min-scaled.jpg" alt="">
                         </div>
                     </div>
@@ -87,7 +102,13 @@
                     </div>
                 </div>
                 <div class="room-page__info">
-                    <h2>від 2500 грн</h2>
+                    <div class="room-page__info-price">
+                        <h2>від</h2>
+                        <div class="hide-td room6">
+
+                        </div>
+                        <h2>грн</h2>
+                    </div>
                     <div class="flex">
                         <i class='fas fa-chair'></i>
                         <p>1 вітальня з кухнею</p>
@@ -120,20 +141,18 @@
             </div>
             <div class="room-page__desc">
                 <h2>ОПИС:</h2>
-                <p>Apartment Sea1: Двокімнатний номер в 40 метрах від узбережжя з власним двориком та двома терасами, з
-                    чарівним морським
-                    краєвидом. Сучасний функціональний дизайн дарує естетичне задоволення від гармонійного поєднання
-                    кольорів та фактур. На
-                    кухні, що поєднана з вітальнею, встановлене обладнання для зберігання харчових продуктів та їх
-                    приготування. Є увесь
-                    необхідний посуд, розкладний диван, обідній стіл та зручні стільці. У спальні розташоване велике
-                    двомісне ліжко з
-                    ортопедичним матрацом преміум-класу для більш комфортного відпочинку. Ванна кімната має все
-                    необхідне для догляду за
-                    собою: рушники, мило, шампунь, гель для душу, фен. В номері є телевізор, доступ до інтернету, працює
-                    кондиціонер.</p>
-                <h2>У НОМЕРІ:</h2>
+                <p>Apartment Sea1: </p>
+                <p>Двокімнатний номер в 40 метрах від узбережжя з власним двориком та двома терасами, з чарівним
+                    морським краєвидом. Сучасний функціональний дизайн дарує естетичне задоволення від гармонійного
+                    поєднання кольорів та фактур.</p>
+                <p>На кухні, що поєднана з вітальнею, встановлене обладнання для зберігання харчових продуктів та їх
+                    приготування. Є увесь необхідний посуд, розкладний диван, обідній стіл та зручні стільці. </p>
+                <p>У спальні розташоване велике двомісне ліжко з ортопедичним матрацом преміум-класу для більш
+                    комфортного відпочинку.</p>
+                <p>Ванна кімната має все необхідне для догляду за собою: рушники, мило, шампунь, гель для душу, фен.</p>
+                <p>В номері є телевізор, доступ до інтернету, працює кондиціонер.</p>
                 <div class="room-page__desc-blocks">
+                    <h2>У НОМЕРІ:</h2>
                     <div class="room-page__desc-block">
                         <ul>*Вітальня з кухнею:
                             <li>інтернет WI-FI</li>
@@ -216,7 +235,7 @@
                 </div>
             </div>
             <div class="room-page__price">
-                <h2>ЦІНИ НА РОЗМІЩЕННЯ В 2021</h2>
+                <h2>ЦІНИ НА РОЗМІЩЕННЯ В 2022</h2>
                 <h3>ЦІНИ ВКАЗАНІ У ГРИВНІ НА НОМЕР ЗА ДОБУ</h3>
                 <div class="room-page__price-table hide room6">
 
@@ -230,6 +249,8 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
     <script src="../js/slick.min.js"></script>
     <script src="../js/main.js"></script>
     <script src="../js/rooms.js"></script>

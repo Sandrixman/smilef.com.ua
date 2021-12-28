@@ -1,9 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,300;1,400;1,500&display=swap');
 @import "./null.scss";
 @import "./rooms.scss";
 @import "./pages.scss";
-
-
-
 
 body {
     background-image: url("../img/bg.png");
@@ -13,17 +11,13 @@ body {
 body.scroll-lock{
     overflow: hidden;
 }
-// скрол на сайті
-// body::-webkit-scrollbar {
-//     display: none;
-// }
 
 .hamburger {
     .hamburger__btn {
         position: fixed;
         width: 4vw;
         height: 3.5vw;
-        right: 4vw;
+        right: 3vw;
         top: 3vw;
         padding: 0;
         background: #2f3035;
@@ -45,10 +39,20 @@ body.scroll-lock{
             margin: 0.5vw auto;
             background: #fff;
         }
+        .hamburger__btn-line-top {
+            transform: rotate(0deg);
+            transition: all ease-in-out .6s;
+            top: 0;
+        }
         .hamburger__btn-line-top.top-animate {
             transform: rotate(47deg);
             transition: all ease-in-out .6s;
             top: 0.7vw;
+        }
+        .hamburger__btn-line-mid {
+            transform: rotate(0deg);
+            transition: all ease-in-out .6s;
+            top: 0;
         }
         .hamburger__btn-line-mid.mid-animate {
             transform: rotate(135deg);
@@ -76,6 +80,8 @@ body.scroll-lock{
         &.hamburger-active {
             background: rgba(92,92,92,.92);
             transform: translate(0%);
+            transition: all 0.5s;
+
         }
         .menu__hamburger {
             width: 60vw;
@@ -120,17 +126,16 @@ body.scroll-lock{
 
 .scrollup {
     width: 5vw;
-    height: 5vw;
     position: fixed;
     bottom: 3vw;
     right: 3vw;
+    z-index: 1;
 }
 
 .header {
     position: fixed;
     width: 100%;
-    color: #211403;
-    font-weight: 600;
+    color: #f5e5c1;
     z-index: 1;
     transition: all .3s ease;
     &.out {
@@ -153,10 +158,10 @@ body.scroll-lock{
             text-shadow: none
         }
         .header__location-item::before{
-        background-image: url("../img/location-multi.svg");
+        background-image: url("../img/icon-location.svg");
         }
         .header__phones-item::before{
-        background-image: url("../img/phone.svg");
+        background-image: url("../img/icon-telephone.svg");
         }
     }
 
@@ -167,7 +172,6 @@ body.scroll-lock{
 
     .header__logo{
         width: 15%;
-        margin: 1vw 0;
     }
     .header__logo img{
         width: 100%;
@@ -182,57 +186,28 @@ body.scroll-lock{
         display: flex;
         justify-content: center;
         width: 6vw;
-        img {
-        width: 4vw;
-            &:hover {
-                width: 4.2vw;
-            }
-        }
+        font-size: 4.5vw;
     }
-    .header__btn-call{
-        font-size: 1.3vw;
-        border-style: solid;
-        border-width: 0.3vw;
-        border-color: #211403;
-        background: #f5e5c1f2;
-        border-radius: 1vw;
-        padding: 1vw 2.5vw;
-        transition: all .3s;
+    .header__btn-call {
+    font-size: 18px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f5e5c1;
+    color: #fff;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px 25px 10px 25px;
+    transition: all .3s;
     }
     .header__btn-call:hover{
-        background: #f5e5c1;
-        color: #211403;
-        border-color: #211403;
-        box-shadow: #0c0c0c 0 0 0.85vw 0;
-
+        background: #211403;
+        color: #f5e5c1;
+        border-color: #f5e5c1;
         transition: all .3s;
     }
     .header__location-item,
     .header__phones-item {
         position: relative;
-        margin-left: 5vw;
-        font-size: 1.2vw;
-        text-shadow: 1px 1px #f5e5c1;
-    }
-    .header__location-item::before{
-        content: "";
-        position: absolute;
-        top: 0;
-        left: -2.5vw;
-        width: 1.8vw;
-        height: 1.8vw;
-        background-image: url("../img/location-multi.svg");
-        background-size: cover;
-    }
-    .header__phones-item::before{
-        content: "";
-        position: absolute;
-        top: -0.2vw;
-        left: -2.2vw;
-        width: 2vw;
-        height: 2vw;
-        background-image: url("../img/phone.svg");
-        background-size: cover;
+        font-size: 16px;
     }
 }
 
@@ -244,7 +219,7 @@ body.scroll-lock{
     height: 100vh;
     text-align: center;
     .main-block__text{
-        margin-top: 20vw;
+        margin-top: 15vw;
         color:rgb(255, 255, 255);
         h1{
             font-size: 4vw;
@@ -259,29 +234,28 @@ body.scroll-lock{
             }
         }
         h2{
-            width: 75%;
+            width: 85%;
             margin: 0 auto;
             position: relative;
             font-weight: normal;
             text-transform: uppercase;
             font-size: 1.8vw;
             text-shadow: rgb(12, 12, 12) 2px 2px 3px;
-            &::before{
+            &::before,
+            &::after {
                 content: '';
                 position: absolute;
                 background: #fff;
                 width: 13%;
                 height: 0.2vw;
                 top: 50%;
+                transform: translateY(-50%);
+                box-shadow: rgb(12, 12, 12) 2px 2px 5px;
+            }
+            &::before{
                 left: 0;
             }
             &::after{
-                content: '';
-                position: absolute;
-                background: #fff;
-                width: 13%;
-                height: 0.2vw;
-                top: 50%;
                 right: 0;
             }
         }
@@ -316,6 +290,7 @@ body.scroll-lock{
 
 .welcome{
     display: flex;
+    padding-top: 6vw;
     .container{
         display: flex;
     }
@@ -411,11 +386,10 @@ body.scroll-lock{
             }
         }
         p {
-            font-size: 1.5vw;
+            font-size: 20px;
             font-weight: 500;
-            line-height: 1.7em;
+            line-height: 1.4em;
             text-align: justify;
-
         }
     }
 
@@ -430,7 +404,6 @@ body.scroll-lock{
     text-align: center;
     margin-bottom: 4vw;
     h2 {
-        color: #444444;
         font-size: 2.5vw;
         font-weight: 500;
         text-transform: uppercase;
@@ -443,22 +416,20 @@ body.scroll-lock{
         font-size: 1.5vw;
         font-weight: 300;
         text-transform: uppercase;
-        &::before {
-            content: '';
-            position: absolute;
-            background: rgb(255, 218, 97);
-            width: 16%;
-            height: 0.2vw;
-            top: 40%;
-            left: 0;
-            }
+        &::before,
         &::after {
             content: '';
             position: absolute;
             background: rgb(255, 218, 97);
             width: 16%;
             height: 0.2vw;
-            top: 40%;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        &::before {
+            left: 0;
+            }
+        &::after {
             right: 0;
             }
     }
@@ -494,7 +465,6 @@ body.scroll-lock{
                     font-size: 1.6vw;
                 }
                 p {
-                    width: 40vw;
                     height: 11.5vw;
                     line-height: 2.3vw;
                     font-weight: 500;
@@ -524,10 +494,9 @@ body.scroll-lock{
             }
             .apartments__slider-img{
                 position: absolute;
-                top: 0;
                 right: 0;
-                width: 50vw;
                 height: 50vw;
+                width: 50vw;
             }
             .apartments__slider-img img{
                 width: 100%;
@@ -620,7 +589,6 @@ body.scroll-lock{
             width: 19%;
             text-align: center;
             padding: 1.5vw;
-            font-weight: 600;
             line-height: 2.2vw;
             font-size: 1.4vw;
             transition: .3s all;
@@ -628,11 +596,11 @@ body.scroll-lock{
                 background: #211403;
                 color: #f5e5c1;
             }
-        }
-        .exellence__tab:hover {
-            background-color: rgb(245, 229, 193);
-            color: #211403;
-            transition: .3s all;
+            &:hover {
+                background-color: rgb(245, 229, 193);
+                color: #211403;
+                transition: .3s all;
+            }
         }
     }
     .exellence__content {
@@ -960,6 +928,11 @@ body.scroll-lock{
 }
 
 .important-info {
+    .important-info__title{
+        h3 {
+            width: 55%;
+        }
+    }
     margin-bottom: 9vw;
     .important-info__description{
         text-align: center;
@@ -1002,10 +975,12 @@ body.scroll-lock{
                 text-align: center;
             }
             ul {
+                display: flex;
+                flex-direction: column;
                 padding-left: 3vw;
                 font-size: 1.8vw;
-                li {
-                    margin: 2vw 0;
+                a {
+                    margin: 1vw 0;
                 }
                 .important-info__contacts-tel,
                 .important-info__contacts-mail,
@@ -1048,28 +1023,27 @@ body.scroll-lock{
                 font-weight: 500;
                 font-style: italic;
             }
-            button {
-                position: relative;
-                width: 12vw;
-                background-color: white;
-                color: #0c0c0c;
-                line-height: 3vw;
-                font-weight: 500;
-                font-size: 1vw;
-                border: 0.3vw solid #ffd370;
-                border-style: solid;
-                cursor: pointer;
-                transition: .3s all;
-                &:hover {
-                    border: 0.3vw solid #211403;
-                    background-color: #ffd370;
-                    transition: .3s all;
-                }
-            }
             .important-info__contacts-btn {
                 display: flex;
                 margin-top: 2vw;
-                button + button {
+                a {
+                    position: relative;
+                    width: 10vw;
+                    background-color: white;
+                    color: #0c0c0c;
+                    text-align: center;
+                    line-height: 3vw;
+                    font-weight: 500;
+                    font-size: 1vw;
+                    border: 0.3vw solid #ffd370;
+                    transition: .3s all;
+                    &:hover {
+                        border: 0.3vw solid #211403;
+                        background-color: #ffd370;
+                        transition: .3s all;
+                    }
+                }
+                a + a {
                     margin-left: 3vw;
                 }
             }
@@ -1080,7 +1054,7 @@ body.scroll-lock{
                 content: "";
                 position: absolute;
                 top: 0.3vw;
-                left: 2vw;
+                left: 1vw;
                 width: 2.3vw;
                 height: 2.3vw;
                 background-image: url("../img/Logo-Instagram-black.svg");
@@ -1093,7 +1067,7 @@ body.scroll-lock{
                 content: "";
                 position: absolute;
                 top: 0.8vw;
-                right: 4vw;
+                right: 3vw;
                 width: 1.3vw;
                 height: 1.3vw;
                 background-image: url("../img/waze.svg");
@@ -1112,8 +1086,8 @@ footer {
     }
     .footer__logo {
         position: absolute;
-        width: 15%;
-        top: 1.5vw;
+        width: 13%;
+        top: 0.5vw;
         left: 50%;
         transform: translatex(-50%);
         padding: 0 10vw;
@@ -1177,7 +1151,7 @@ footer {
                 background-image: url("../img/icon-4.png");
                 background-size: cover;
             }
-            .foooter__info-location::before {
+            .foooter__info-loc::before {
             content: "";
                 position: absolute;
                 top: 1.9vw;
@@ -1189,18 +1163,18 @@ footer {
             }
         }
         .foooter__info-network {
-            button {
+            h3 {
+                margin-bottom: 3vw;
+            }
+            a {
                 position: relative;
-                width: 13vw;
                 background-color: #211403;
                 color: #f5e5c1;
-                line-height: 3vw;
                 font-weight: 500;
                 font-size: 1.3vw;
                 border: 0.3vw solid #f5e5c1;
                 border-radius: 1vw;
-                padding-left: 1.6vw;
-                cursor: pointer;
+                padding: 0.7vw 3vw 0.7vw 4.5vw;
                 transition: .3s all;
                 &:hover {
                     background-color: #f5e5c1;
@@ -1211,18 +1185,13 @@ footer {
                 &::before {
                 content: "";
                 position: absolute;
-                top: 0.6vw;
+                top: 0.4vw;
                 left: 1.8vw;
                 width: 2vw;
                 height: 2vw;
                 background-image: url("../img/Logo-Instagram.svg");
                 background-size: cover;
                 }
-            }
-        }
-        .foooter__weather {
-            .gsInformer {
-                margin-top: 1vw;
             }
         }
     }

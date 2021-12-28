@@ -27,7 +27,7 @@ body {
 }
 
 .container {
-  width: 80%;
-  padding: 0 2vw;
-  margin: 9vw auto 0;
+  max-width: 1200px;
+  width: 86%;
+  margin: 3vw auto;
 }
