@@ -4053,6 +4053,9 @@ footer .footer__info .foooter__info-network a::before {
     font-size: 21px;
     line-height: 30px;
   }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .hide-td {
+    font-size: 22px;
+  }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes img {
     width: 50px;
   }
