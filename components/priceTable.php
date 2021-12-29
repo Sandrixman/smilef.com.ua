@@ -144,7 +144,7 @@
         <td>1500</td>
     </tr>
     <tr class="cottage-sky">
-        <td><a href="../cottage-sky.html">COTTAGE НЕБЕСНЫЙ</a></td>
+        <td><a href="../cottage-sky.html">COTTAGE НЕБЕСНИЙ</a></td>
         <td>Вид на море і двір, 2 поверх</td>
         <td>4</td>
         <td>5</td>
@@ -162,4 +162,5 @@
         <td>1500</td>
     </tr>
 </tbody></table>
+
 </body></html>
