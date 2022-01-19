@@ -1,6 +1,6 @@
 <div class="container">
     <div class="header__logo">
-        <a href="../"><img src="./img/main-logo-200.png" alt="логотип компанії" /></a>
+        <a href="https://smilef.com.ua/"><img src="./img/main-logo-200.png" alt="логотип компанії" /></a>
     </div>
     <div class="header__nav">
         <a class="header__instagram" href="https://www.instagram.com/ylubkafortynu/" target="_blank">

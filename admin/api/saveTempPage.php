@@ -6,7 +6,7 @@ if ($_SESSION["auth"] != true) {
 }
 
 $_POST = json_decode( file_get_contents("php://input"), true );
-$newFile = "../../temp.html";
+$newFile = "../../components/temp_save.html";
 
 if ($_POST["html"]) {
     file_put_contents($newFile, $_POST["html"]);

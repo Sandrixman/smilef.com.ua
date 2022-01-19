@@ -18,6 +18,10 @@
   font-weight: 500;
 }
 
+.room-page .margin-top {
+  margin-top: 5vw;
+}
+
 .room-page .flex {
   display: -webkit-box;
   display: -ms-flexbox;

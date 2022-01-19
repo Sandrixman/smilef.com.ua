@@ -264,6 +264,9 @@
     font-size: 21px;
     line-height: 30px;
   }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .hide-td {
+    font-size: 22px;
+  }
   .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes img {
     width: 50px;
   }
@@ -2025,6 +2028,12 @@
   .reviews .reviews__slider .reviews__slider-item .reviews__slider-descr .reviews__slider-text p {
     font-weight: 600;
   }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price {
+    width: 12vw;
+  }
+  .rooms .rooms__slider .rooms__slider-item .rooms__slider-descr .rooms__slider-boxes .rooms__slider-price .hide-td {
+    font-size: 2.5vw;
+  }
   .important-info .important-info__box {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -2053,14 +2062,6 @@
   footer .footer__info {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-  }
-  footer .foooter__weather {
-    width: 100%;
-    text-align: center;
-    margin-top: 2vw;
-  }
-  footer .foooter__weather .gsInformer {
-    margin: 1vw auto;
   }
 }
 
@@ -2108,6 +2109,9 @@
 }
 
 @media screen and (max-width: 450px) {
+  .scrollup {
+    width: 10vw;
+  }
   .container {
     margin: 10vw auto;
   }
@@ -2146,6 +2150,7 @@
   }
   .main-block {
     height: 100vh;
+    background-image: url("../img/IMG_2771-min_11zon_mob.jpeg");
     background-position: center;
   }
   .main-block .main-block__text h1 {
@@ -2452,6 +2457,9 @@
   .important-info .important-info__box .important-info__map:hover {
     width: 100%;
   }
+  footer .footer__info {
+    margin-top: 7vw;
+  }
   footer .footer__info h3 {
     font-size: 4.5vw;
   }
@@ -2483,6 +2491,9 @@
     left: -4.7vw;
     width: 3vw;
     height: 3.4vw;
+  }
+  footer .footer__info .foooter__info-network {
+    margin: 7vw auto;
   }
   .page-banner {
     height: 40vh;
