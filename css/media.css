@@ -1836,8 +1836,10 @@
   .room-page__price .room4 tr.delux-g2 td,
   .room-page__price .room5 tr.superior-g2 td,
   .room-page__price .room6 tr.apartment-sea-1 td,
+  .room-page__price .room6f tr.apartment-sea-1f td,
   .room-page__price .room7 tr.apartment-sea-2 td,
-  .room-page__price .room8 tr.apartment-sea-3 td,
+  .room-page__price .room7a tr.apartment-sea-2a td,
+  .room-page__price .room7f tr.apartment-sea-2f td,
   .room-page__price .room9 tr.standart td,
   .room-page__price .room10 tr.apartment-park td,
   .room-page__price .room11 tr.villa-west td,
@@ -2150,7 +2152,7 @@
   }
   .main-block {
     height: 100vh;
-    background-image: url("../img/IMG_2771-min_11zon_mob.jpeg");
+    background-image: url("../img/IMG_2771-min_11zon_mob.webp");
     background-position: center;
   }
   .main-block .main-block__text h1 {
@@ -2190,6 +2192,9 @@
   }
   .welcome .welcome__info p {
     font-size: 3vw;
+  }
+  .welcome .welcome__slider {
+    display: none;
   }
   .apartments__title h2,
   .exellence__title h2,
@@ -3625,6 +3630,9 @@
   .room-page__price {
     margin: 10vw 0;
   }
+  .room-page__price .room-page__price-table {
+    overflow-x: scroll;
+  }
   .room-page__price h2 {
     font-size: 6.7vw;
   }
@@ -3650,7 +3658,10 @@
   .room-page__price .room4 tr.delux-g2 td,
   .room-page__price .room5 tr.superior-g2 td,
   .room-page__price .room6 tr.apartment-sea-1 td,
+  .room-page__price .room6f tr.apartment-sea-1f td,
   .room-page__price .room7 tr.apartment-sea-2 td,
+  .room-page__price .room7a tr.apartment-sea-2a td,
+  .room-page__price .room7f tr.apartment-sea-2f td,
   .room-page__price .room8 tr.apartment-sea-3 td,
   .room-page__price .room9 tr.standart td,
   .room-page__price .room10 tr.apartment-park td,

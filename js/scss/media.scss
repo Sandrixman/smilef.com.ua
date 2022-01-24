@@ -851,10 +851,8 @@
     .room4 tr.delux-g2,
     .room5 tr.superior-g2,
     .room6 tr.apartment-sea-1,
-    .room6f tr.apartment-sea-1f,
     .room7 tr.apartment-sea-2,
-    .room7a tr.apartment-sea-2a,
-    .room7f tr.apartment-sea-2f,
+    .room8 tr.apartment-sea-3,
     .room9 tr.standart,
     .room10 tr.apartment-park,
     .room11 tr.villa-west,
@@ -1176,10 +1174,6 @@
 }
 
 @media screen and (max-width: 450px) {
-    body {
-            height: 100vh;
-    }
-
     .scrollup {
         width: 10vw;
     }
@@ -1231,7 +1225,7 @@
 
     .main-block {
         height: 100vh;
-        background-image: url("../img/IMG_2771-min_11zon_mob.webp");
+        background-image: url("../img/IMG_2771-min_11zon_mob.jpeg");
         background-position: center;
         .main-block__text {
             h1 {
@@ -1277,9 +1271,6 @@
             p {
                 font-size: 3vw;
             }
-        }
-        .welcome__slider {
-            display: none;
         }
     }
 
@@ -1749,9 +1740,6 @@
     }
 
     .room-page__price {
-        .room-page__price-table {
-            overflow-x: scroll;
-        }
         margin: 10vw 0;
         h2 {
             font-size: 6.7vw;
@@ -1780,10 +1768,7 @@
         .room4 tr.delux-g2,
         .room5 tr.superior-g2,
         .room6 tr.apartment-sea-1,
-        .room6f tr.apartment-sea-1f,
         .room7 tr.apartment-sea-2,
-        .room7a tr.apartment-sea-2a,
-        .room7f tr.apartment-sea-2f,
         .room8 tr.apartment-sea-3,
         .room9 tr.standart,
         .room10 tr.apartment-park,

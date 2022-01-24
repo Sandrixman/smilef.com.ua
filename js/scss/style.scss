@@ -3,46 +3,14 @@
 @import "./rooms.scss";
 @import "./pages.scss";
 
-::-webkit-scrollbar {
-    width: 15px;
-}
-::-webkit-scrollbar-track {
-    background: #f5e5c1;
-    box-shadow:0 0 3px rgba(0, 0, 0, 0.2) inset;
-}
-::-webkit-scrollbar-thumb {
-    background: #211403;
-    border-radius: 10px;
-    border: 4px solid #f5e5c1;
-}
-
 body {
     background-image: url("../img/bg.png");
     background-color: rgba(255, 228, 196, 0.277);
-    scroll-snap-type: y mandatory;
-    overflow: auto;
 }
 
 body.scroll-lock{
     overflow: hidden;
 }
-
-#loader {
-    background-image: url(../img/IMG_2771-min_11zon_mob.webp);
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-    position: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    z-index: 999;
-}
-#loaded {
-    display: none;
-}
-
 
 .hamburger {
     .hamburger__btn {
@@ -59,6 +27,9 @@ body.scroll-lock{
         transition: all .3s;
         z-index: 100;
         &:hover {
+            background: #f5e5c1;
+        }
+        &:focus {
             background: #f5e5c1;
         }
         div {
@@ -241,7 +212,6 @@ body.scroll-lock{
 }
 
 .main-block {
-    scroll-snap-align: center;
     display: inline-block;
     background-image: url("../img/IMG_2771-min_11zon.jpeg");
     background-size: cover;
@@ -319,7 +289,6 @@ body.scroll-lock{
 }
 
 .welcome{
-    scroll-snap-align: center;
     display: flex;
     padding-top: 6vw;
     .container{
@@ -467,7 +436,6 @@ body.scroll-lock{
 }
 
 .apartments {
-    scroll-snap-align: center;
     .apartments__slider-wrapper {
         height: 55vw;
         .apartments__slider-item {
@@ -607,7 +575,6 @@ body.scroll-lock{
 }
 
 .exellence {
-    scroll-snap-align: center;
     hr {
         height: 0.2vw;
         background-color: #665252;
@@ -861,10 +828,7 @@ body.scroll-lock{
                         .room4 tr.delux-g2,
                         .room5 tr.superior-g2,
                         .room6 tr.apartment-sea-1,
-                        .room6f tr.apartment-sea-1f,
                         .room7 tr.apartment-sea-2,
-                        .room7a tr.apartment-sea-2a,
-                        .room7f tr.apartment-sea-2f,
                         .room8 tr.apartment-sea-3,
                         .room9 tr.standart,
                         .room10 tr.apartment-park,
@@ -883,10 +847,7 @@ body.scroll-lock{
                         .room4 td.price-delux-g2,
                         .room5 td.price-superior-g2,
                         .room6 td.price-apartment-sea-1,
-                        .room6f td.price-apartment-sea-1f,
                         .room7 td.price-apartment-sea-2,
-                        .room7a td.price-apartment-sea-2a,
-                        .room7f td.price-apartment-sea-2f,
                         .room8 td.price-apartment-sea-3,
                         .room9 td.price-standart,
                         .room10 td.price-apartment-park,

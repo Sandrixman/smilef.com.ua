@@ -1,0 +1,328 @@
+#room-page__red-text {
+    color: #ff0000;
+    font-style: italic;
+    font-size: 1.3vw;
+}
+.room-page {
+    display: inline-block;
+    width: 100%;
+    h1, h2 {
+        font-size: 3vw;
+        color: #444;
+    }
+    h2 {
+        font-weight: 500;
+    }
+    .margin-top {
+        margin-top: 5vw;
+    }
+    .flex {
+        display: flex;
+        .fas {
+            color: #211403;
+            font-size: 4vw;
+            align-self: center;
+            width: 4.5vw;
+        }
+    }
+    .container {
+        width: 90%;
+    }
+
+    .room-page__title{
+        position: relative;
+        p {
+            color: #444;
+            font-size: 1.5vw;
+            font-weight: 500;
+        }
+    }
+    .room-page__title::before,
+    .room-page__desc::before,
+    .room-page__price::before {
+        content: '';
+        position: absolute;
+        background: #ffda61;
+        width: 13%;
+        height: 0.4vw;
+        top: -1vw;
+        left: 0;
+    }
+
+    .room-page__slider-box {
+        display: flex;
+        .room-page__slider-wrapper{
+            width: 62%;
+            .room-page__sliderbig {
+                .room-page__sliderbig-item{
+                    position: relative;
+                }
+                .main-img {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    left: 0;
+                    height: 30vw;
+                    margin: auto;
+                    image-rendering: -webkit-optimize-contrast;
+                }
+                .bg-img {
+                    position: relative;
+                    width: 100%;
+                    height: 30vw;
+                    filter: blur(10px);
+                    z-index: -1;
+                }
+            }
+            .room-page__slider {
+                .room-page__slider-item {
+                    position: relative;
+                    border: 0.5vw solid #28303d;
+                    cursor: pointer;
+                    img {
+                        image-rendering: -webkit-optimize-contrast;
+                        width: 100%;
+                        height: 10vw;
+                    }
+                    &.slick-slide::after {
+                        content: "";
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        top: 0;
+                        left: 0;
+                        background: #000;
+                        opacity: 0.8;
+                        transition: 0.3s all;
+                    }
+                    &.slick-slide:hover {
+                        &::after{
+                            opacity: 0;
+                            transition: 0.3s all;
+                        }
+                    }
+                    &.slick-current::after {
+                        opacity: 0;
+                    }
+                }
+            }
+            .room-page__slider-btn {
+                position: absolute;
+                bottom: 0;
+                background-color: #665252;
+                border: 0.3vw solid #ffffffc7;
+                border-radius: 50%;
+                width: 3vw;
+                height: 3vw;
+                margin: 0;
+                padding: 0;
+                z-index: 5;
+                cursor: pointer;
+            }
+            .room-page__slider-btnnext {
+                right: 1vw;
+                bottom: 50%;
+                transform: translateY(50%);
+            }
+            .room-page__slider-btnnext img {
+                transform: translate(10%, 10%);
+            }
+            .room-page__slider-btnprev {
+                left: 1vw;
+                bottom: 50%;
+                transform: translateY(50%);
+            }
+            .room-page__slider-btnprev img {
+                transform: translate(-10%, 10%);
+            }
+        }
+        .room-page__info {
+            width: 35%;
+            padding: 0 3vw;
+            .room-page__info-price {
+                display: flex;
+                justify-content: space-between;
+                width: 24vw;
+            }
+            .room-page__info-price,
+            h2 {
+                font-size: 3.5vw;
+                color: #ce0000;
+                margin-bottom: 1vw;
+            }
+            p {
+                font-size: 1.7vw;
+                font-weight: 500;
+                margin-left: 2vw;
+            }
+            .hide-td {
+                font-weight: 500;
+                line-height: 0;
+                td,
+                tr {
+                    display: none;
+                }
+            }
+            .room1 tr.studio-g1,
+            .room2 tr.studio-g1-1,
+            .room3 tr.studio-g2,
+            .room4 tr.delux-g2,
+            .room5 tr.superior-g2,
+            .room6 tr.apartment-sea-1,
+            .room7 tr.apartment-sea-2,
+            .room8 tr.apartment-sea-3,
+            .room9 tr.standart,
+            .room10 tr.apartment-park,
+            .room11 tr.villa-west,
+            .room12 tr.villa-south,
+            .room13 tr.villa-east,
+            .room14 tr.villa-vip,
+            .room15 tr.studio-north,
+            .room16 tr.cottage-sky,
+            .room17 tr.studio-sky {
+                display: inline-block;
+            }
+            .room1 td.price-studio-g1,
+            .room2 td.price-studio-g1-1,
+            .room3 td.price-studio-g2,
+            .room4 td.price-delux-g2,
+            .room5 td.price-superior-g2,
+            .room6 td.price-apartment-sea-1,
+            .room7 td.price-apartment-sea-2,
+            .room8 td.price-apartment-sea-3,
+            .room9 td.price-standart,
+            .room10 td.price-apartment-park,
+            .room11 td.price-villa-west,
+            .room12 td.price-villa-south,
+            .room13 td.price-villa-east,
+            .room14 td.price-villa-vip,
+            .room15 td.price-studio-north,
+            .room16 td.price-cottage-sky,
+            .room17 td.price-studio-sky {
+                display: inline-block;
+                vertical-align: text-bottom;
+            }
+        }
+    }
+
+    .room-page__desc {
+        position: relative;
+        margin-top: 8vw;
+        p {
+            width: 58.5vw;
+            font-size: 1.6vw;
+            text-align: justify;
+            margin: 0;
+        }
+        .room-page__desc-blocks {
+            display: flex;
+            flex-wrap: wrap;
+            .room-page__desc-block {
+                width: 33%;
+                ul {
+                    color: #ce0000;
+                    font-size: 2.2vw;
+                    padding-top: 3vw;
+                    li {
+                        list-style-type: disc;
+                        list-style-position: inside;
+                        font-style: italic;
+                        font-size: 1.5vw;
+                        color: #000;
+                        font-family: -apple-system, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+                        line-height: 3vw;
+                        padding-left: 3vw;
+                    }
+                    li:first-child {
+                        padding-top: 2vw;
+                    }
+                }
+            }
+        }
+    }
+
+}
+.room-page__price {
+    position: relative;
+    margin: 5vw 0 10vw;
+    h2 {
+        color: #444444;
+        font-size: 2.6vw;
+        font-weight: 500;
+        letter-spacing: -0.2vw;
+        margin-top: 3vw;
+        text-transform: uppercase;
+    }
+    h3 {
+        color: #444;
+        font-size: 1.3vw;
+        margin: 1vw 0 2vw;
+    }
+    .hide tr {
+        display: none;
+    }
+    .hide tr.main,
+    .room1 tr.studio-g1,
+    .room2 tr.studio-g1-1,
+    .room3 tr.studio-g2,
+    .room4 tr.delux-g2,
+    .room5 tr.superior-g2,
+    .room6 tr.apartment-sea-1,
+    .room7 tr.apartment-sea-2,
+    .room8 tr.apartment-sea-3,
+    .room9 tr.standart,
+    .room10 tr.apartment-park,
+    .room11 tr.villa-west,
+    .room12 tr.villa-south,
+    .room13 tr.villa-east,
+    .room14 tr.villa-vip,
+    .room15 tr.studio-north,
+    .room16 tr.cottage-sky,
+    .room17 tr.studio-sky {
+        display: table-row-group;
+        td {
+        text-align: center;
+        font-size: 0.9vw;
+        font-weight: 600;
+        border: 0.1vw solid;
+        padding: 0.9vw;
+        height: 3vw;
+        }
+    }
+    table {
+        border-spacing: 0;
+        border-right: 0.1vw solid;
+    }
+    td {
+        text-align: center;
+        font-size: 0.9vw;
+        font-weight: 600;
+        border-bottom: 0.1vw solid;
+        border-left: 0.1vw solid;
+        padding: 0.9vw;
+        height: 3vw;
+    }
+    .main {
+        background: #211403;
+        td {
+            width: 11vw;
+            height: 3vw;
+            font-size: 0.9vw;
+            font-weight: 500;
+            color: #fff;
+            text-align: center;
+            border-bottom: 0.1vw solid #000;
+            border-left: 0.1vw solid #000;
+        }
+    }
+    ul {
+        margin-top: 1vw;
+    }
+    li {
+        line-height: 3vw;
+        .fas::before {
+            color: #e9ac5c;
+            margin-right: 2vw;
+        }
+    }
+}
