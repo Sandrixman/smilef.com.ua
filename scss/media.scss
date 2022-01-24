@@ -1176,9 +1176,11 @@
 }
 
 @media screen and (max-width: 450px) {
-    body {
-            height: 100vh;
-    }
+    // .scroll-snap {
+    //     height: 100vh;
+    //     scroll-snap-type: y mandatory;
+    //     overflow: auto;
+    // }
 
     .scrollup {
         width: 10vw;

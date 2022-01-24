@@ -28,14 +28,9 @@ $(function () {
     $(window).scroll(function () {
         const scrolled = $(window).scrollTop();
 
-        if (scrolled > 50 && scrolled <= 500) {
+        if (scrolled > 50) {
             header.addClass('out');
             header.removeClass('header-second');
-        } else if (scrolled > 500 && scrolled < scrollPrev) {
-            header.addClass('header-second');
-            header.removeClass('out');
-        } else if (scrolled > 500 && scrolled > scrollPrev) {
-            header.addClass('out');
         } else {
             header.removeClass('out');
         }

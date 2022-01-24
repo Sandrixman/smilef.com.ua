@@ -2256,9 +2256,6 @@ body {
 body {
   background-image: url("../img/bg.png");
   background-color: rgba(255, 228, 196, 0.277);
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
-  overflow: auto;
 }
 
 body.scroll-lock {
@@ -3111,6 +3108,10 @@ body.scroll-lock {
   text-align: justify;
 }
 
+.reviews {
+  scroll-snap-align: center;
+}
+
 .reviews .reviews__slider .reviews__slider-item {
   position: relative;
 }
@@ -3216,6 +3217,10 @@ body.scroll-lock {
 .reviews .reviews__slider-btnprev img {
   -webkit-transform: translate(-10%, 10%);
           transform: translate(-10%, 10%);
+}
+
+.rooms {
+  scroll-snap-align: center;
 }
 
 .rooms .rooms__slider .rooms__slider-item:hover {
@@ -3465,6 +3470,7 @@ body.scroll-lock {
 }
 
 .overview__description {
+  scroll-snap-align: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3510,6 +3516,7 @@ body.scroll-lock {
 }
 
 .important-info {
+  scroll-snap-align: center;
   margin-bottom: 9vw;
 }
 
@@ -5954,9 +5961,6 @@ footer .footer__info .foooter__info-network a::before {
 }
 
 @media screen and (max-width: 450px) {
-  body {
-    height: 100vh;
-  }
   .scrollup {
     width: 10vw;
   }

@@ -2111,6 +2111,9 @@
 }
 
 @media screen and (max-width: 450px) {
+  .scroll-snap {
+    height: 100vh;
+  }
   .scrollup {
     width: 10vw;
   }
